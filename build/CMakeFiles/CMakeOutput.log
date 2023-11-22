@@ -1,0 +1,988 @@
+The system is: Linux - 5.4.0-150-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d72c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d72c9.dir/build.make CMakeFiles/cmTC_d72c9.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d72c9.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_d72c9.dir/testCCompiler.c.o   -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d72c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d72c9.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_d72c9.dir/testCCompiler.c.o  -o cmTC_d72c9 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc883/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc883.dir/build.make CMakeFiles/cmTC_dc883.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_dc883
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc883.dir/link.txt --verbose=1
+/usr/bin/gcc     -v CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o  -o cmTC_dc883 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc883' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdxcDtq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc883 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc883' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dc883/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dc883.dir/build.make CMakeFiles/cmTC_dc883.dir/build]
+  ignore line: [make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_dc883]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc883.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o  -o cmTC_dc883 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc883' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdxcDtq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc883 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdxcDtq.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_dc883] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_dc883.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b79e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b79e.dir/build.make CMakeFiles/cmTC_1b79e.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b79e.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_1b79e.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1b79e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b79e.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_1b79e.dir/feature_tests.c.o  -o cmTC_1b79e 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e598a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e598a.dir/build.make CMakeFiles/cmTC_e598a.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e598a.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_e598a.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e598a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e598a.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_e598a.dir/feature_tests.c.o  -o cmTC_e598a 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95194/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95194.dir/build.make CMakeFiles/cmTC_95194.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95194.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_95194.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_95194
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95194.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_95194.dir/feature_tests.c.o  -o cmTC_95194 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32b0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32b0d.dir/build.make CMakeFiles/cmTC_32b0d.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32b0d.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_32b0d.dir/testCXXCompiler.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_32b0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32b0d.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_32b0d.dir/testCXXCompiler.cxx.o  -o cmTC_32b0d 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e71a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e71a.dir/build.make CMakeFiles/cmTC_8e71a.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8e71a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e71a.dir/link.txt --verbose=1
+/usr/bin/g++      -v CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8e71a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e71a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE4LsLW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8e71a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e71a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8e71a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8e71a.dir/build.make CMakeFiles/cmTC_8e71a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8e71a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e71a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8e71a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e71a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE4LsLW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8e71a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccE4LsLW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8e71a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_8e71a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fac6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fac6.dir/build.make CMakeFiles/cmTC_1fac6.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fac6.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_1fac6.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1fac6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fac6.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_1fac6.dir/feature_tests.cxx.o  -o cmTC_1fac6 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65153/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65153.dir/build.make CMakeFiles/cmTC_65153.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65153.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_65153.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_65153
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65153.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_65153.dir/feature_tests.cxx.o  -o cmTC_65153 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ace68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ace68.dir/build.make CMakeFiles/cmTC_ace68.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ace68.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_ace68.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ace68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ace68.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_ace68.dir/feature_tests.cxx.o  -o cmTC_ace68 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_190b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_190b2.dir/build.make CMakeFiles/cmTC_190b2.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_190b2.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_190b2.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_190b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_190b2.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_190b2.dir/feature_tests.cxx.o  -o cmTC_190b2 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_791f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_791f2.dir/build.make CMakeFiles/cmTC_791f2.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_791f2.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_791f2.dir/CheckIncludeFile.c.o   -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_791f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_791f2.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_791f2.dir/CheckIncludeFile.c.o  -o cmTC_791f2 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the fdatasync exist passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f16c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f16c1.dir/build.make CMakeFiles/cmTC_f16c1.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f16c1.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_f16c1.dir/CheckSymbolExists.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_f16c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f16c1.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_f16c1.dir/CheckSymbolExists.cxx.o  -o cmTC_f16c1 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+File /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_CLOEXEC exist passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83ebf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83ebf.dir/build.make CMakeFiles/cmTC_83ebf.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83ebf.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_83ebf.dir/CheckSymbolExists.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_83ebf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83ebf.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_83ebf.dir/CheckSymbolExists.cxx.o  -o cmTC_83ebf 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+File /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_CLOEXEC
+  return ((int*)(&O_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8b0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8b0a.dir/build.make CMakeFiles/cmTC_c8b0a.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8b0a.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS   -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/cmTC_c8b0a.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8b0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8b0a.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS    CMakeFiles/cmTC_c8b0a.dir/src.cxx.o  -o cmTC_c8b0a 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX17_HAS_INCLUDE succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_487c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_487c8.dir/build.make CMakeFiles/cmTC_487c8.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_487c8.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_487c8.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_487c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_487c8.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE    CMakeFiles/cmTC_487c8.dir/src.cxx.o  -o cmTC_487c8 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#if defined(__has_include) &&  __has_include(<string>)
+#include <string>
+#endif
+int main() { std::string str; return 0; }
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0cd86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0cd86.dir/build.make CMakeFiles/cmTC_0cd86.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cd86.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -Wstrict-prototypes    -std=c11 -o CMakeFiles/cmTC_0cd86.dir/CheckIncludeFile.c.o   -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0cd86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cd86.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wstrict-prototypes     CMakeFiles/cmTC_0cd86.dir/CheckIncludeFile.c.o  -o cmTC_0cd86 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04fa2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04fa2.dir/build.make CMakeFiles/cmTC_04fa2.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04fa2.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_04fa2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04fa2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04fa2.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_04fa2.dir/CheckFunctionExists.c.o  -o cmTC_04fa2 -lpthread 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f71c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f71c.dir/build.make CMakeFiles/cmTC_6f71c.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f71c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open   -std=c11 -o CMakeFiles/cmTC_6f71c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f71c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f71c.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open    CMakeFiles/cmTC_6f71c.dir/CheckFunctionExists.c.o  -o cmTC_6f71c -lrt 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28c78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28c78.dir/build.make CMakeFiles/cmTC_28c78.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28c78.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -std=c++11 -o CMakeFiles/cmTC_28c78.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_28c78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28c78.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_WALL  -Wall    CMakeFiles/cmTC_28c78.dir/src.cxx.o  -o cmTC_28c78 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2420/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2420.dir/build.make CMakeFiles/cmTC_f2420.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2420.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -std=c++11 -o CMakeFiles/cmTC_f2420.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f2420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2420.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    CMakeFiles/cmTC_f2420.dir/src.cxx.o  -o cmTC_f2420 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fefb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fefb.dir/build.make CMakeFiles/cmTC_1fefb.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fefb.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -std=c++11 -o CMakeFiles/cmTC_1fefb.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1fefb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fefb.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    CMakeFiles/cmTC_1fefb.dir/src.cxx.o  -o cmTC_1fefb 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e22f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e22f0.dir/build.make CMakeFiles/cmTC_e22f0.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e22f0.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_e22f0.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e22f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22f0.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal    CMakeFiles/cmTC_e22f0.dir/src.cxx.o  -o cmTC_e22f0 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb10a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb10a.dir/build.make CMakeFiles/cmTC_bb10a.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb10a.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -std=c++11 -o CMakeFiles/cmTC_bb10a.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bb10a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb10a.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror    CMakeFiles/cmTC_bb10a.dir/src.cxx.o  -o cmTC_bb10a 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a67a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a67a3.dir/build.make CMakeFiles/cmTC_a67a3.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a67a3.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_a67a3.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a67a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a67a3.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override    CMakeFiles/cmTC_a67a3.dir/src.cxx.o  -o cmTC_a67a3 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d18f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d18f.dir/build.make CMakeFiles/cmTC_2d18f.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d18f.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -std=c++11 -o CMakeFiles/cmTC_2d18f.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2d18f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d18f.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    CMakeFiles/cmTC_2d18f.dir/src.cxx.o  -o cmTC_2d18f 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15f4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15f4f.dir/build.make CMakeFiles/cmTC_15f4f.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15f4f.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_15f4f.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_15f4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15f4f.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    CMakeFiles/cmTC_15f4f.dir/src.cxx.o  -o cmTC_15f4f 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35c66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35c66.dir/build.make CMakeFiles/cmTC_35c66.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35c66.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_35c66.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35c66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35c66.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    CMakeFiles/cmTC_35c66.dir/src.cxx.o  -o cmTC_35c66 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2337/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2337.dir/build.make CMakeFiles/cmTC_e2337.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2337.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_e2337.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2337.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations    CMakeFiles/cmTC_e2337.dir/src.cxx.o  -o cmTC_e2337 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5c03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5c03.dir/build.make CMakeFiles/cmTC_a5c03.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5c03.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_a5c03.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a5c03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5c03.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated    CMakeFiles/cmTC_a5c03.dir/src.cxx.o  -o cmTC_a5c03 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b20b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b20b.dir/build.make CMakeFiles/cmTC_2b20b.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b20b.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -std=c++11 -o CMakeFiles/cmTC_2b20b.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2b20b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b20b.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions    CMakeFiles/cmTC_2b20b.dir/src.cxx.o  -o cmTC_2b20b 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91f20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91f20.dir/build.make CMakeFiles/cmTC_91f20.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91f20.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_91f20.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_91f20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f20.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    CMakeFiles/cmTC_91f20.dir/src.cxx.o  -o cmTC_91f20 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b06b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b06b6.dir/build.make CMakeFiles/cmTC_b06b6.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b06b6.dir/src.cxx.o
+/usr/bin/g++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -std=c++11 -o CMakeFiles/cmTC_b06b6.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b06b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b06b6.dir/link.txt --verbose=1
+/usr/bin/g++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    CMakeFiles/cmTC_b06b6.dir/src.cxx.o  -o cmTC_b06b6 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

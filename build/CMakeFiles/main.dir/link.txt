@@ -1,0 +1,1 @@
+/usr/bin/g++   -fno-exceptions -fno-rtti -g   CMakeFiles/main.dir/util/testutil.cc.o CMakeFiles/main.dir/app/main.cc.o  -o main -Wl,-rpath,/usr/local/lib libleveldb.a lib/libgmockd.a lib/libgtestd.a /usr/local/lib/libpmem.so /usr/lib/x86_64-linux-gnu/libpmemblk.so /usr/local/lib/libpmemobj.so -pthread 

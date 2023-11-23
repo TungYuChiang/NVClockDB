@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oslab/Desktop/TungYu/leveldb
+CMAKE_SOURCE_DIR = /home/oslab/Desktop/TungYu/PMDB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oslab/Desktop/TungYu/leveldb/build
+CMAKE_BINARY_DIR = /home/oslab/Desktop/TungYu/PMDB/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c_test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/c_test.dir/flags.make
 
 CMakeFiles/c_test.dir/util/testutil.cc.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/util/testutil.cc.o: ../util/testutil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_test.dir/util/testutil.cc.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /home/oslab/Desktop/TungYu/leveldb/util/testutil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_test.dir/util/testutil.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/testutil.cc
 
 CMakeFiles/c_test.dir/util/testutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/util/testutil.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/leveldb/util/testutil.cc > CMakeFiles/c_test.dir/util/testutil.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/testutil.cc > CMakeFiles/c_test.dir/util/testutil.cc.i
 
 CMakeFiles/c_test.dir/util/testutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/util/testutil.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/leveldb/util/testutil.cc -o CMakeFiles/c_test.dir/util/testutil.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/testutil.cc -o CMakeFiles/c_test.dir/util/testutil.cc.s
 
 CMakeFiles/c_test.dir/util/testutil.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/c_test.dir/util/testutil.cc.o.provides.build: CMakeFiles/c_test.dir/u
 
 CMakeFiles/c_test.dir/db/c_test.c.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/db/c_test.c.o: ../db/c_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_test.dir/db/c_test.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_test.dir/db/c_test.c.o   -c /home/oslab/Desktop/TungYu/leveldb/db/c_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_test.dir/db/c_test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_test.dir/db/c_test.c.o   -c /home/oslab/Desktop/TungYu/PMDB/db/c_test.c
 
 CMakeFiles/c_test.dir/db/c_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_test.dir/db/c_test.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oslab/Desktop/TungYu/leveldb/db/c_test.c > CMakeFiles/c_test.dir/db/c_test.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/c_test.c > CMakeFiles/c_test.dir/db/c_test.c.i
 
 CMakeFiles/c_test.dir/db/c_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_test.dir/db/c_test.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oslab/Desktop/TungYu/leveldb/db/c_test.c -o CMakeFiles/c_test.dir/db/c_test.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/c_test.c -o CMakeFiles/c_test.dir/db/c_test.c.s
 
 CMakeFiles/c_test.dir/db/c_test.c.o.requires:
 
@@ -117,13 +117,13 @@ c_test: CMakeFiles/c_test.dir/util/testutil.cc.o
 c_test: CMakeFiles/c_test.dir/db/c_test.c.o
 c_test: CMakeFiles/c_test.dir/build.make
 c_test: libleveldb.a
-c_test: lib/libgmockd.a
-c_test: lib/libgtestd.a
+c_test: lib/libgmock.a
+c_test: lib/libgtest.a
 c_test: /usr/local/lib/libpmem.so
 c_test: /usr/lib/x86_64-linux-gnu/libpmemblk.so
 c_test: /usr/local/lib/libpmemobj.so
 c_test: CMakeFiles/c_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable c_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable c_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/c_test.dir/clean:
 .PHONY : CMakeFiles/c_test.dir/clean
 
 CMakeFiles/c_test.dir/depend:
-	cd /home/oslab/Desktop/TungYu/leveldb/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oslab/Desktop/TungYu/leveldb /home/oslab/Desktop/TungYu/leveldb /home/oslab/Desktop/TungYu/leveldb/build /home/oslab/Desktop/TungYu/leveldb/build /home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/c_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oslab/Desktop/TungYu/PMDB/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oslab/Desktop/TungYu/PMDB /home/oslab/Desktop/TungYu/PMDB /home/oslab/Desktop/TungYu/PMDB/build /home/oslab/Desktop/TungYu/PMDB/build /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/c_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c_test.dir/depend
 

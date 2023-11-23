@@ -46,7 +46,7 @@ add_library(benchmark::benchmark STATIC IMPORTED)
 
 set_target_properties(benchmark::benchmark PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "BENCHMARK_STATIC_DEFINE"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/oslab/Desktop/TungYu/leveldb/third_party/benchmark/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/oslab/Desktop/TungYu/PMDB/third_party/benchmark/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:Threads::Threads>;\$<LINK_ONLY:rt>"
 )
 
@@ -57,18 +57,18 @@ set_target_properties(benchmark::benchmark_main PROPERTIES
   INTERFACE_LINK_LIBRARIES "benchmark::benchmark"
 )
 
-# Import target "benchmark::benchmark" for configuration "Debug"
-set_property(TARGET benchmark::benchmark APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "benchmark::benchmark" for configuration "Release"
+set_property(TARGET benchmark::benchmark APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(benchmark::benchmark PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/home/oslab/Desktop/TungYu/leveldb/build/third_party/benchmark/src/libbenchmark.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
+  IMPORTED_LOCATION_RELEASE "/home/oslab/Desktop/TungYu/PMDB/build/third_party/benchmark/src/libbenchmark.a"
   )
 
-# Import target "benchmark::benchmark_main" for configuration "Debug"
-set_property(TARGET benchmark::benchmark_main APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "benchmark::benchmark_main" for configuration "Release"
+set_property(TARGET benchmark::benchmark_main APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(benchmark::benchmark_main PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/home/oslab/Desktop/TungYu/leveldb/build/third_party/benchmark/src/libbenchmark_main.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
+  IMPORTED_LOCATION_RELEASE "/home/oslab/Desktop/TungYu/PMDB/build/third_party/benchmark/src/libbenchmark_main.a"
   )
 
 # This file does not depend on other imported targets which have

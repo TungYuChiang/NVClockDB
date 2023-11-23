@@ -1,4 +1,4 @@
-# Install script for directory: /home/oslab/Desktop/TungYu/leveldb
+# Install script for directory: /home/oslab/Desktop/TungYu/PMDB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/oslab/Desktop/TungYu/leveldb/build/libleveldb.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/oslab/Desktop/TungYu/PMDB/build/libleveldb.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/leveldb" TYPE FILE FILES
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/c.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/cache.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/comparator.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/db.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/dumpfile.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/env.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/export.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/filter_policy.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/iterator.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/options.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/slice.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/status.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/table_builder.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/table.h"
-    "/home/oslab/Desktop/TungYu/leveldb/include/leveldb/write_batch.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/c.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/cache.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/comparator.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/db.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/dumpfile.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/env.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/export.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/filter_policy.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/iterator.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/options.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/slice.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/status.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/table_builder.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/table.h"
+    "/home/oslab/Desktop/TungYu/PMDB/include/leveldb/write_batch.h"
     )
 endif()
 
@@ -65,7 +65,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake"
-         "/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+         "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -74,23 +74,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/oslab/Desktop/TungYu/leveldb/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-debug.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES
-    "/home/oslab/Desktop/TungYu/leveldb/build/cmake/leveldbConfig.cmake"
-    "/home/oslab/Desktop/TungYu/leveldb/build/cmake/leveldbConfigVersion.cmake"
+    "/home/oslab/Desktop/TungYu/PMDB/build/cmake/leveldbConfig.cmake"
+    "/home/oslab/Desktop/TungYu/PMDB/build/cmake/leveldbConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/oslab/Desktop/TungYu/leveldb/build/third_party/googletest/cmake_install.cmake")
-  include("/home/oslab/Desktop/TungYu/leveldb/build/third_party/benchmark/cmake_install.cmake")
+  include("/home/oslab/Desktop/TungYu/PMDB/build/third_party/googletest/cmake_install.cmake")
+  include("/home/oslab/Desktop/TungYu/PMDB/build/third_party/benchmark/cmake_install.cmake")
 
 endif()
 
@@ -102,5 +102,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oslab/Desktop/TungYu/leveldb/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/oslab/Desktop/TungYu/PMDB/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

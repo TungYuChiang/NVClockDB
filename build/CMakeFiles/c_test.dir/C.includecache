@@ -18,9 +18,9 @@ leveldb/export.h
 
 ../include/leveldb/export.h
 
-/home/oslab/Desktop/TungYu/leveldb/db/c_test.c
+/home/oslab/Desktop/TungYu/PMDB/db/c_test.c
 leveldb/c.h
-/home/oslab/Desktop/TungYu/leveldb/db/leveldb/c.h
+/home/oslab/Desktop/TungYu/PMDB/db/leveldb/c.h
 stddef.h
 -
 stdio.h

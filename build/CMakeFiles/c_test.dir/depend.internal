@@ -4,7 +4,7 @@
 CMakeFiles/c_test.dir/db/c_test.c.o
  ../include/leveldb/c.h
  ../include/leveldb/export.h
- /home/oslab/Desktop/TungYu/leveldb/db/c_test.c
+ /home/oslab/Desktop/TungYu/PMDB/db/c_test.c
 CMakeFiles/c_test.dir/util/testutil.cc.o
  .././helpers/memenv/memenv.h
  .././util/random.h
@@ -48,4 +48,4 @@ CMakeFiles/c_test.dir/util/testutil.cc.o
  ../third_party/googletest/googletest/include/gtest/internal/gtest-port.h
  ../third_party/googletest/googletest/include/gtest/internal/gtest-string.h
  ../third_party/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /home/oslab/Desktop/TungYu/leveldb/util/testutil.cc
+ /home/oslab/Desktop/TungYu/PMDB/util/testutil.cc

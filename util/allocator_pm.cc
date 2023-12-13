@@ -1,8 +1,8 @@
 #include "allocator_pm.h"
 
 namespace leveldb {
-    static const size_t pmem_len = 1L * 1024 * 1024 * 1024;
-    static const std::string path = "/home/oslab/Desktop/pmem/leveldb_allocator_test";
+    static const size_t pmem_len = 10L * 1024 * 1024 * 1024;
+    static const std::string path = "/home/oslab/Desktop/pmem/leveldb_allocator_test_memtable";
 
 PMallocator::PMallocator(): used(0) {
     if ((pmemaddr = pmem_map_file(path.c_str(), pmem_len, PMEM_FILE_CREATE,

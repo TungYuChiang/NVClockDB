@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS =  -Wstrict-prototypes -O3 -DNDEBUG   -std=c11
+C_FLAGS =  -Wstrict-prototypes -O3 -DNDEBUG   -pthread -std=c11
 
 C_DEFINES = -DLEVELDB_PLATFORM_POSIX=1
 
 C_INCLUDES = -I/home/oslab/Desktop/TungYu/PMDB/build/include -I/home/oslab/Desktop/TungYu/PMDB/. -I/usr/local/include/libpmemobj -I/usr/local/include/libpmemobj++ -I/home/oslab/Desktop/TungYu/PMDB/include -isystem /home/oslab/Desktop/TungYu/PMDB/third_party/googletest/googlemock/include -isystem /home/oslab/Desktop/TungYu/PMDB/third_party/googletest/googlemock -isystem /home/oslab/Desktop/TungYu/PMDB/third_party/googletest/googletest/include -isystem /home/oslab/Desktop/TungYu/PMDB/third_party/googletest/googletest 
 
-CXX_FLAGS =  -fno-exceptions -fno-rtti -O3 -DNDEBUG   -std=c++11
+CXX_FLAGS =  -fno-exceptions -fno-rtti -O3 -DNDEBUG   -pthread -std=c++11
 
 CXX_DEFINES = -DLEVELDB_PLATFORM_POSIX=1
 

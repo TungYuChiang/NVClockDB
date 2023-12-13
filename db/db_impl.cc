@@ -1141,13 +1141,13 @@ Status DBImpl::Get(const ReadOptions& options, const Slice& key,
     // First look in the memtable, then in the immutable memtable (if any).
     LookupKey lkey(key, snapshot);
     if (mem->Get(lkey, value, &s)) {
-      std::cout<<"get in memtable"<<std::endl;
+      //std::cout<<"get in memtable"<<std::endl;
       // Done
     } else if (imm != nullptr && imm->Get(lkey, value, &s)) {
-      std::cout<<"get in Immmemtable"<<std::endl;
+      //std::cout<<"get in Immmemtable"<<std::endl;
       // Done
     } else {
-      std::cout<<"current Get"<<std::endl;
+      //std::cout<<"current Get"<<std::endl;
       s = current->Get(options, lkey, value, &stats);
       have_stat_update = true;
     }
@@ -1229,8 +1229,11 @@ Status DBImpl::Write(const WriteOptions& options, WriteBatch* updates) {
     // during this phase since &w is currently responsible for logging
     // and protects against concurrent loggers and concurrent writes
     // into mem_.
+    
     {
       mutex_.Unlock();
+      //東諭 寫log -> We write memtable in NVM, so we dont't need WAL
+      /*
       status = log_->AddRecord(WriteBatchInternal::Contents(write_batch));
       bool sync_error = false;
       if (status.ok() && options.sync) {
@@ -1239,17 +1242,21 @@ Status DBImpl::Write(const WriteOptions& options, WriteBatch* updates) {
           sync_error = true;
         }
       }
+      */
       if (status.ok()) {
         status = WriteBatchInternal::InsertInto(write_batch, mem_);
       }
       mutex_.Lock();
+      /*
       if (sync_error) {
         // The state of the log file is indeterminate: the log record we
         // just added may or may not show up when the DB is re-opened.
         // So we force the DB into a mode where all future writes fail.
         RecordBackgroundError(status);
       }
+      */
     }
+    
     if (write_batch == tmp_batch_) tmp_batch_->Clear();
 
     versions_->SetLastSequence(last_sequence);

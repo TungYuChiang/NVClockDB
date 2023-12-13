@@ -83,7 +83,7 @@ void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
   //  tag          : uint64((sequence << 8) | type)
   //  value_size   : varint32 of value.size()
   //  value bytes  : char[value.size()]
-  std::cout<<"key:"<<key.ToString()<<std::endl;
+  //std::cout<<"key:"<<key.ToString()<<std::endl;
   size_t key_size = key.size();
   size_t val_size = value.size();
   size_t internal_key_size = key_size + 8;
@@ -107,9 +107,9 @@ void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
   std::memcpy(p, value.data(), val_size);
   pmallocator_.Sync(buf, encoded_len);
   assert(p + val_size == buf + encoded_len);
-  std::cout<<"Memtable add finish"<<std::endl;
+  //std::cout<<"Memtable add finish"<<std::endl;
   table_.Insert(buf);
-  std::cout<<"skiplist inserts finish"<<std::endl;
+  //std::cout<<"skiplist inserts finish"<<std::endl;
 }
 
 bool MemTable::Get(const LookupKey& key, std::string* value, Status* s) {

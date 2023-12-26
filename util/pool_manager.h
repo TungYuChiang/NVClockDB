@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <libpmem.h>
+#include <libpmemobj.h>
 #include <cstdint>
 #include <string>
 #include <fstream>
@@ -16,24 +17,20 @@
 
 namespace leveldb {
 
-class PMallocator {
+class PMmanager {
 public:
-    PMallocator();
-    ~PMallocator();
+    PMmanager();
+    PMmanager(std::string pool_name);
+    ~PMmanager();
     void Sync(void *start, size_t len);
-    void* Allocate(size_t bytes, int64_t &offset);
-    inline void* Translate(int64_t offset) {
-        return (pmemaddr + offset);
-    };
-    void Recover(std::ifstream &ifs);
-    void Save(std::ofstream &ofs);
+    void* Allocate(size_t bytes);
 
 private:
-    void *pmemaddr;
     size_t mapped_len;
     int is_pmem;
     size_t used;
     size_t free;
+    PMEMobjpool *pool = NULL;
 };
 
 }   // leveldb

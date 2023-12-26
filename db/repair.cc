@@ -55,6 +55,7 @@ class Repairer {
         next_file_number_(1) {
     // TableCache can be small since we expect each table to be opened once.
     table_cache_ = new TableCache(dbname_, options_, 10);
+    pm_manager_ = new PMmanager(dbname_);
   }
 
   ~Repairer() {
@@ -177,7 +178,7 @@ class Repairer {
     std::string scratch;
     Slice record;
     WriteBatch batch;
-    MemTable* mem = new MemTable(icmp_);
+    MemTable* mem = new MemTable(icmp_, pm_manager_);
     mem->Ref();
     int counter = 0;
     while (reader.ReadRecord(&record, &scratch)) {
@@ -433,6 +434,7 @@ class Repairer {
   bool owns_info_log_;
   bool owns_cache_;
   TableCache* table_cache_;
+  PMmanager* pm_manager_;
   VersionEdit edit_;
 
   std::vector<std::string> manifests_;

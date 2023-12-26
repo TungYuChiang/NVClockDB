@@ -35,6 +35,7 @@
 #include "util/coding.h"
 #include "util/logging.h"
 #include "util/mutexlock.h"
+#include "util/pool_manager.h"
 
 namespace leveldb {
 
@@ -148,7 +149,8 @@ DBImpl::DBImpl(const Options& raw_options, const std::string& dbname)
       background_compaction_scheduled_(false),
       manual_compaction_(nullptr),
       versions_(new VersionSet(dbname_, &options_, table_cache_,
-                               &internal_comparator_)) {}
+                               &internal_comparator_)),
+      pm_manager_(new PMmanager(dbname)) {}
 
 DBImpl::~DBImpl() {
   // Wait for background work to finish.
@@ -170,6 +172,7 @@ DBImpl::~DBImpl() {
   delete log_;
   delete logfile_;
   delete table_cache_;
+  delete pm_manager_;
 
   if (owns_info_log_) {
     delete options_.info_log;
@@ -439,7 +442,7 @@ Status DBImpl::RecoverLogFile(uint64_t log_number, bool last_log,
     WriteBatchInternal::SetContents(&batch, record);
 
     if (mem == nullptr) {
-      mem = new MemTable(internal_comparator_);
+      mem = new MemTable(internal_comparator_, pm_manager_);
       mem->Ref();
     }
     status = WriteBatchInternal::InsertInto(&batch, mem);
@@ -485,7 +488,7 @@ Status DBImpl::RecoverLogFile(uint64_t log_number, bool last_log,
         mem = nullptr;
       } else {
         // mem can be nullptr if lognum exists but was empty.
-        mem_ = new MemTable(internal_comparator_);
+        mem_ = new MemTable(internal_comparator_, pm_manager_);
         mem_->Ref();
       }
     }
@@ -1141,13 +1144,10 @@ Status DBImpl::Get(const ReadOptions& options, const Slice& key,
     // First look in the memtable, then in the immutable memtable (if any).
     LookupKey lkey(key, snapshot);
     if (mem->Get(lkey, value, &s)) {
-      //std::cout<<"get in memtable"<<std::endl;
       // Done
     } else if (imm != nullptr && imm->Get(lkey, value, &s)) {
-      //std::cout<<"get in Immmemtable"<<std::endl;
       // Done
     } else {
-      //std::cout<<"current Get"<<std::endl;
       s = current->Get(options, lkey, value, &stats);
       have_stat_update = true;
     }
@@ -1400,7 +1400,7 @@ Status DBImpl::MakeRoomForWrite(bool force) {
       log_ = new log::Writer(lfile);
       imm_ = mem_;
       has_imm_.store(true, std::memory_order_release);
-      mem_ = new MemTable(internal_comparator_);
+      mem_ = new MemTable(internal_comparator_, pm_manager_);
       mem_->Ref();
       force = false;  // Do not force another compaction if have room
       MaybeScheduleCompaction();
@@ -1506,6 +1506,7 @@ Status DB::Delete(const WriteOptions& opt, const Slice& key) {
 DB::~DB() = default;
 
 Status DB::Open(const Options& options, const std::string& dbname, DB** dbptr) {
+  std::cout<<"open"<<std::endl;
   *dbptr = nullptr;
 
   DBImpl* impl = new DBImpl(options, dbname);
@@ -1525,7 +1526,7 @@ Status DB::Open(const Options& options, const std::string& dbname, DB** dbptr) {
       impl->logfile_ = lfile;
       impl->logfile_number_ = new_log_number;
       impl->log_ = new log::Writer(lfile);
-      impl->mem_ = new MemTable(impl->internal_comparator_);
+      impl->mem_ = new MemTable(impl->internal_comparator_, impl->pm_manager_);
       impl->mem_->Ref();
     }
   }

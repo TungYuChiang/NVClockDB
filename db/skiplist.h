@@ -33,7 +33,6 @@
 
 #include "util/arena.h"
 #include "util/random.h"
-#include "util/allocator_pm.h"
 
 namespace leveldb {
 
@@ -46,7 +45,7 @@ class SkipList {
   // Create a new SkipList object that will use "cmp" for comparing keys,
   // and will allocate memory using "*arena".  Objects allocated in the arena
   // must remain allocated for the lifetime of the skiplist object.
-  explicit SkipList(Comparator cmp, Arena* arena, PMallocator* pmallocator);
+  explicit SkipList(Comparator cmp, Arena* arena);
 
   SkipList(const SkipList&) = delete;
   SkipList& operator=(const SkipList&) = delete;
@@ -129,7 +128,6 @@ class SkipList {
   // Immutable after construction
   Comparator const compare_;
   Arena* const arena_;  // Arena used for allocations of nodes
-  PMallocator* const pmallocator_; //used for allocation node on persistent memory
   
 
   Node* const head_;
@@ -183,11 +181,9 @@ template <typename Key, class Comparator>
 typename SkipList<Key, Comparator>::Node* SkipList<Key, Comparator>::NewNode(
     const Key& key, int height) {
 
-  //char* const node_memory = arena_->AllocateAligned(
-  //    sizeof(Node) + sizeof(std::atomic<Node*>) * (height - 1));
-  int64_t offset;
-  char* const node_memory = (char*)pmallocator_->Allocate(
-    sizeof(Node) + sizeof(std::atomic<Node*>) * (height - 1), offset);
+  char* const node_memory = arena_->AllocateAligned(
+      sizeof(Node) + sizeof(std::atomic<Node*>) * (height - 1));
+  
   return new (node_memory) Node(key);
 }
 
@@ -327,12 +323,11 @@ typename SkipList<Key, Comparator>::Node* SkipList<Key, Comparator>::FindLast()
 }
 
 template <typename Key, class Comparator>
-SkipList<Key, Comparator>::SkipList(Comparator cmp, Arena* arena, PMallocator* pmallocator)
+SkipList<Key, Comparator>::SkipList(Comparator cmp, Arena* arena)
     : compare_(cmp),
       arena_(arena),
       head_(NewNode(0 /* any key will do */, kMaxHeight)),
       max_height_(1),
-      pmallocator_(pmallocator),
       rnd_(0xdeadbeef) {
   for (int i = 0; i < kMaxHeight; i++) {
     head_->SetNext(i, nullptr);

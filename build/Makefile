@@ -1497,33 +1497,6 @@ table/two_level_iterator.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/table/two_level_iterator.cc.s
 .PHONY : table/two_level_iterator.cc.s
 
-util/allocator_pm.o: util/allocator_pm.cc.o
-
-.PHONY : util/allocator_pm.o
-
-# target to build an object file
-util/allocator_pm.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/allocator_pm.cc.o
-.PHONY : util/allocator_pm.cc.o
-
-util/allocator_pm.i: util/allocator_pm.cc.i
-
-.PHONY : util/allocator_pm.i
-
-# target to preprocess a source file
-util/allocator_pm.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/allocator_pm.cc.i
-.PHONY : util/allocator_pm.cc.i
-
-util/allocator_pm.s: util/allocator_pm.cc.s
-
-.PHONY : util/allocator_pm.s
-
-# target to generate assembly for a file
-util/allocator_pm.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/allocator_pm.cc.s
-.PHONY : util/allocator_pm.cc.s
-
 util/arena.o: util/arena.cc.o
 
 .PHONY : util/arena.o
@@ -2118,6 +2091,60 @@ util/options.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/options.cc.s
 .PHONY : util/options.cc.s
 
+util/pmarena.o: util/pmarena.cc.o
+
+.PHONY : util/pmarena.o
+
+# target to build an object file
+util/pmarena.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pmarena.cc.o
+.PHONY : util/pmarena.cc.o
+
+util/pmarena.i: util/pmarena.cc.i
+
+.PHONY : util/pmarena.i
+
+# target to preprocess a source file
+util/pmarena.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pmarena.cc.i
+.PHONY : util/pmarena.cc.i
+
+util/pmarena.s: util/pmarena.cc.s
+
+.PHONY : util/pmarena.s
+
+# target to generate assembly for a file
+util/pmarena.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pmarena.cc.s
+.PHONY : util/pmarena.cc.s
+
+util/pool_manager.o: util/pool_manager.cc.o
+
+.PHONY : util/pool_manager.o
+
+# target to build an object file
+util/pool_manager.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pool_manager.cc.o
+.PHONY : util/pool_manager.cc.o
+
+util/pool_manager.i: util/pool_manager.cc.i
+
+.PHONY : util/pool_manager.i
+
+# target to preprocess a source file
+util/pool_manager.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pool_manager.cc.i
+.PHONY : util/pool_manager.cc.i
+
+util/pool_manager.s: util/pool_manager.cc.s
+
+.PHONY : util/pool_manager.s
+
+# target to generate assembly for a file
+util/pool_manager.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pool_manager.cc.s
+.PHONY : util/pool_manager.cc.s
+
 util/status.o: util/status.cc.o
 
 .PHONY : util/status.o
@@ -2366,9 +2393,6 @@ help:
 	@echo "... table/two_level_iterator.o"
 	@echo "... table/two_level_iterator.i"
 	@echo "... table/two_level_iterator.s"
-	@echo "... util/allocator_pm.o"
-	@echo "... util/allocator_pm.i"
-	@echo "... util/allocator_pm.s"
 	@echo "... util/arena.o"
 	@echo "... util/arena.i"
 	@echo "... util/arena.s"
@@ -2435,6 +2459,12 @@ help:
 	@echo "... util/options.o"
 	@echo "... util/options.i"
 	@echo "... util/options.s"
+	@echo "... util/pmarena.o"
+	@echo "... util/pmarena.i"
+	@echo "... util/pmarena.s"
+	@echo "... util/pool_manager.o"
+	@echo "... util/pool_manager.i"
+	@echo "... util/pool_manager.s"
 	@echo "... util/status.o"
 	@echo "... util/status.i"
 	@echo "... util/status.s"

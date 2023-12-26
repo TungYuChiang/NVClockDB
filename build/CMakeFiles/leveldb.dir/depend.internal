@@ -62,11 +62,12 @@ CMakeFiles/leveldb.dir/db/db_impl.cc.o
  .././table/block.h
  .././table/merger.h
  .././table/two_level_iterator.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/coding.h
  .././util/logging.h
  .././util/mutexlock.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  ../include/leveldb/cache.h
  ../include/leveldb/comparator.h
@@ -210,10 +211,11 @@ CMakeFiles/leveldb.dir/db/memtable.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
  .././port/thread_annotations.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/coding.h
  .././util/logging.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  ../include/leveldb/comparator.h
  ../include/leveldb/db.h
@@ -244,10 +246,11 @@ CMakeFiles/leveldb.dir/db/repair.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
  .././port/thread_annotations.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/coding.h
  .././util/logging.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  ../include/leveldb/cache.h
  ../include/leveldb/comparator.h
@@ -323,10 +326,11 @@ CMakeFiles/leveldb.dir/db/version_set.cc.o
  .././port/thread_annotations.h
  .././table/merger.h
  .././table/two_level_iterator.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/coding.h
  .././util/logging.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  ../include/leveldb/cache.h
  ../include/leveldb/comparator.h
@@ -350,10 +354,11 @@ CMakeFiles/leveldb.dir/db/write_batch.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
  .././port/thread_annotations.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/coding.h
  .././util/logging.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  ../include/leveldb/comparator.h
  ../include/leveldb/db.h
@@ -508,9 +513,6 @@ CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o
  ../include/leveldb/table.h
  ../include/leveldb/table_builder.h
  /home/oslab/Desktop/TungYu/PMDB/table/two_level_iterator.cc
-CMakeFiles/leveldb.dir/util/allocator_pm.cc.o
- /home/oslab/Desktop/TungYu/PMDB/util/allocator_pm.cc
- /home/oslab/Desktop/TungYu/PMDB/util/allocator_pm.h
 CMakeFiles/leveldb.dir/util/arena.cc.o
  .././util/arena.h
  /home/oslab/Desktop/TungYu/PMDB/util/arena.cc
@@ -612,6 +614,13 @@ CMakeFiles/leveldb.dir/util/options.cc.o
  ../include/leveldb/slice.h
  ../include/leveldb/status.h
  /home/oslab/Desktop/TungYu/PMDB/util/options.cc
+CMakeFiles/leveldb.dir/util/pmarena.cc.o
+ .././util/pmarena.h
+ .././util/pool_manager.h
+ /home/oslab/Desktop/TungYu/PMDB/util/pmarena.cc
+CMakeFiles/leveldb.dir/util/pool_manager.cc.o
+ /home/oslab/Desktop/TungYu/PMDB/util/pool_manager.cc
+ /home/oslab/Desktop/TungYu/PMDB/util/pool_manager.h
 CMakeFiles/leveldb.dir/util/status.cc.o
  .././port/port.h
  .././port/port_stdcxx.h

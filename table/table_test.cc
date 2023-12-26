@@ -301,14 +301,16 @@ class KeyConvertingIterator : public Iterator {
 class MemTableConstructor : public Constructor {
  public:
   explicit MemTableConstructor(const Comparator* cmp)
-      : Constructor(cmp), internal_comparator_(cmp) {
-    memtable_ = new MemTable(internal_comparator_);
+      : Constructor(cmp), internal_comparator_(cmp), 
+      pm_manager_(new PMmanager("MemTableConstructor ")) 
+  {
+    memtable_ = new MemTable(internal_comparator_, pm_manager_);
     memtable_->Ref();
   }
   ~MemTableConstructor() override { memtable_->Unref(); }
   Status FinishImpl(const Options& options, const KVMap& data) override {
     memtable_->Unref();
-    memtable_ = new MemTable(internal_comparator_);
+    memtable_ = new MemTable(internal_comparator_, pm_manager_);
     memtable_->Ref();
     int seq = 1;
     for (const auto& kvp : data) {
@@ -323,6 +325,7 @@ class MemTableConstructor : public Constructor {
 
  private:
   const InternalKeyComparator internal_comparator_;
+  PMmanager* pm_manager_;
   MemTable* memtable_;
 };
 
@@ -724,7 +727,8 @@ TEST_F(Harness, RandomizedLongDB) {
 
 TEST(MemTableTest, Simple) {
   InternalKeyComparator cmp(BytewiseComparator());
-  MemTable* memtable = new MemTable(cmp);
+  PMmanager* pm_manager = new PMmanager("TEST(MemTableTest, Simple");
+  MemTable* memtable = new MemTable(cmp, pm_manager);
   memtable->Ref();
   WriteBatch batch;
   WriteBatchInternal::SetSequence(&batch, 100);

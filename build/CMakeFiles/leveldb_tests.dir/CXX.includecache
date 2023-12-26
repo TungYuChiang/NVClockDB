@@ -97,8 +97,8 @@ leveldb/db.h
 .././db/leveldb/db.h
 util/arena.h
 .././db/util/arena.h
-util/allocator_pm.h
-.././db/util/allocator_pm.h
+util/pmarena.h
+.././db/util/pmarena.h
 
 .././db/skiplist.h
 atomic
@@ -111,8 +111,6 @@ util/arena.h
 .././db/util/arena.h
 util/random.h
 .././db/util/random.h
-util/allocator_pm.h
-.././db/util/allocator_pm.h
 
 .././db/snapshot.h
 db/dbformat.h
@@ -234,32 +232,6 @@ leveldb/status.h
 leveldb/table_builder.h
 .././table/leveldb/table_builder.h
 
-.././util/allocator_pm.h
-sys/types.h
--
-sys/stat.h
--
-fcntl.h
--
-stdio.h
--
-errno.h
--
-stdlib.h
--
-string.h
--
-libpmem.h
--
-cstdint
--
-string
--
-fstream
--
-iostream
--
-
 .././util/arena.h
 atomic
 -
@@ -316,6 +288,50 @@ port/thread_annotations.h
 type_traits
 -
 utility
+-
+
+.././util/pmarena.h
+atomic
+-
+cassert
+-
+cstddef
+-
+cstdint
+-
+vector
+-
+iostream
+-
+util/pool_manager.h
+-
+
+.././util/pool_manager.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdio.h
+-
+errno.h
+-
+stdlib.h
+-
+string.h
+-
+libpmem.h
+-
+libpmemobj.h
+-
+cstdint
+-
+string
+-
+fstream
+-
+iostream
 -
 
 .././util/random.h
@@ -1127,8 +1143,6 @@ util/random.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/random.h
 util/testutil.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/testutil.h
-util/allocator_pm.h
-/home/oslab/Desktop/TungYu/PMDB/db/util/allocator_pm.h
 
 /home/oslab/Desktop/TungYu/PMDB/db/version_edit_test.cc
 db/version_edit.h
@@ -1159,6 +1173,10 @@ leveldb/env.h
 /home/oslab/Desktop/TungYu/PMDB/db/leveldb/env.h
 util/logging.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/logging.h
+util/pool_manager.h
+/home/oslab/Desktop/TungYu/PMDB/db/util/pool_manager.h
+iostream
+-
 
 /home/oslab/Desktop/TungYu/PMDB/helpers/memenv/memenv_test.cc
 helpers/memenv/memenv.h

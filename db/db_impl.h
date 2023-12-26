@@ -22,6 +22,7 @@ namespace leveldb {
 
 class MemTable;
 class TableCache;
+class PMmanager;
 class Version;
 class VersionEdit;
 class VersionSet;
@@ -164,8 +165,13 @@ class DBImpl : public DB {
   const bool owns_cache_;
   const std::string dbname_;
 
+  
+
   // table_cache_ provides its own synchronization
   TableCache* const table_cache_;
+
+  //persistent manager 
+  PMmanager* const pm_manager_;
 
   // Lock over the persistent DB state.  Non-null iff successfully acquired.
   FileLock* db_lock_;

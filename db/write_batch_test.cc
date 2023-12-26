@@ -8,12 +8,16 @@
 #include "leveldb/db.h"
 #include "leveldb/env.h"
 #include "util/logging.h"
+#include "util/pool_manager.h"
+#include <iostream>
 
 namespace leveldb {
 
 static std::string PrintContents(WriteBatch* b) {
+  std::cout<<"PrintContents"<<std::endl;
   InternalKeyComparator cmp(BytewiseComparator());
-  MemTable* mem = new MemTable(cmp);
+  PMmanager pm_manager_("db_test");
+  MemTable* mem = new MemTable(cmp, &pm_manager_);
   mem->Ref();
   std::string state;
   Status s = WriteBatchInternal::InsertInto(b, mem);

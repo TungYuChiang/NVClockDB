@@ -29,7 +29,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/oslab/Desktop/TungYu/PMDB/table/table.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/table/table.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/table/table_builder.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/table/table_builder.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/table/two_level_iterator.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o"
-  "/home/oslab/Desktop/TungYu/PMDB/util/allocator_pm.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/allocator_pm.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/arena.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/arena.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/bloom.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/bloom.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/cache.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/cache.cc.o"
@@ -42,6 +41,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/oslab/Desktop/TungYu/PMDB/util/hash.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/hash.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/logging.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/logging.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/options.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/options.cc.o"
+  "/home/oslab/Desktop/TungYu/PMDB/util/pmarena.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/pmarena.cc.o"
+  "/home/oslab/Desktop/TungYu/PMDB/util/pool_manager.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/pool_manager.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/status.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb.dir/util/status.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

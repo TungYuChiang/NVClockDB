@@ -385,7 +385,6 @@ CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
  .././port/thread_annotations.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/hash.h
  .././util/random.h
@@ -537,10 +536,11 @@ CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o
  .././port/port.h
  .././port/port_stdcxx.h
  .././port/thread_annotations.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/coding.h
  .././util/logging.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  ../include/leveldb/comparator.h
  ../include/leveldb/db.h
@@ -701,10 +701,11 @@ CMakeFiles/leveldb_tests.dir/table/table_test.cc.o
  .././table/block.h
  .././table/block_builder.h
  .././table/format.h
- .././util/allocator_pm.h
  .././util/arena.h
  .././util/coding.h
  .././util/logging.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  .././util/testutil.h
  ../include/leveldb/comparator.h

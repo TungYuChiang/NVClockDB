@@ -15,7 +15,6 @@
 #include "util/hash.h"
 #include "util/random.h"
 #include "util/testutil.h"
-#include "util/allocator_pm.h"
 
 namespace leveldb {
 
@@ -36,8 +35,7 @@ struct Comparator {
 TEST(SkipTest, Empty) {
   Arena arena;
   Comparator cmp;
-  PMallocator pm;
-  SkipList<Key, Comparator> list(cmp, &arena, &pm);
+  SkipList<Key, Comparator> list(cmp, &arena);
   ASSERT_TRUE(!list.Contains(10));
 
   SkipList<Key, Comparator>::Iterator iter(&list);
@@ -57,8 +55,7 @@ TEST(SkipTest, InsertAndLookup) {
   std::set<Key> keys;
   Arena arena;
   Comparator cmp;
-  PMallocator pm;
-  SkipList<Key, Comparator> list(cmp, &arena, &pm);
+  SkipList<Key, Comparator> list(cmp, &arena);
   for (int i = 0; i < N; i++) {
     Key key = rnd.Next() % R;
     if (keys.insert(key).second) {
@@ -209,15 +206,12 @@ class ConcurrentTest {
   State current_;
 
   Arena arena_;
-
-
-  PMallocator pm_;
   // SkipList is not protected by mu_.  We just use a single writer
   // thread to modify it.
   SkipList<Key, Comparator> list_;
 
  public:
-  ConcurrentTest() : list_(Comparator(), &arena_, &pm_) {}
+  ConcurrentTest() : list_(Comparator(), &arena_) {}
 
   // REQUIRES: External synchronization
   void WriteStep(Random* rnd) {

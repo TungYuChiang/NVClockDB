@@ -384,7 +384,6 @@ CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././helpers/memenv/memenv.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././port/port.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././port/port_stdcxx.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././port/thread_annotations.h
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/allocator_pm.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/arena.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/hash.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/random.h
@@ -536,10 +535,11 @@ CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././db/write_batch_inter
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././port/port.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././port/port_stdcxx.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././port/thread_annotations.h
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././util/allocator_pm.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././util/arena.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././util/coding.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././util/logging.h
+CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././util/pmarena.h
+CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././util/pool_manager.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: .././util/random.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: ../include/leveldb/comparator.h
 CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: ../include/leveldb/db.h
@@ -700,10 +700,11 @@ CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././port/thread_annotations
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././table/block.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././table/block_builder.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././table/format.h
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/allocator_pm.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/arena.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/coding.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/logging.h
+CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/pmarena.h
+CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/pool_manager.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/random.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: .././util/testutil.h
 CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: ../include/leveldb/comparator.h

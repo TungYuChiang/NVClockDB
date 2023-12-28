@@ -16,9 +16,8 @@ PMarena::PMarena(PMmanager* pm_)
     :pm_manager(pm_), alloc_ptr_(nullptr), alloc_bytes_remaining_(0), memory_usage_(0) {}
 
 PMarena::~PMarena() {
-  std::cout<<"PMarena::~PMarena()"<<std::endl;
   for (size_t i = 0; i < blocks_.size(); i++) {
-    delete[] blocks_[i];
+      pm_manager->Free(blocks_[i]);
   }
 }
 

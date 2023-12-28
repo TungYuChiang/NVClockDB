@@ -20,7 +20,7 @@ static Slice GetLengthPrefixedSlice(const char* data) {
 }
 
 MemTable::MemTable(const InternalKeyComparator& comparator, PMmanager* pm_)
-    : comparator_(comparator), refs_(0), pm_arena_(pm_), table_(comparator_, &arena_) {}
+    : comparator_(comparator), refs_(0), pm_arena_(pm_), table_(comparator_, &arena_), pm_manager_(pm_) {}
 
 MemTable::~MemTable() { assert(refs_ == 0); }
 
@@ -76,7 +76,6 @@ Iterator* MemTable::NewIterator() { return new MemTableIterator(&table_); }
 
 void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
                    const Slice& value) {
-  std::cout<<"Memtable add"<<std::endl;
   // Format of an entry is concatenation of:
   //  key_size     : varint32 of internal_key.size()
   //  key bytes    : char[internal_key.size()]
@@ -105,7 +104,7 @@ void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
   p += 8;
   p = EncodeVarint32(p, val_size);
   std::memcpy(p, value.data(), val_size);
-  //pmallocator_.Sync(buf, encoded_len);
+  pm_manager_->Sync(buf, encoded_len);
   assert(p + val_size == buf + encoded_len);
   //std::cout<<"Memtable add finish"<<std::endl;
   table_.Insert(buf);

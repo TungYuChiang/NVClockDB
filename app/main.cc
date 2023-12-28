@@ -15,17 +15,22 @@ struct my_root {
 };
 
 int main() {
-    std::cout<<"-----------main-------- "<<std::endl;
+    std::cout<<"----------- main ----------- "<<std::endl;
     leveldb::DB *db;
     leveldb::Options options;
     options.create_if_missing = true;
-    leveldb::Status status = leveldb::DB::Open(options, "db_test_pool", &db);
-    std::cout<<"-----------db open -------- "<<std::endl;
+    leveldb::Status status = leveldb::DB::Open(options, "now", &db);
+    //leveldb::Status status1 = leveldb::DB::Open(options, "now", &db);
+    //leveldb::Status status = leveldb::DB::Open(options, "test1/db1", &db);
+    
     assert(status.ok());
-	//cout<<"1st key value"<<endl;
+    if (!status.ok()) {
+        std::cout<<"--------- db open error ----------- "<<std::endl;
+    }
     status = db->Put(WriteOptions(), "Hellow", "Here is LevelDB");
     assert(status.ok());
-	string res, hwllowrod;
+    std::cout<<"--------- db put ----------- "<<std::endl;
+	string hwllowrod;
 	status = db->Get(ReadOptions(), "Hellow", &hwllowrod);
     assert(status.ok());
 	cout<<hwllowrod<<endl;

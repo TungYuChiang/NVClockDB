@@ -4,18 +4,11 @@
 
 namespace leveldb {
   static const size_t pmem_len = 1L * 1024 * 1024 * 1024;
-  static const std::string path = "/home/oslab/Desktop/pmem/leveldb_";
-
-int count = 0;
+  static const std::string path = "/home/oslab/Desktop/pmem/";
 
 PMmanager::PMmanager(std::string db_name): used(0) {
-    count++;
-    std::cout<<count<<std::endl;
     std::string pool_name = path + db_name;
     pool = pmemobj_open(pool_name.c_str(), LAYOUT_NAME);
-    if (pool != NULL) {
-        std::cout<<pool_name<<" pool open"<<std::endl;
-    }
     if (pool == NULL) {
         perror("pmemobj_open error");
 
@@ -30,19 +23,30 @@ PMmanager::PMmanager(std::string db_name): used(0) {
 }
 
 PMmanager::~PMmanager() {
-    //pmemobj_close(pool);     //有問題要解決
+    pmemobj_close(pool);     //有問題要解決
 }
 
 void *PMmanager::Allocate(size_t bytes) {
-    std::cout<<"PMmanager::Allocate"<<std::endl;
     PMEMoid oid;
     int ret = pmemobj_alloc(pool, &oid, bytes, 0, NULL, NULL);
-    std::cout<<"ret"<<std::endl;
     if (ret == 0) {
         return pmemobj_direct(oid);
     } else {
         // 分配失败，返回NULL
         return NULL;
+    }
+}
+
+void PMmanager::Free(void* ptr) {
+    if (ptr == NULL) {
+        return; // 如果 ptr 為 NULL，則無需執行任何操作
+    }
+
+    PMEMoid oid = pmemobj_oid(ptr);
+    if (!OID_IS_NULL(oid)) {
+        pmemobj_free(&oid);
+    } else {
+        perror("pmemobj_free error");
     }
 }
 

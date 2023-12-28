@@ -1492,6 +1492,7 @@ void DBImpl::GetApproximateSizes(const Range* range, int n, uint64_t* sizes) {
 // Default implementations of convenience methods that subclasses of DB
 // can call if they wish
 Status DB::Put(const WriteOptions& opt, const Slice& key, const Slice& value) {
+  std::cout<<"---put---"<<std::endl;
   WriteBatch batch;
   batch.Put(key, value);
   return Write(opt, &batch);
@@ -1506,7 +1507,6 @@ Status DB::Delete(const WriteOptions& opt, const Slice& key) {
 DB::~DB() = default;
 
 Status DB::Open(const Options& options, const std::string& dbname, DB** dbptr) {
-  std::cout<<"open"<<std::endl;
   *dbptr = nullptr;
 
   DBImpl* impl = new DBImpl(options, dbname);

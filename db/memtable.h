@@ -80,7 +80,8 @@ class MemTable {
   KeyComparator comparator_;
   int refs_;
   Arena arena_;
-  PMarena pm_arena_;     
+  PMarena pm_arena_;
+  PMmanager* pm_manager_;     
   Table table_;
 };
 

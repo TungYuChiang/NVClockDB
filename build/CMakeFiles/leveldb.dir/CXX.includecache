@@ -123,6 +123,8 @@ util/arena.h
 .././db/util/arena.h
 util/random.h
 .././db/util/random.h
+util/pmarena.h
+.././db/util/pmarena.h
 
 .././db/snapshot.h
 db/dbformat.h

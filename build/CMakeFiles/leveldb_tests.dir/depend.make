@@ -386,6 +386,8 @@ CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././port/port_stdcxx.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././port/thread_annotations.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/arena.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/hash.h
+CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/pmarena.h
+CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/pool_manager.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/random.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: .././util/testutil.h
 CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: ../include/leveldb/env.h

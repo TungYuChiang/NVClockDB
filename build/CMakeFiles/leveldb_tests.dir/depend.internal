@@ -387,6 +387,8 @@ CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o
  .././port/thread_annotations.h
  .././util/arena.h
  .././util/hash.h
+ .././util/pmarena.h
+ .././util/pool_manager.h
  .././util/random.h
  .././util/testutil.h
  ../include/leveldb/env.h

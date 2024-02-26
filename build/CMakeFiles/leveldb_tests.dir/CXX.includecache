@@ -111,6 +111,8 @@ util/arena.h
 .././db/util/arena.h
 util/random.h
 .././db/util/random.h
+util/pmarena.h
+.././db/util/pmarena.h
 
 .././db/snapshot.h
 db/dbformat.h
@@ -1143,6 +1145,10 @@ util/random.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/random.h
 util/testutil.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/testutil.h
+util/pmarena.h
+/home/oslab/Desktop/TungYu/PMDB/db/util/pmarena.h
+util/pool_manager.h
+/home/oslab/Desktop/TungYu/PMDB/db/util/pool_manager.h
 
 /home/oslab/Desktop/TungYu/PMDB/db/version_edit_test.cc
 db/version_edit.h

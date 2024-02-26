@@ -19,7 +19,6 @@ namespace leveldb {
 
 class PMmanager {
 public:
-    PMmanager();
     PMmanager(std::string pool_name);
     ~PMmanager();
     void Sync(void *start, size_t len);

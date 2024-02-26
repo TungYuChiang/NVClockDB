@@ -55,7 +55,7 @@ class Repairer {
         next_file_number_(1) {
     // TableCache can be small since we expect each table to be opened once.
     table_cache_ = new TableCache(dbname_, options_, 10);
-    pm_manager_ = new PMmanager(dbname_);
+    pm_manager_ = new PMmanager(dbname_ + "_repair");
   }
 
   ~Repairer() {

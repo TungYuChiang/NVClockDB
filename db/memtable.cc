@@ -20,7 +20,7 @@ static Slice GetLengthPrefixedSlice(const char* data) {
 }
 
 MemTable::MemTable(const InternalKeyComparator& comparator, PMmanager* pm_)
-    : comparator_(comparator), refs_(0), pm_arena_(pm_), table_(comparator_, &arena_), pm_manager_(pm_) {}
+    : comparator_(comparator), refs_(0), pm_arena_(pm_), table_(comparator_, &arena_, &pm_arena_, pm_), pm_manager_(pm_) {}
 
 MemTable::~MemTable() { assert(refs_ == 0); }
 

@@ -19,7 +19,7 @@ int main() {
     leveldb::DB *db;
     leveldb::Options options;
     options.create_if_missing = true;
-    leveldb::Status status = leveldb::DB::Open(options, "now", &db);
+    leveldb::Status status = leveldb::DB::Open(options, "testposition", &db);
     //leveldb::Status status1 = leveldb::DB::Open(options, "now", &db);
     //leveldb::Status status = leveldb::DB::Open(options, "test1/db1", &db);
     

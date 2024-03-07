@@ -33,6 +33,8 @@ port/port.h
 .././db/port/port.h
 port/thread_annotations.h
 .././db/port/thread_annotations.h
+db/two_level_cache.h
+.././db/db/two_level_cache.h
 
 .././db/db_iter.h
 cstdint
@@ -63,6 +65,28 @@ util/coding.h
 .././db/util/coding.h
 util/logging.h
 .././db/util/logging.h
+
+.././db/doubly_linked_list.cc
+iostream
+-
+cstdint
+-
+string
+-
+util/pm_manager.h
+.././db/util/pm_manager.h
+util/pmarena.h
+.././db/util/pmarena.h
+
+.././db/dram_cache.h
+iostream
+-
+unordered_map
+-
+list
+-
+cstddef
+-
 
 .././db/filename.h
 cstdint
@@ -112,6 +136,24 @@ util/arena.h
 util/pmarena.h
 .././db/util/pmarena.h
 
+.././db/nvm_cache.h
+string
+-
+vector
+-
+iostream
+-
+unordered_map
+-
+atomic
+-
+mutex
+-
+util/pm_manager.h
+.././db/util/pm_manager.h
+doubly_linked_list.cc
+.././db/doubly_linked_list.cc
+
 .././db/skiplist.h
 atomic
 -
@@ -145,6 +187,12 @@ leveldb/table.h
 .././db/leveldb/table.h
 port/port.h
 .././db/port/port.h
+
+.././db/two_level_cache.h
+dram_cache.h
+.././db/dram_cache.h
+nvm_cache.h
+.././db/nvm_cache.h
 
 .././db/version_edit.h
 set
@@ -332,23 +380,7 @@ type_traits
 utility
 -
 
-.././util/pmarena.h
-atomic
--
-cassert
--
-cstddef
--
-cstdint
--
-vector
--
-iostream
--
-util/pool_manager.h
--
-
-.././util/pool_manager.h
+.././util/pm_manager.h
 sys/types.h
 -
 sys/stat.h
@@ -374,6 +406,22 @@ string
 fstream
 -
 iostream
+-
+
+.././util/pmarena.h
+atomic
+-
+cassert
+-
+cstddef
+-
+cstdint
+-
+vector
+-
+iostream
+-
+util/pm_manager.h
 -
 
 .././util/posix_logger.h
@@ -637,8 +685,8 @@ util/logging.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/logging.h
 util/mutexlock.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/mutexlock.h
-util/pool_manager.h
-/home/oslab/Desktop/TungYu/PMDB/db/util/pool_manager.h
+util/pm_manager.h
+/home/oslab/Desktop/TungYu/PMDB/db/util/pm_manager.h
 
 /home/oslab/Desktop/TungYu/PMDB/db/db_iter.cc
 db/db_iter.h
@@ -673,6 +721,32 @@ port/port.h
 /home/oslab/Desktop/TungYu/PMDB/db/port/port.h
 util/coding.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/coding.h
+
+/home/oslab/Desktop/TungYu/PMDB/db/doubly_linked_list.cc
+iostream
+-
+cstdint
+-
+string
+-
+util/pm_manager.h
+/home/oslab/Desktop/TungYu/PMDB/db/util/pm_manager.h
+util/pmarena.h
+/home/oslab/Desktop/TungYu/PMDB/db/util/pmarena.h
+
+/home/oslab/Desktop/TungYu/PMDB/db/dram_cache.cc
+dram_cache.h
+/home/oslab/Desktop/TungYu/PMDB/db/dram_cache.h
+
+/home/oslab/Desktop/TungYu/PMDB/db/dram_cache.h
+iostream
+-
+unordered_map
+-
+list
+-
+cstddef
+-
 
 /home/oslab/Desktop/TungYu/PMDB/db/dumpfile.cc
 leveldb/dumpfile.h
@@ -758,6 +832,28 @@ util/coding.h
 iostream
 /home/oslab/Desktop/TungYu/PMDB/db/iostream
 
+/home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.cc
+nvm_cache.h
+/home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.h
+
+/home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.h
+string
+-
+vector
+-
+iostream
+-
+unordered_map
+-
+atomic
+-
+mutex
+-
+util/pm_manager.h
+/home/oslab/Desktop/TungYu/PMDB/db/util/pm_manager.h
+doubly_linked_list.cc
+/home/oslab/Desktop/TungYu/PMDB/db/doubly_linked_list.cc
+
 /home/oslab/Desktop/TungYu/PMDB/db/repair.cc
 db/builder.h
 /home/oslab/Desktop/TungYu/PMDB/db/db/builder.h
@@ -775,6 +871,8 @@ db/memtable.h
 /home/oslab/Desktop/TungYu/PMDB/db/db/memtable.h
 db/table_cache.h
 /home/oslab/Desktop/TungYu/PMDB/db/db/table_cache.h
+db/two_level_cache.h
+/home/oslab/Desktop/TungYu/PMDB/db/db/two_level_cache.h
 db/version_edit.h
 /home/oslab/Desktop/TungYu/PMDB/db/db/version_edit.h
 db/write_batch_internal.h
@@ -797,6 +895,16 @@ leveldb/table.h
 /home/oslab/Desktop/TungYu/PMDB/db/leveldb/table.h
 util/coding.h
 /home/oslab/Desktop/TungYu/PMDB/db/util/coding.h
+
+/home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.cc
+two_level_cache.h
+/home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.h
+
+/home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.h
+dram_cache.h
+/home/oslab/Desktop/TungYu/PMDB/db/dram_cache.h
+nvm_cache.h
+/home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.h
 
 /home/oslab/Desktop/TungYu/PMDB/db/version_edit.cc
 db/version_edit.h
@@ -843,6 +951,8 @@ db/dbformat.h
 /home/oslab/Desktop/TungYu/PMDB/db/db/dbformat.h
 db/memtable.h
 /home/oslab/Desktop/TungYu/PMDB/db/db/memtable.h
+db/two_level_cache.h
+/home/oslab/Desktop/TungYu/PMDB/db/db/two_level_cache.h
 db/write_batch_internal.h
 /home/oslab/Desktop/TungYu/PMDB/db/db/write_batch_internal.h
 leveldb/db.h
@@ -1170,17 +1280,11 @@ leveldb/comparator.h
 leveldb/env.h
 /home/oslab/Desktop/TungYu/PMDB/util/leveldb/env.h
 
-/home/oslab/Desktop/TungYu/PMDB/util/pmarena.cc
-util/pmarena.h
-/home/oslab/Desktop/TungYu/PMDB/util/util/pmarena.h
-iostream
--
+/home/oslab/Desktop/TungYu/PMDB/util/pm_manager.cc
+pm_manager.h
+/home/oslab/Desktop/TungYu/PMDB/util/pm_manager.h
 
-/home/oslab/Desktop/TungYu/PMDB/util/pool_manager.cc
-pool_manager.h
-/home/oslab/Desktop/TungYu/PMDB/util/pool_manager.h
-
-/home/oslab/Desktop/TungYu/PMDB/util/pool_manager.h
+/home/oslab/Desktop/TungYu/PMDB/util/pm_manager.h
 sys/types.h
 -
 sys/stat.h
@@ -1205,6 +1309,12 @@ string
 -
 fstream
 -
+iostream
+-
+
+/home/oslab/Desktop/TungYu/PMDB/util/pmarena.cc
+util/pmarena.h
+/home/oslab/Desktop/TungYu/PMDB/util/util/pmarena.h
 iostream
 -
 

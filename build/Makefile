@@ -181,6 +181,19 @@ db_bench/fast:
 .PHONY : db_bench/fast
 
 #=============================================================================
+# Target rules for targets named env_posix_test
+
+# Build rule for target.
+env_posix_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 env_posix_test
+.PHONY : env_posix_test
+
+# fast build rule for target.
+env_posix_test/fast:
+	$(MAKE) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/build
+.PHONY : env_posix_test/fast
+
+#=============================================================================
 # Target rules for targets named leveldbutil
 
 # Build rule for target.
@@ -205,19 +218,6 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named env_posix_test
-
-# Build rule for target.
-env_posix_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 env_posix_test
-.PHONY : env_posix_test
-
-# fast build rule for target.
-env_posix_test/fast:
-	$(MAKE) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/build
-.PHONY : env_posix_test/fast
 
 #=============================================================================
 # Target rules for targets named leveldb
@@ -257,6 +257,19 @@ c_test: cmake_check_build_system
 c_test/fast:
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/build
 .PHONY : c_test/fast
+
+#=============================================================================
+# Target rules for targets named self_bench
+
+# Build rule for target.
+self_bench: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 self_bench
+.PHONY : self_bench
+
+# fast build rule for target.
+self_bench/fast:
+	$(MAKE) -f CMakeFiles/self_bench.dir/build.make CMakeFiles/self_bench.dir/build
+.PHONY : self_bench/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -363,6 +376,33 @@ app/main.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/main.cc.s
 .PHONY : app/main.cc.s
 
+app/self_bench.o: app/self_bench.cc.o
+
+.PHONY : app/self_bench.o
+
+# target to build an object file
+app/self_bench.cc.o:
+	$(MAKE) -f CMakeFiles/self_bench.dir/build.make CMakeFiles/self_bench.dir/app/self_bench.cc.o
+.PHONY : app/self_bench.cc.o
+
+app/self_bench.i: app/self_bench.cc.i
+
+.PHONY : app/self_bench.i
+
+# target to preprocess a source file
+app/self_bench.cc.i:
+	$(MAKE) -f CMakeFiles/self_bench.dir/build.make CMakeFiles/self_bench.dir/app/self_bench.cc.i
+.PHONY : app/self_bench.cc.i
+
+app/self_bench.s: app/self_bench.cc.s
+
+.PHONY : app/self_bench.s
+
+# target to generate assembly for a file
+app/self_bench.cc.s:
+	$(MAKE) -f CMakeFiles/self_bench.dir/build.make CMakeFiles/self_bench.dir/app/self_bench.cc.s
+.PHONY : app/self_bench.cc.s
+
 benchmarks/db_bench.o: benchmarks/db_bench.cc.o
 
 .PHONY : benchmarks/db_bench.o
@@ -389,33 +429,6 @@ benchmarks/db_bench.s: benchmarks/db_bench.cc.s
 benchmarks/db_bench.cc.s:
 	$(MAKE) -f CMakeFiles/db_bench.dir/build.make CMakeFiles/db_bench.dir/benchmarks/db_bench.cc.s
 .PHONY : benchmarks/db_bench.cc.s
-
-db/autocompact_test.o: db/autocompact_test.cc.o
-
-.PHONY : db/autocompact_test.o
-
-# target to build an object file
-db/autocompact_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o
-.PHONY : db/autocompact_test.cc.o
-
-db/autocompact_test.i: db/autocompact_test.cc.i
-
-.PHONY : db/autocompact_test.i
-
-# target to preprocess a source file
-db/autocompact_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.i
-.PHONY : db/autocompact_test.cc.i
-
-db/autocompact_test.s: db/autocompact_test.cc.s
-
-.PHONY : db/autocompact_test.s
-
-# target to generate assembly for a file
-db/autocompact_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.s
-.PHONY : db/autocompact_test.cc.s
 
 db/builder.o: db/builder.cc.o
 
@@ -498,33 +511,6 @@ db/c_test.c.s:
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/db/c_test.c.s
 .PHONY : db/c_test.c.s
 
-db/corruption_test.o: db/corruption_test.cc.o
-
-.PHONY : db/corruption_test.o
-
-# target to build an object file
-db/corruption_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o
-.PHONY : db/corruption_test.cc.o
-
-db/corruption_test.i: db/corruption_test.cc.i
-
-.PHONY : db/corruption_test.i
-
-# target to preprocess a source file
-db/corruption_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.i
-.PHONY : db/corruption_test.cc.i
-
-db/corruption_test.s: db/corruption_test.cc.s
-
-.PHONY : db/corruption_test.s
-
-# target to generate assembly for a file
-db/corruption_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.s
-.PHONY : db/corruption_test.cc.s
-
 db/db_impl.o: db/db_impl.cc.o
 
 .PHONY : db/db_impl.o
@@ -579,33 +565,6 @@ db/db_iter.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/db_iter.cc.s
 .PHONY : db/db_iter.cc.s
 
-db/db_test.o: db/db_test.cc.o
-
-.PHONY : db/db_test.o
-
-# target to build an object file
-db/db_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/db_test.cc.o
-.PHONY : db/db_test.cc.o
-
-db/db_test.i: db/db_test.cc.i
-
-.PHONY : db/db_test.i
-
-# target to preprocess a source file
-db/db_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/db_test.cc.i
-.PHONY : db/db_test.cc.i
-
-db/db_test.s: db/db_test.cc.s
-
-.PHONY : db/db_test.s
-
-# target to generate assembly for a file
-db/db_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/db_test.cc.s
-.PHONY : db/db_test.cc.s
-
 db/dbformat.o: db/dbformat.cc.o
 
 .PHONY : db/dbformat.o
@@ -633,32 +592,59 @@ db/dbformat.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dbformat.cc.s
 .PHONY : db/dbformat.cc.s
 
-db/dbformat_test.o: db/dbformat_test.cc.o
+db/dram_cache.o: db/dram_cache.cc.o
 
-.PHONY : db/dbformat_test.o
+.PHONY : db/dram_cache.o
 
 # target to build an object file
-db/dbformat_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o
-.PHONY : db/dbformat_test.cc.o
+db/dram_cache.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dram_cache.cc.o
+.PHONY : db/dram_cache.cc.o
 
-db/dbformat_test.i: db/dbformat_test.cc.i
+db/dram_cache.i: db/dram_cache.cc.i
 
-.PHONY : db/dbformat_test.i
+.PHONY : db/dram_cache.i
 
 # target to preprocess a source file
-db/dbformat_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.i
-.PHONY : db/dbformat_test.cc.i
+db/dram_cache.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dram_cache.cc.i
+.PHONY : db/dram_cache.cc.i
 
-db/dbformat_test.s: db/dbformat_test.cc.s
+db/dram_cache.s: db/dram_cache.cc.s
 
-.PHONY : db/dbformat_test.s
+.PHONY : db/dram_cache.s
 
 # target to generate assembly for a file
-db/dbformat_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.s
-.PHONY : db/dbformat_test.cc.s
+db/dram_cache.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dram_cache.cc.s
+.PHONY : db/dram_cache.cc.s
+
+db/dram_cache_test.o: db/dram_cache_test.cc.o
+
+.PHONY : db/dram_cache_test.o
+
+# target to build an object file
+db/dram_cache_test.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o
+.PHONY : db/dram_cache_test.cc.o
+
+db/dram_cache_test.i: db/dram_cache_test.cc.i
+
+.PHONY : db/dram_cache_test.i
+
+# target to preprocess a source file
+db/dram_cache_test.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.i
+.PHONY : db/dram_cache_test.cc.i
+
+db/dram_cache_test.s: db/dram_cache_test.cc.s
+
+.PHONY : db/dram_cache_test.s
+
+# target to generate assembly for a file
+db/dram_cache_test.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.s
+.PHONY : db/dram_cache_test.cc.s
 
 db/dumpfile.o: db/dumpfile.cc.o
 
@@ -714,33 +700,6 @@ db/filename.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/filename.cc.s
 .PHONY : db/filename.cc.s
 
-db/filename_test.o: db/filename_test.cc.o
-
-.PHONY : db/filename_test.o
-
-# target to build an object file
-db/filename_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o
-.PHONY : db/filename_test.cc.o
-
-db/filename_test.i: db/filename_test.cc.i
-
-.PHONY : db/filename_test.i
-
-# target to preprocess a source file
-db/filename_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/filename_test.cc.i
-.PHONY : db/filename_test.cc.i
-
-db/filename_test.s: db/filename_test.cc.s
-
-.PHONY : db/filename_test.s
-
-# target to generate assembly for a file
-db/filename_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/filename_test.cc.s
-.PHONY : db/filename_test.cc.s
-
 db/leveldbutil.o: db/leveldbutil.cc.o
 
 .PHONY : db/leveldbutil.o
@@ -794,33 +753,6 @@ db/log_reader.s: db/log_reader.cc.s
 db/log_reader.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/log_reader.cc.s
 .PHONY : db/log_reader.cc.s
-
-db/log_test.o: db/log_test.cc.o
-
-.PHONY : db/log_test.o
-
-# target to build an object file
-db/log_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/log_test.cc.o
-.PHONY : db/log_test.cc.o
-
-db/log_test.i: db/log_test.cc.i
-
-.PHONY : db/log_test.i
-
-# target to preprocess a source file
-db/log_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/log_test.cc.i
-.PHONY : db/log_test.cc.i
-
-db/log_test.s: db/log_test.cc.s
-
-.PHONY : db/log_test.s
-
-# target to generate assembly for a file
-db/log_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/log_test.cc.s
-.PHONY : db/log_test.cc.s
 
 db/log_writer.o: db/log_writer.cc.o
 
@@ -876,32 +808,59 @@ db/memtable.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/memtable.cc.s
 .PHONY : db/memtable.cc.s
 
-db/recovery_test.o: db/recovery_test.cc.o
+db/nvm_cache.o: db/nvm_cache.cc.o
 
-.PHONY : db/recovery_test.o
+.PHONY : db/nvm_cache.o
 
 # target to build an object file
-db/recovery_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o
-.PHONY : db/recovery_test.cc.o
+db/nvm_cache.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/nvm_cache.cc.o
+.PHONY : db/nvm_cache.cc.o
 
-db/recovery_test.i: db/recovery_test.cc.i
+db/nvm_cache.i: db/nvm_cache.cc.i
 
-.PHONY : db/recovery_test.i
+.PHONY : db/nvm_cache.i
 
 # target to preprocess a source file
-db/recovery_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.i
-.PHONY : db/recovery_test.cc.i
+db/nvm_cache.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/nvm_cache.cc.i
+.PHONY : db/nvm_cache.cc.i
 
-db/recovery_test.s: db/recovery_test.cc.s
+db/nvm_cache.s: db/nvm_cache.cc.s
 
-.PHONY : db/recovery_test.s
+.PHONY : db/nvm_cache.s
 
 # target to generate assembly for a file
-db/recovery_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.s
-.PHONY : db/recovery_test.cc.s
+db/nvm_cache.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/nvm_cache.cc.s
+.PHONY : db/nvm_cache.cc.s
+
+db/nvm_cache_test.o: db/nvm_cache_test.cc.o
+
+.PHONY : db/nvm_cache_test.o
+
+# target to build an object file
+db/nvm_cache_test.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o
+.PHONY : db/nvm_cache_test.cc.o
+
+db/nvm_cache_test.i: db/nvm_cache_test.cc.i
+
+.PHONY : db/nvm_cache_test.i
+
+# target to preprocess a source file
+db/nvm_cache_test.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.i
+.PHONY : db/nvm_cache_test.cc.i
+
+db/nvm_cache_test.s: db/nvm_cache_test.cc.s
+
+.PHONY : db/nvm_cache_test.s
+
+# target to generate assembly for a file
+db/nvm_cache_test.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.s
+.PHONY : db/nvm_cache_test.cc.s
 
 db/repair.o: db/repair.cc.o
 
@@ -930,33 +889,6 @@ db/repair.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/repair.cc.s
 .PHONY : db/repair.cc.s
 
-db/skiplist_test.o: db/skiplist_test.cc.o
-
-.PHONY : db/skiplist_test.o
-
-# target to build an object file
-db/skiplist_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o
-.PHONY : db/skiplist_test.cc.o
-
-db/skiplist_test.i: db/skiplist_test.cc.i
-
-.PHONY : db/skiplist_test.i
-
-# target to preprocess a source file
-db/skiplist_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.i
-.PHONY : db/skiplist_test.cc.i
-
-db/skiplist_test.s: db/skiplist_test.cc.s
-
-.PHONY : db/skiplist_test.s
-
-# target to generate assembly for a file
-db/skiplist_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.s
-.PHONY : db/skiplist_test.cc.s
-
 db/table_cache.o: db/table_cache.cc.o
 
 .PHONY : db/table_cache.o
@@ -983,6 +915,60 @@ db/table_cache.s: db/table_cache.cc.s
 db/table_cache.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/table_cache.cc.s
 .PHONY : db/table_cache.cc.s
+
+db/two_level_cache.o: db/two_level_cache.cc.o
+
+.PHONY : db/two_level_cache.o
+
+# target to build an object file
+db/two_level_cache.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/two_level_cache.cc.o
+.PHONY : db/two_level_cache.cc.o
+
+db/two_level_cache.i: db/two_level_cache.cc.i
+
+.PHONY : db/two_level_cache.i
+
+# target to preprocess a source file
+db/two_level_cache.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/two_level_cache.cc.i
+.PHONY : db/two_level_cache.cc.i
+
+db/two_level_cache.s: db/two_level_cache.cc.s
+
+.PHONY : db/two_level_cache.s
+
+# target to generate assembly for a file
+db/two_level_cache.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/two_level_cache.cc.s
+.PHONY : db/two_level_cache.cc.s
+
+db/two_level_cache_test.o: db/two_level_cache_test.cc.o
+
+.PHONY : db/two_level_cache_test.o
+
+# target to build an object file
+db/two_level_cache_test.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o
+.PHONY : db/two_level_cache_test.cc.o
+
+db/two_level_cache_test.i: db/two_level_cache_test.cc.i
+
+.PHONY : db/two_level_cache_test.i
+
+# target to preprocess a source file
+db/two_level_cache_test.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.i
+.PHONY : db/two_level_cache_test.cc.i
+
+db/two_level_cache_test.s: db/two_level_cache_test.cc.s
+
+.PHONY : db/two_level_cache_test.s
+
+# target to generate assembly for a file
+db/two_level_cache_test.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.s
+.PHONY : db/two_level_cache_test.cc.s
 
 db/version_edit.o: db/version_edit.cc.o
 
@@ -1011,33 +997,6 @@ db/version_edit.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/version_edit.cc.s
 .PHONY : db/version_edit.cc.s
 
-db/version_edit_test.o: db/version_edit_test.cc.o
-
-.PHONY : db/version_edit_test.o
-
-# target to build an object file
-db/version_edit_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o
-.PHONY : db/version_edit_test.cc.o
-
-db/version_edit_test.i: db/version_edit_test.cc.i
-
-.PHONY : db/version_edit_test.i
-
-# target to preprocess a source file
-db/version_edit_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.i
-.PHONY : db/version_edit_test.cc.i
-
-db/version_edit_test.s: db/version_edit_test.cc.s
-
-.PHONY : db/version_edit_test.s
-
-# target to generate assembly for a file
-db/version_edit_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.s
-.PHONY : db/version_edit_test.cc.s
-
 db/version_set.o: db/version_set.cc.o
 
 .PHONY : db/version_set.o
@@ -1064,33 +1023,6 @@ db/version_set.s: db/version_set.cc.s
 db/version_set.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/version_set.cc.s
 .PHONY : db/version_set.cc.s
-
-db/version_set_test.o: db/version_set_test.cc.o
-
-.PHONY : db/version_set_test.o
-
-# target to build an object file
-db/version_set_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o
-.PHONY : db/version_set_test.cc.o
-
-db/version_set_test.i: db/version_set_test.cc.i
-
-.PHONY : db/version_set_test.i
-
-# target to preprocess a source file
-db/version_set_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.i
-.PHONY : db/version_set_test.cc.i
-
-db/version_set_test.s: db/version_set_test.cc.s
-
-.PHONY : db/version_set_test.s
-
-# target to generate assembly for a file
-db/version_set_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.s
-.PHONY : db/version_set_test.cc.s
 
 db/write_batch.o: db/write_batch.cc.o
 
@@ -1119,33 +1051,6 @@ db/write_batch.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/write_batch.cc.s
 .PHONY : db/write_batch.cc.s
 
-db/write_batch_test.o: db/write_batch_test.cc.o
-
-.PHONY : db/write_batch_test.o
-
-# target to build an object file
-db/write_batch_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o
-.PHONY : db/write_batch_test.cc.o
-
-db/write_batch_test.i: db/write_batch_test.cc.i
-
-.PHONY : db/write_batch_test.i
-
-# target to preprocess a source file
-db/write_batch_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.i
-.PHONY : db/write_batch_test.cc.i
-
-db/write_batch_test.s: db/write_batch_test.cc.s
-
-.PHONY : db/write_batch_test.s
-
-# target to generate assembly for a file
-db/write_batch_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.s
-.PHONY : db/write_batch_test.cc.s
-
 helpers/memenv/memenv.o: helpers/memenv/memenv.cc.o
 
 .PHONY : helpers/memenv/memenv.o
@@ -1172,33 +1077,6 @@ helpers/memenv/memenv.s: helpers/memenv/memenv.cc.s
 helpers/memenv/memenv.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.s
 .PHONY : helpers/memenv/memenv.cc.s
-
-helpers/memenv/memenv_test.o: helpers/memenv/memenv_test.cc.o
-
-.PHONY : helpers/memenv/memenv_test.o
-
-# target to build an object file
-helpers/memenv/memenv_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o
-.PHONY : helpers/memenv/memenv_test.cc.o
-
-helpers/memenv/memenv_test.i: helpers/memenv/memenv_test.cc.i
-
-.PHONY : helpers/memenv/memenv_test.i
-
-# target to preprocess a source file
-helpers/memenv/memenv_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.i
-.PHONY : helpers/memenv/memenv_test.cc.i
-
-helpers/memenv/memenv_test.s: helpers/memenv/memenv_test.cc.s
-
-.PHONY : helpers/memenv/memenv_test.s
-
-# target to generate assembly for a file
-helpers/memenv/memenv_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.s
-.PHONY : helpers/memenv/memenv_test.cc.s
 
 table/block.o: table/block.cc.o
 
@@ -1280,33 +1158,6 @@ table/filter_block.s: table/filter_block.cc.s
 table/filter_block.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/table/filter_block.cc.s
 .PHONY : table/filter_block.cc.s
-
-table/filter_block_test.o: table/filter_block_test.cc.o
-
-.PHONY : table/filter_block_test.o
-
-# target to build an object file
-table/filter_block_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o
-.PHONY : table/filter_block_test.cc.o
-
-table/filter_block_test.i: table/filter_block_test.cc.i
-
-.PHONY : table/filter_block_test.i
-
-# target to preprocess a source file
-table/filter_block_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.i
-.PHONY : table/filter_block_test.cc.i
-
-table/filter_block_test.s: table/filter_block_test.cc.s
-
-.PHONY : table/filter_block_test.s
-
-# target to generate assembly for a file
-table/filter_block_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.s
-.PHONY : table/filter_block_test.cc.s
 
 table/format.o: table/format.cc.o
 
@@ -1443,33 +1294,6 @@ table/table_builder.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/table/table_builder.cc.s
 .PHONY : table/table_builder.cc.s
 
-table/table_test.o: table/table_test.cc.o
-
-.PHONY : table/table_test.o
-
-# target to build an object file
-table/table_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/table_test.cc.o
-.PHONY : table/table_test.cc.o
-
-table/table_test.i: table/table_test.cc.i
-
-.PHONY : table/table_test.i
-
-# target to preprocess a source file
-table/table_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/table_test.cc.i
-.PHONY : table/table_test.cc.i
-
-table/table_test.s: table/table_test.cc.s
-
-.PHONY : table/table_test.s
-
-# target to generate assembly for a file
-table/table_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/table_test.cc.s
-.PHONY : table/table_test.cc.s
-
 table/two_level_iterator.o: table/two_level_iterator.cc.o
 
 .PHONY : table/two_level_iterator.o
@@ -1524,33 +1348,6 @@ util/arena.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/arena.cc.s
 .PHONY : util/arena.cc.s
 
-util/arena_test.o: util/arena_test.cc.o
-
-.PHONY : util/arena_test.o
-
-# target to build an object file
-util/arena_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o
-.PHONY : util/arena_test.cc.o
-
-util/arena_test.i: util/arena_test.cc.i
-
-.PHONY : util/arena_test.i
-
-# target to preprocess a source file
-util/arena_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/arena_test.cc.i
-.PHONY : util/arena_test.cc.i
-
-util/arena_test.s: util/arena_test.cc.s
-
-.PHONY : util/arena_test.s
-
-# target to generate assembly for a file
-util/arena_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/arena_test.cc.s
-.PHONY : util/arena_test.cc.s
-
 util/bloom.o: util/bloom.cc.o
 
 .PHONY : util/bloom.o
@@ -1577,33 +1374,6 @@ util/bloom.s: util/bloom.cc.s
 util/bloom.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/bloom.cc.s
 .PHONY : util/bloom.cc.s
-
-util/bloom_test.o: util/bloom_test.cc.o
-
-.PHONY : util/bloom_test.o
-
-# target to build an object file
-util/bloom_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o
-.PHONY : util/bloom_test.cc.o
-
-util/bloom_test.i: util/bloom_test.cc.i
-
-.PHONY : util/bloom_test.i
-
-# target to preprocess a source file
-util/bloom_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.i
-.PHONY : util/bloom_test.cc.i
-
-util/bloom_test.s: util/bloom_test.cc.s
-
-.PHONY : util/bloom_test.s
-
-# target to generate assembly for a file
-util/bloom_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.s
-.PHONY : util/bloom_test.cc.s
 
 util/cache.o: util/cache.cc.o
 
@@ -1632,33 +1402,6 @@ util/cache.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/cache.cc.s
 .PHONY : util/cache.cc.s
 
-util/cache_test.o: util/cache_test.cc.o
-
-.PHONY : util/cache_test.o
-
-# target to build an object file
-util/cache_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o
-.PHONY : util/cache_test.cc.o
-
-util/cache_test.i: util/cache_test.cc.i
-
-.PHONY : util/cache_test.i
-
-# target to preprocess a source file
-util/cache_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/cache_test.cc.i
-.PHONY : util/cache_test.cc.i
-
-util/cache_test.s: util/cache_test.cc.s
-
-.PHONY : util/cache_test.s
-
-# target to generate assembly for a file
-util/cache_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/cache_test.cc.s
-.PHONY : util/cache_test.cc.s
-
 util/coding.o: util/coding.cc.o
 
 .PHONY : util/coding.o
@@ -1685,33 +1428,6 @@ util/coding.s: util/coding.cc.s
 util/coding.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/coding.cc.s
 .PHONY : util/coding.cc.s
-
-util/coding_test.o: util/coding_test.cc.o
-
-.PHONY : util/coding_test.o
-
-# target to build an object file
-util/coding_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o
-.PHONY : util/coding_test.cc.o
-
-util/coding_test.i: util/coding_test.cc.i
-
-.PHONY : util/coding_test.i
-
-# target to preprocess a source file
-util/coding_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/coding_test.cc.i
-.PHONY : util/coding_test.cc.i
-
-util/coding_test.s: util/coding_test.cc.s
-
-.PHONY : util/coding_test.s
-
-# target to generate assembly for a file
-util/coding_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/coding_test.cc.s
-.PHONY : util/coding_test.cc.s
 
 util/comparator.o: util/comparator.cc.o
 
@@ -1766,33 +1482,6 @@ util/crc32c.s: util/crc32c.cc.s
 util/crc32c.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/crc32c.cc.s
 .PHONY : util/crc32c.cc.s
-
-util/crc32c_test.o: util/crc32c_test.cc.o
-
-.PHONY : util/crc32c_test.o
-
-# target to build an object file
-util/crc32c_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o
-.PHONY : util/crc32c_test.cc.o
-
-util/crc32c_test.i: util/crc32c_test.cc.i
-
-.PHONY : util/crc32c_test.i
-
-# target to preprocess a source file
-util/crc32c_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.i
-.PHONY : util/crc32c_test.cc.i
-
-util/crc32c_test.s: util/crc32c_test.cc.s
-
-.PHONY : util/crc32c_test.s
-
-# target to generate assembly for a file
-util/crc32c_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.s
-.PHONY : util/crc32c_test.cc.s
 
 util/env.o: util/env.cc.o
 
@@ -1929,33 +1618,6 @@ util/hash.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/hash.cc.s
 .PHONY : util/hash.cc.s
 
-util/hash_test.o: util/hash_test.cc.o
-
-.PHONY : util/hash_test.o
-
-# target to build an object file
-util/hash_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o
-.PHONY : util/hash_test.cc.o
-
-util/hash_test.i: util/hash_test.cc.i
-
-.PHONY : util/hash_test.i
-
-# target to preprocess a source file
-util/hash_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/hash_test.cc.i
-.PHONY : util/hash_test.cc.i
-
-util/hash_test.s: util/hash_test.cc.s
-
-.PHONY : util/hash_test.s
-
-# target to generate assembly for a file
-util/hash_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/hash_test.cc.s
-.PHONY : util/hash_test.cc.s
-
 util/histogram.o: util/histogram.cc.o
 
 .PHONY : util/histogram.o
@@ -2009,33 +1671,6 @@ util/logging.s: util/logging.cc.s
 util/logging.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/logging.cc.s
 .PHONY : util/logging.cc.s
-
-util/logging_test.o: util/logging_test.cc.o
-
-.PHONY : util/logging_test.o
-
-# target to build an object file
-util/logging_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o
-.PHONY : util/logging_test.cc.o
-
-util/logging_test.i: util/logging_test.cc.i
-
-.PHONY : util/logging_test.i
-
-# target to preprocess a source file
-util/logging_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/logging_test.cc.i
-.PHONY : util/logging_test.cc.i
-
-util/logging_test.s: util/logging_test.cc.s
-
-.PHONY : util/logging_test.s
-
-# target to generate assembly for a file
-util/logging_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/logging_test.cc.s
-.PHONY : util/logging_test.cc.s
 
 util/no_destructor_test.o: util/no_destructor_test.cc.o
 
@@ -2091,6 +1726,33 @@ util/options.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/options.cc.s
 .PHONY : util/options.cc.s
 
+util/pm_manager.o: util/pm_manager.cc.o
+
+.PHONY : util/pm_manager.o
+
+# target to build an object file
+util/pm_manager.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pm_manager.cc.o
+.PHONY : util/pm_manager.cc.o
+
+util/pm_manager.i: util/pm_manager.cc.i
+
+.PHONY : util/pm_manager.i
+
+# target to preprocess a source file
+util/pm_manager.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pm_manager.cc.i
+.PHONY : util/pm_manager.cc.i
+
+util/pm_manager.s: util/pm_manager.cc.s
+
+.PHONY : util/pm_manager.s
+
+# target to generate assembly for a file
+util/pm_manager.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pm_manager.cc.s
+.PHONY : util/pm_manager.cc.s
+
 util/pmarena.o: util/pmarena.cc.o
 
 .PHONY : util/pmarena.o
@@ -2117,33 +1779,6 @@ util/pmarena.s: util/pmarena.cc.s
 util/pmarena.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pmarena.cc.s
 .PHONY : util/pmarena.cc.s
-
-util/pool_manager.o: util/pool_manager.cc.o
-
-.PHONY : util/pool_manager.o
-
-# target to build an object file
-util/pool_manager.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pool_manager.cc.o
-.PHONY : util/pool_manager.cc.o
-
-util/pool_manager.i: util/pool_manager.cc.i
-
-.PHONY : util/pool_manager.i
-
-# target to preprocess a source file
-util/pool_manager.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pool_manager.cc.i
-.PHONY : util/pool_manager.cc.i
-
-util/pool_manager.s: util/pool_manager.cc.s
-
-.PHONY : util/pool_manager.s
-
-# target to generate assembly for a file
-util/pool_manager.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/util/pool_manager.cc.s
-.PHONY : util/pool_manager.cc.s
 
 util/status.o: util/status.cc.o
 
@@ -2206,10 +1841,11 @@ util/testutil.o: util/testutil.cc.o
 # target to build an object file
 util/testutil.cc.o:
 	$(MAKE) -f CMakeFiles/db_bench.dir/build.make CMakeFiles/db_bench.dir/util/testutil.cc.o
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/testutil.cc.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/testutil.cc.o
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/util/testutil.cc.o
+	$(MAKE) -f CMakeFiles/self_bench.dir/build.make CMakeFiles/self_bench.dir/util/testutil.cc.o
 .PHONY : util/testutil.cc.o
 
 util/testutil.i: util/testutil.cc.i
@@ -2219,10 +1855,11 @@ util/testutil.i: util/testutil.cc.i
 # target to preprocess a source file
 util/testutil.cc.i:
 	$(MAKE) -f CMakeFiles/db_bench.dir/build.make CMakeFiles/db_bench.dir/util/testutil.cc.i
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/testutil.cc.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/testutil.cc.i
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/util/testutil.cc.i
+	$(MAKE) -f CMakeFiles/self_bench.dir/build.make CMakeFiles/self_bench.dir/util/testutil.cc.i
 .PHONY : util/testutil.cc.i
 
 util/testutil.s: util/testutil.cc.s
@@ -2232,10 +1869,11 @@ util/testutil.s: util/testutil.cc.s
 # target to generate assembly for a file
 util/testutil.cc.s:
 	$(MAKE) -f CMakeFiles/db_bench.dir/build.make CMakeFiles/db_bench.dir/util/testutil.cc.s
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/env_posix_test.dir/build.make CMakeFiles/env_posix_test.dir/util/testutil.cc.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/testutil.cc.s
 	$(MAKE) -f CMakeFiles/c_test.dir/build.make CMakeFiles/c_test.dir/util/testutil.cc.s
+	$(MAKE) -f CMakeFiles/self_bench.dir/build.make CMakeFiles/self_bench.dir/util/testutil.cc.s
 .PHONY : util/testutil.cc.s
 
 # Help Target
@@ -2250,14 +1888,15 @@ help:
 	@echo "... install/local"
 	@echo "... test"
 	@echo "... db_bench"
+	@echo "... env_posix_test"
 	@echo "... list_install_components"
 	@echo "... leveldbutil"
 	@echo "... main"
-	@echo "... env_posix_test"
 	@echo "... install/strip"
 	@echo "... leveldb"
 	@echo "... leveldb_tests"
 	@echo "... c_test"
+	@echo "... self_bench"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
@@ -2267,12 +1906,12 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
+	@echo "... app/self_bench.o"
+	@echo "... app/self_bench.i"
+	@echo "... app/self_bench.s"
 	@echo "... benchmarks/db_bench.o"
 	@echo "... benchmarks/db_bench.i"
 	@echo "... benchmarks/db_bench.s"
-	@echo "... db/autocompact_test.o"
-	@echo "... db/autocompact_test.i"
-	@echo "... db/autocompact_test.s"
 	@echo "... db/builder.o"
 	@echo "... db/builder.i"
 	@echo "... db/builder.s"
@@ -2282,84 +1921,69 @@ help:
 	@echo "... db/c_test.o"
 	@echo "... db/c_test.i"
 	@echo "... db/c_test.s"
-	@echo "... db/corruption_test.o"
-	@echo "... db/corruption_test.i"
-	@echo "... db/corruption_test.s"
 	@echo "... db/db_impl.o"
 	@echo "... db/db_impl.i"
 	@echo "... db/db_impl.s"
 	@echo "... db/db_iter.o"
 	@echo "... db/db_iter.i"
 	@echo "... db/db_iter.s"
-	@echo "... db/db_test.o"
-	@echo "... db/db_test.i"
-	@echo "... db/db_test.s"
 	@echo "... db/dbformat.o"
 	@echo "... db/dbformat.i"
 	@echo "... db/dbformat.s"
-	@echo "... db/dbformat_test.o"
-	@echo "... db/dbformat_test.i"
-	@echo "... db/dbformat_test.s"
+	@echo "... db/dram_cache.o"
+	@echo "... db/dram_cache.i"
+	@echo "... db/dram_cache.s"
+	@echo "... db/dram_cache_test.o"
+	@echo "... db/dram_cache_test.i"
+	@echo "... db/dram_cache_test.s"
 	@echo "... db/dumpfile.o"
 	@echo "... db/dumpfile.i"
 	@echo "... db/dumpfile.s"
 	@echo "... db/filename.o"
 	@echo "... db/filename.i"
 	@echo "... db/filename.s"
-	@echo "... db/filename_test.o"
-	@echo "... db/filename_test.i"
-	@echo "... db/filename_test.s"
 	@echo "... db/leveldbutil.o"
 	@echo "... db/leveldbutil.i"
 	@echo "... db/leveldbutil.s"
 	@echo "... db/log_reader.o"
 	@echo "... db/log_reader.i"
 	@echo "... db/log_reader.s"
-	@echo "... db/log_test.o"
-	@echo "... db/log_test.i"
-	@echo "... db/log_test.s"
 	@echo "... db/log_writer.o"
 	@echo "... db/log_writer.i"
 	@echo "... db/log_writer.s"
 	@echo "... db/memtable.o"
 	@echo "... db/memtable.i"
 	@echo "... db/memtable.s"
-	@echo "... db/recovery_test.o"
-	@echo "... db/recovery_test.i"
-	@echo "... db/recovery_test.s"
+	@echo "... db/nvm_cache.o"
+	@echo "... db/nvm_cache.i"
+	@echo "... db/nvm_cache.s"
+	@echo "... db/nvm_cache_test.o"
+	@echo "... db/nvm_cache_test.i"
+	@echo "... db/nvm_cache_test.s"
 	@echo "... db/repair.o"
 	@echo "... db/repair.i"
 	@echo "... db/repair.s"
-	@echo "... db/skiplist_test.o"
-	@echo "... db/skiplist_test.i"
-	@echo "... db/skiplist_test.s"
 	@echo "... db/table_cache.o"
 	@echo "... db/table_cache.i"
 	@echo "... db/table_cache.s"
+	@echo "... db/two_level_cache.o"
+	@echo "... db/two_level_cache.i"
+	@echo "... db/two_level_cache.s"
+	@echo "... db/two_level_cache_test.o"
+	@echo "... db/two_level_cache_test.i"
+	@echo "... db/two_level_cache_test.s"
 	@echo "... db/version_edit.o"
 	@echo "... db/version_edit.i"
 	@echo "... db/version_edit.s"
-	@echo "... db/version_edit_test.o"
-	@echo "... db/version_edit_test.i"
-	@echo "... db/version_edit_test.s"
 	@echo "... db/version_set.o"
 	@echo "... db/version_set.i"
 	@echo "... db/version_set.s"
-	@echo "... db/version_set_test.o"
-	@echo "... db/version_set_test.i"
-	@echo "... db/version_set_test.s"
 	@echo "... db/write_batch.o"
 	@echo "... db/write_batch.i"
 	@echo "... db/write_batch.s"
-	@echo "... db/write_batch_test.o"
-	@echo "... db/write_batch_test.i"
-	@echo "... db/write_batch_test.s"
 	@echo "... helpers/memenv/memenv.o"
 	@echo "... helpers/memenv/memenv.i"
 	@echo "... helpers/memenv/memenv.s"
-	@echo "... helpers/memenv/memenv_test.o"
-	@echo "... helpers/memenv/memenv_test.i"
-	@echo "... helpers/memenv/memenv_test.s"
 	@echo "... table/block.o"
 	@echo "... table/block.i"
 	@echo "... table/block.s"
@@ -2369,9 +1993,6 @@ help:
 	@echo "... table/filter_block.o"
 	@echo "... table/filter_block.i"
 	@echo "... table/filter_block.s"
-	@echo "... table/filter_block_test.o"
-	@echo "... table/filter_block_test.i"
-	@echo "... table/filter_block_test.s"
 	@echo "... table/format.o"
 	@echo "... table/format.i"
 	@echo "... table/format.s"
@@ -2387,45 +2008,27 @@ help:
 	@echo "... table/table_builder.o"
 	@echo "... table/table_builder.i"
 	@echo "... table/table_builder.s"
-	@echo "... table/table_test.o"
-	@echo "... table/table_test.i"
-	@echo "... table/table_test.s"
 	@echo "... table/two_level_iterator.o"
 	@echo "... table/two_level_iterator.i"
 	@echo "... table/two_level_iterator.s"
 	@echo "... util/arena.o"
 	@echo "... util/arena.i"
 	@echo "... util/arena.s"
-	@echo "... util/arena_test.o"
-	@echo "... util/arena_test.i"
-	@echo "... util/arena_test.s"
 	@echo "... util/bloom.o"
 	@echo "... util/bloom.i"
 	@echo "... util/bloom.s"
-	@echo "... util/bloom_test.o"
-	@echo "... util/bloom_test.i"
-	@echo "... util/bloom_test.s"
 	@echo "... util/cache.o"
 	@echo "... util/cache.i"
 	@echo "... util/cache.s"
-	@echo "... util/cache_test.o"
-	@echo "... util/cache_test.i"
-	@echo "... util/cache_test.s"
 	@echo "... util/coding.o"
 	@echo "... util/coding.i"
 	@echo "... util/coding.s"
-	@echo "... util/coding_test.o"
-	@echo "... util/coding_test.i"
-	@echo "... util/coding_test.s"
 	@echo "... util/comparator.o"
 	@echo "... util/comparator.i"
 	@echo "... util/comparator.s"
 	@echo "... util/crc32c.o"
 	@echo "... util/crc32c.i"
 	@echo "... util/crc32c.s"
-	@echo "... util/crc32c_test.o"
-	@echo "... util/crc32c_test.i"
-	@echo "... util/crc32c_test.s"
 	@echo "... util/env.o"
 	@echo "... util/env.i"
 	@echo "... util/env.s"
@@ -2441,30 +2044,24 @@ help:
 	@echo "... util/hash.o"
 	@echo "... util/hash.i"
 	@echo "... util/hash.s"
-	@echo "... util/hash_test.o"
-	@echo "... util/hash_test.i"
-	@echo "... util/hash_test.s"
 	@echo "... util/histogram.o"
 	@echo "... util/histogram.i"
 	@echo "... util/histogram.s"
 	@echo "... util/logging.o"
 	@echo "... util/logging.i"
 	@echo "... util/logging.s"
-	@echo "... util/logging_test.o"
-	@echo "... util/logging_test.i"
-	@echo "... util/logging_test.s"
 	@echo "... util/no_destructor_test.o"
 	@echo "... util/no_destructor_test.i"
 	@echo "... util/no_destructor_test.s"
 	@echo "... util/options.o"
 	@echo "... util/options.i"
 	@echo "... util/options.s"
+	@echo "... util/pm_manager.o"
+	@echo "... util/pm_manager.i"
+	@echo "... util/pm_manager.s"
 	@echo "... util/pmarena.o"
 	@echo "... util/pmarena.i"
 	@echo "... util/pmarena.s"
-	@echo "... util/pool_manager.o"
-	@echo "... util/pool_manager.i"
-	@echo "... util/pool_manager.s"
 	@echo "... util/status.o"
 	@echo "... util/status.i"
 	@echo "... util/status.s"

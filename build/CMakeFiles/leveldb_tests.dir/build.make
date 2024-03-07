@@ -129,508 +129,76 @@ CMakeFiles/leveldb_tests.dir/util/testutil.cc.o.provides: CMakeFiles/leveldb_tes
 CMakeFiles/leveldb_tests.dir/util/testutil.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/testutil.cc.o
 
 
-CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o: ../db/autocompact_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/autocompact_test.cc
+CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
+CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o: ../db/two_level_cache_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache_test.cc
 
-CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/autocompact_test.cc > CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.i
+CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache_test.cc > CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.i
 
-CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/autocompact_test.cc -o CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.s
+CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache_test.cc -o CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.s
 
-CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.requires:
+CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.requires:
 
-.PHONY : CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.requires
+.PHONY : CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.requires
 
-CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.provides
+CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.requires
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.provides.build
+.PHONY : CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.provides
 
-CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o
+CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o
 
 
-CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o: ../db/corruption_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/corruption_test.cc
+CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
+CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o: ../db/dram_cache_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/dram_cache_test.cc
 
-CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/corruption_test.cc > CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.i
+CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/dram_cache_test.cc > CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.i
 
-CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/corruption_test.cc -o CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.s
+CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/dram_cache_test.cc -o CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.s
 
-CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.requires:
+CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.requires:
 
-.PHONY : CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.requires
+.PHONY : CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.requires
 
-CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.provides
+CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.requires
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.provides.build
+.PHONY : CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.provides
 
-CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o
+CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o
 
 
-CMakeFiles/leveldb_tests.dir/db/db_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/db_test.cc.o: ../db/db_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/leveldb_tests.dir/db/db_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/db_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/db_test.cc
+CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
+CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o: ../db/nvm_cache_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache_test.cc
 
-CMakeFiles/leveldb_tests.dir/db/db_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/db_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/db_test.cc > CMakeFiles/leveldb_tests.dir/db/db_test.cc.i
+CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache_test.cc > CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.i
 
-CMakeFiles/leveldb_tests.dir/db/db_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/db_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/db_test.cc -o CMakeFiles/leveldb_tests.dir/db/db_test.cc.s
+CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache_test.cc -o CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.s
 
-CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.requires:
+CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.requires:
 
-.PHONY : CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.requires
+.PHONY : CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.requires
 
-CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.provides
+CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.requires
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.provides.build
+.PHONY : CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.provides
 
-CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/db_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o: ../db/dbformat_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/dbformat_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/dbformat_test.cc > CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/dbformat_test.cc -o CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o: ../db/filename_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/filename_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/filename_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/filename_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/filename_test.cc > CMakeFiles/leveldb_tests.dir/db/filename_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/filename_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/filename_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/filename_test.cc -o CMakeFiles/leveldb_tests.dir/db/filename_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/log_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/log_test.cc.o: ../db/log_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/leveldb_tests.dir/db/log_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/log_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/log_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/log_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/log_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/log_test.cc > CMakeFiles/leveldb_tests.dir/db/log_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/log_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/log_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/log_test.cc -o CMakeFiles/leveldb_tests.dir/db/log_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/log_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o: ../db/recovery_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/recovery_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/recovery_test.cc > CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/recovery_test.cc -o CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o: ../db/skiplist_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/skiplist_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/skiplist_test.cc > CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/skiplist_test.cc -o CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o: ../db/version_edit_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/version_edit_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/version_edit_test.cc > CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/version_edit_test.cc -o CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o: ../db/version_set_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/version_set_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/version_set_test.cc > CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/version_set_test.cc -o CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o: ../db/write_batch_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/write_batch_test.cc
-
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/write_batch_test.cc > CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/write_batch_test.cc -o CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o: ../helpers/memenv/memenv_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/helpers/memenv/memenv_test.cc
-
-CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/helpers/memenv/memenv_test.cc > CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/helpers/memenv/memenv_test.cc -o CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o: ../table/filter_block_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/table/filter_block_test.cc
-
-CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/table/filter_block_test.cc > CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/table/filter_block_test.cc -o CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.o: ../table/table_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/leveldb_tests.dir/table/table_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/table/table_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/table/table_test.cc
-
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/table/table_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/table/table_test.cc > CMakeFiles/leveldb_tests.dir/table/table_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/table/table_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/table/table_test.cc -o CMakeFiles/leveldb_tests.dir/table/table_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/table/table_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o: ../util/arena_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/arena_test.cc
-
-CMakeFiles/leveldb_tests.dir/util/arena_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/util/arena_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/arena_test.cc > CMakeFiles/leveldb_tests.dir/util/arena_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/util/arena_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/util/arena_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/arena_test.cc -o CMakeFiles/leveldb_tests.dir/util/arena_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o: ../util/bloom_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/bloom_test.cc
-
-CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/bloom_test.cc > CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/bloom_test.cc -o CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o: ../util/cache_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/cache_test.cc
-
-CMakeFiles/leveldb_tests.dir/util/cache_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/util/cache_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/cache_test.cc > CMakeFiles/leveldb_tests.dir/util/cache_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/util/cache_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/util/cache_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/cache_test.cc -o CMakeFiles/leveldb_tests.dir/util/cache_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o: ../util/coding_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/coding_test.cc
-
-CMakeFiles/leveldb_tests.dir/util/coding_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/util/coding_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/coding_test.cc > CMakeFiles/leveldb_tests.dir/util/coding_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/util/coding_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/util/coding_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/coding_test.cc -o CMakeFiles/leveldb_tests.dir/util/coding_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o: ../util/crc32c_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/crc32c_test.cc
-
-CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/crc32c_test.cc > CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/crc32c_test.cc -o CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o: ../util/hash_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/hash_test.cc
-
-CMakeFiles/leveldb_tests.dir/util/hash_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/util/hash_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/hash_test.cc > CMakeFiles/leveldb_tests.dir/util/hash_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/util/hash_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/util/hash_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/hash_test.cc -o CMakeFiles/leveldb_tests.dir/util/hash_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o
-
-
-CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
-CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o: ../util/logging_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/logging_test.cc
-
-CMakeFiles/leveldb_tests.dir/util/logging_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/util/logging_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/util/logging_test.cc > CMakeFiles/leveldb_tests.dir/util/logging_test.cc.i
-
-CMakeFiles/leveldb_tests.dir/util/logging_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/util/logging_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/util/logging_test.cc -o CMakeFiles/leveldb_tests.dir/util/logging_test.cc.s
-
-CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.requires
-
-CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.provides: CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.provides
-
-CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o
+CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o
 
 
 # Object files for target leveldb_tests
@@ -638,27 +206,9 @@ leveldb_tests_OBJECTS = \
 "CMakeFiles/leveldb_tests.dir/util/status_test.cc.o" \
 "CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o" \
 "CMakeFiles/leveldb_tests.dir/util/testutil.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/db_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/log_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/table/table_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o"
+"CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o" \
+"CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o" \
+"CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o"
 
 # External object files for target leveldb_tests
 leveldb_tests_EXTERNAL_OBJECTS =
@@ -666,27 +216,9 @@ leveldb_tests_EXTERNAL_OBJECTS =
 leveldb_tests: CMakeFiles/leveldb_tests.dir/util/status_test.cc.o
 leveldb_tests: CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o
 leveldb_tests: CMakeFiles/leveldb_tests.dir/util/testutil.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/db_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/log_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/table/table_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o
-leveldb_tests: CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o
+leveldb_tests: CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o
+leveldb_tests: CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o
+leveldb_tests: CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o
 leveldb_tests: CMakeFiles/leveldb_tests.dir/build.make
 leveldb_tests: libleveldb.a
 leveldb_tests: lib/libgmock.a
@@ -697,7 +229,7 @@ leveldb_tests: /usr/lib/x86_64-linux-gnu/libpmemblk.so
 leveldb_tests: /usr/local/lib/libpmemobj.so
 leveldb_tests: lib/libgtest.a
 leveldb_tests: CMakeFiles/leveldb_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable leveldb_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable leveldb_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leveldb_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -708,27 +240,9 @@ CMakeFiles/leveldb_tests.dir/build: leveldb_tests
 CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/status_test.cc.o.requires
 CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o.requires
 CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/testutil.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/autocompact_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/corruption_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/db_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/dbformat_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/filename_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/log_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/recovery_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/skiplist_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/version_edit_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/version_set_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/write_batch_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/helpers/memenv/memenv_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/table/filter_block_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/table/table_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/arena_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/bloom_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/cache_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/coding_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/crc32c_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/hash_test.cc.o.requires
-CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/logging_test.cc.o.requires
+CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o.requires
+CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o.requires
+CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o.requires
 
 .PHONY : CMakeFiles/leveldb_tests.dir/requires
 

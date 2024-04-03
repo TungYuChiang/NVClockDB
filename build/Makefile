@@ -592,60 +592,6 @@ db/dbformat.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dbformat.cc.s
 .PHONY : db/dbformat.cc.s
 
-db/dram_cache.o: db/dram_cache.cc.o
-
-.PHONY : db/dram_cache.o
-
-# target to build an object file
-db/dram_cache.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dram_cache.cc.o
-.PHONY : db/dram_cache.cc.o
-
-db/dram_cache.i: db/dram_cache.cc.i
-
-.PHONY : db/dram_cache.i
-
-# target to preprocess a source file
-db/dram_cache.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dram_cache.cc.i
-.PHONY : db/dram_cache.cc.i
-
-db/dram_cache.s: db/dram_cache.cc.s
-
-.PHONY : db/dram_cache.s
-
-# target to generate assembly for a file
-db/dram_cache.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dram_cache.cc.s
-.PHONY : db/dram_cache.cc.s
-
-db/dram_cache_test.o: db/dram_cache_test.cc.o
-
-.PHONY : db/dram_cache_test.o
-
-# target to build an object file
-db/dram_cache_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o
-.PHONY : db/dram_cache_test.cc.o
-
-db/dram_cache_test.i: db/dram_cache_test.cc.i
-
-.PHONY : db/dram_cache_test.i
-
-# target to preprocess a source file
-db/dram_cache_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.i
-.PHONY : db/dram_cache_test.cc.i
-
-db/dram_cache_test.s: db/dram_cache_test.cc.s
-
-.PHONY : db/dram_cache_test.s
-
-# target to generate assembly for a file
-db/dram_cache_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.s
-.PHONY : db/dram_cache_test.cc.s
-
 db/dumpfile.o: db/dumpfile.cc.o
 
 .PHONY : db/dumpfile.o
@@ -808,60 +754,6 @@ db/memtable.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/memtable.cc.s
 .PHONY : db/memtable.cc.s
 
-db/nvm_cache.o: db/nvm_cache.cc.o
-
-.PHONY : db/nvm_cache.o
-
-# target to build an object file
-db/nvm_cache.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/nvm_cache.cc.o
-.PHONY : db/nvm_cache.cc.o
-
-db/nvm_cache.i: db/nvm_cache.cc.i
-
-.PHONY : db/nvm_cache.i
-
-# target to preprocess a source file
-db/nvm_cache.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/nvm_cache.cc.i
-.PHONY : db/nvm_cache.cc.i
-
-db/nvm_cache.s: db/nvm_cache.cc.s
-
-.PHONY : db/nvm_cache.s
-
-# target to generate assembly for a file
-db/nvm_cache.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/nvm_cache.cc.s
-.PHONY : db/nvm_cache.cc.s
-
-db/nvm_cache_test.o: db/nvm_cache_test.cc.o
-
-.PHONY : db/nvm_cache_test.o
-
-# target to build an object file
-db/nvm_cache_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o
-.PHONY : db/nvm_cache_test.cc.o
-
-db/nvm_cache_test.i: db/nvm_cache_test.cc.i
-
-.PHONY : db/nvm_cache_test.i
-
-# target to preprocess a source file
-db/nvm_cache_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.i
-.PHONY : db/nvm_cache_test.cc.i
-
-db/nvm_cache_test.s: db/nvm_cache_test.cc.s
-
-.PHONY : db/nvm_cache_test.s
-
-# target to generate assembly for a file
-db/nvm_cache_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.s
-.PHONY : db/nvm_cache_test.cc.s
-
 db/repair.o: db/repair.cc.o
 
 .PHONY : db/repair.o
@@ -915,60 +807,6 @@ db/table_cache.s: db/table_cache.cc.s
 db/table_cache.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/table_cache.cc.s
 .PHONY : db/table_cache.cc.s
-
-db/two_level_cache.o: db/two_level_cache.cc.o
-
-.PHONY : db/two_level_cache.o
-
-# target to build an object file
-db/two_level_cache.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/two_level_cache.cc.o
-.PHONY : db/two_level_cache.cc.o
-
-db/two_level_cache.i: db/two_level_cache.cc.i
-
-.PHONY : db/two_level_cache.i
-
-# target to preprocess a source file
-db/two_level_cache.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/two_level_cache.cc.i
-.PHONY : db/two_level_cache.cc.i
-
-db/two_level_cache.s: db/two_level_cache.cc.s
-
-.PHONY : db/two_level_cache.s
-
-# target to generate assembly for a file
-db/two_level_cache.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/two_level_cache.cc.s
-.PHONY : db/two_level_cache.cc.s
-
-db/two_level_cache_test.o: db/two_level_cache_test.cc.o
-
-.PHONY : db/two_level_cache_test.o
-
-# target to build an object file
-db/two_level_cache_test.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o
-.PHONY : db/two_level_cache_test.cc.o
-
-db/two_level_cache_test.i: db/two_level_cache_test.cc.i
-
-.PHONY : db/two_level_cache_test.i
-
-# target to preprocess a source file
-db/two_level_cache_test.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.i
-.PHONY : db/two_level_cache_test.cc.i
-
-db/two_level_cache_test.s: db/two_level_cache_test.cc.s
-
-.PHONY : db/two_level_cache_test.s
-
-# target to generate assembly for a file
-db/two_level_cache_test.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.s
-.PHONY : db/two_level_cache_test.cc.s
 
 db/version_edit.o: db/version_edit.cc.o
 
@@ -1930,12 +1768,6 @@ help:
 	@echo "... db/dbformat.o"
 	@echo "... db/dbformat.i"
 	@echo "... db/dbformat.s"
-	@echo "... db/dram_cache.o"
-	@echo "... db/dram_cache.i"
-	@echo "... db/dram_cache.s"
-	@echo "... db/dram_cache_test.o"
-	@echo "... db/dram_cache_test.i"
-	@echo "... db/dram_cache_test.s"
 	@echo "... db/dumpfile.o"
 	@echo "... db/dumpfile.i"
 	@echo "... db/dumpfile.s"
@@ -1954,24 +1786,12 @@ help:
 	@echo "... db/memtable.o"
 	@echo "... db/memtable.i"
 	@echo "... db/memtable.s"
-	@echo "... db/nvm_cache.o"
-	@echo "... db/nvm_cache.i"
-	@echo "... db/nvm_cache.s"
-	@echo "... db/nvm_cache_test.o"
-	@echo "... db/nvm_cache_test.i"
-	@echo "... db/nvm_cache_test.s"
 	@echo "... db/repair.o"
 	@echo "... db/repair.i"
 	@echo "... db/repair.s"
 	@echo "... db/table_cache.o"
 	@echo "... db/table_cache.i"
 	@echo "... db/table_cache.s"
-	@echo "... db/two_level_cache.o"
-	@echo "... db/two_level_cache.i"
-	@echo "... db/two_level_cache.s"
-	@echo "... db/two_level_cache_test.o"
-	@echo "... db/two_level_cache_test.i"
-	@echo "... db/two_level_cache_test.s"
 	@echo "... db/version_edit.o"
 	@echo "... db/version_edit.i"
 	@echo "... db/version_edit.s"

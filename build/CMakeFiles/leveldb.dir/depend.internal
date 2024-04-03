@@ -45,18 +45,14 @@ CMakeFiles/leveldb.dir/db/db_impl.cc.o
  .././db/db_impl.h
  .././db/db_iter.h
  .././db/dbformat.h
- .././db/doubly_linked_list.cc
- .././db/dram_cache.h
  .././db/filename.h
  .././db/log_format.h
  .././db/log_reader.h
  .././db/log_writer.h
  .././db/memtable.h
- .././db/nvm_cache.h
  .././db/skiplist.h
  .././db/snapshot.h
  .././db/table_cache.h
- .././db/two_level_cache.h
  .././db/version_edit.h
  .././db/version_set.h
  .././db/write_batch_internal.h
@@ -92,22 +88,16 @@ CMakeFiles/leveldb.dir/db/db_iter.cc.o
  .././db/db_impl.h
  .././db/db_iter.h
  .././db/dbformat.h
- .././db/doubly_linked_list.cc
- .././db/dram_cache.h
  .././db/filename.h
  .././db/log_format.h
  .././db/log_writer.h
- .././db/nvm_cache.h
  .././db/snapshot.h
- .././db/two_level_cache.h
  .././port/port.h
  .././port/port_stdcxx.h
  .././port/thread_annotations.h
  .././util/coding.h
  .././util/logging.h
  .././util/mutexlock.h
- .././util/pm_manager.h
- .././util/pmarena.h
  .././util/random.h
  ../include/leveldb/comparator.h
  ../include/leveldb/db.h
@@ -139,9 +129,6 @@ CMakeFiles/leveldb.dir/db/dbformat.cc.o
  ../include/leveldb/table_builder.h
  /home/oslab/Desktop/TungYu/PMDB/db/dbformat.cc
  include/port/port_config.h
-CMakeFiles/leveldb.dir/db/dram_cache.cc.o
- /home/oslab/Desktop/TungYu/PMDB/db/dram_cache.cc
- /home/oslab/Desktop/TungYu/PMDB/db/dram_cache.h
 CMakeFiles/leveldb.dir/db/dumpfile.cc.o
  .././db/dbformat.h
  .././db/filename.h
@@ -242,28 +229,18 @@ CMakeFiles/leveldb.dir/db/memtable.cc.o
  ../include/leveldb/table_builder.h
  /home/oslab/Desktop/TungYu/PMDB/db/memtable.cc
  include/port/port_config.h
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.o
- .././util/pm_manager.h
- .././util/pmarena.h
- /home/oslab/Desktop/TungYu/PMDB/db/doubly_linked_list.cc
- /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.cc
- /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.h
 CMakeFiles/leveldb.dir/db/repair.cc.o
  .././db/builder.h
  .././db/db_impl.h
  .././db/dbformat.h
- .././db/doubly_linked_list.cc
- .././db/dram_cache.h
  .././db/filename.h
  .././db/log_format.h
  .././db/log_reader.h
  .././db/log_writer.h
  .././db/memtable.h
- .././db/nvm_cache.h
  .././db/skiplist.h
  .././db/snapshot.h
  .././db/table_cache.h
- .././db/two_level_cache.h
  .././db/version_edit.h
  .././db/write_batch_internal.h
  .././port/port.h
@@ -313,14 +290,6 @@ CMakeFiles/leveldb.dir/db/table_cache.cc.o
  ../include/leveldb/table_builder.h
  /home/oslab/Desktop/TungYu/PMDB/db/table_cache.cc
  include/port/port_config.h
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.o
- .././util/pm_manager.h
- .././util/pmarena.h
- /home/oslab/Desktop/TungYu/PMDB/db/doubly_linked_list.cc
- /home/oslab/Desktop/TungYu/PMDB/db/dram_cache.h
- /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.h
- /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.cc
- /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.h
 CMakeFiles/leveldb.dir/db/version_edit.cc.o
  .././db/dbformat.h
  .././db/version_edit.h
@@ -379,12 +348,8 @@ CMakeFiles/leveldb.dir/db/version_set.cc.o
  include/port/port_config.h
 CMakeFiles/leveldb.dir/db/write_batch.cc.o
  .././db/dbformat.h
- .././db/doubly_linked_list.cc
- .././db/dram_cache.h
  .././db/memtable.h
- .././db/nvm_cache.h
  .././db/skiplist.h
- .././db/two_level_cache.h
  .././db/write_batch_internal.h
  .././port/port.h
  .././port/port_stdcxx.h

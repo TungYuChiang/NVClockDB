@@ -4,9 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/oslab/Desktop/TungYu/PMDB/db/dram_cache_test.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb_tests.dir/db/dram_cache_test.cc.o"
-  "/home/oslab/Desktop/TungYu/PMDB/db/nvm_cache_test.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb_tests.dir/db/nvm_cache_test.cc.o"
-  "/home/oslab/Desktop/TungYu/PMDB/db/two_level_cache_test.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb_tests.dir/db/two_level_cache_test.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/no_destructor_test.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/status_test.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb_tests.dir/util/status_test.cc.o"
   "/home/oslab/Desktop/TungYu/PMDB/util/testutil.cc" "/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/leveldb_tests.dir/util/testutil.cc.o"

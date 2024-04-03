@@ -969,81 +969,9 @@ CMakeFiles/leveldb.dir/util/pm_manager.cc.o.provides: CMakeFiles/leveldb.dir/uti
 CMakeFiles/leveldb.dir/util/pm_manager.cc.o.provides.build: CMakeFiles/leveldb.dir/util/pm_manager.cc.o
 
 
-CMakeFiles/leveldb.dir/db/dram_cache.cc.o: CMakeFiles/leveldb.dir/flags.make
-CMakeFiles/leveldb.dir/db/dram_cache.cc.o: ../db/dram_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/leveldb.dir/db/dram_cache.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/dram_cache.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/dram_cache.cc
-
-CMakeFiles/leveldb.dir/db/dram_cache.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/dram_cache.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/dram_cache.cc > CMakeFiles/leveldb.dir/db/dram_cache.cc.i
-
-CMakeFiles/leveldb.dir/db/dram_cache.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/dram_cache.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/dram_cache.cc -o CMakeFiles/leveldb.dir/db/dram_cache.cc.s
-
-CMakeFiles/leveldb.dir/db/dram_cache.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb.dir/db/dram_cache.cc.o.requires
-
-CMakeFiles/leveldb.dir/db/dram_cache.cc.o.provides: CMakeFiles/leveldb.dir/db/dram_cache.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/dram_cache.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb.dir/db/dram_cache.cc.o.provides
-
-CMakeFiles/leveldb.dir/db/dram_cache.cc.o.provides.build: CMakeFiles/leveldb.dir/db/dram_cache.cc.o
-
-
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.o: CMakeFiles/leveldb.dir/flags.make
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.o: ../db/nvm_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/leveldb.dir/db/nvm_cache.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/nvm_cache.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.cc
-
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/nvm_cache.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.cc > CMakeFiles/leveldb.dir/db/nvm_cache.cc.i
-
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/nvm_cache.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/nvm_cache.cc -o CMakeFiles/leveldb.dir/db/nvm_cache.cc.s
-
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.requires
-
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.provides: CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.provides
-
-CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.provides.build: CMakeFiles/leveldb.dir/db/nvm_cache.cc.o
-
-
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.o: CMakeFiles/leveldb.dir/flags.make
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.o: ../db/two_level_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/leveldb.dir/db/two_level_cache.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/two_level_cache.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.cc
-
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/two_level_cache.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.cc > CMakeFiles/leveldb.dir/db/two_level_cache.cc.i
-
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/two_level_cache.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/two_level_cache.cc -o CMakeFiles/leveldb.dir/db/two_level_cache.cc.s
-
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.requires:
-
-.PHONY : CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.requires
-
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.provides: CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.requires
-	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.provides.build
-.PHONY : CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.provides
-
-CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.provides.build: CMakeFiles/leveldb.dir/db/two_level_cache.cc.o
-
-
 CMakeFiles/leveldb.dir/util/env_posix.cc.o: CMakeFiles/leveldb.dir/flags.make
 CMakeFiles/leveldb.dir/util/env_posix.cc.o: ../util/env_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/leveldb.dir/util/env_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/leveldb.dir/util/env_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/env_posix.cc.o -c /home/oslab/Desktop/TungYu/PMDB/util/env_posix.cc
 
 CMakeFiles/leveldb.dir/util/env_posix.cc.i: cmake_force
@@ -1067,7 +995,7 @@ CMakeFiles/leveldb.dir/util/env_posix.cc.o.provides.build: CMakeFiles/leveldb.di
 
 CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o: CMakeFiles/leveldb.dir/flags.make
 CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o: ../helpers/memenv/memenv.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o -c /home/oslab/Desktop/TungYu/PMDB/helpers/memenv/memenv.cc
 
 CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.i: cmake_force
@@ -1129,9 +1057,6 @@ leveldb_OBJECTS = \
 "CMakeFiles/leveldb.dir/util/status.cc.o" \
 "CMakeFiles/leveldb.dir/util/pmarena.cc.o" \
 "CMakeFiles/leveldb.dir/util/pm_manager.cc.o" \
-"CMakeFiles/leveldb.dir/db/dram_cache.cc.o" \
-"CMakeFiles/leveldb.dir/db/nvm_cache.cc.o" \
-"CMakeFiles/leveldb.dir/db/two_level_cache.cc.o" \
 "CMakeFiles/leveldb.dir/util/env_posix.cc.o" \
 "CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o"
 
@@ -1176,14 +1101,11 @@ libleveldb.a: CMakeFiles/leveldb.dir/util/options.cc.o
 libleveldb.a: CMakeFiles/leveldb.dir/util/status.cc.o
 libleveldb.a: CMakeFiles/leveldb.dir/util/pmarena.cc.o
 libleveldb.a: CMakeFiles/leveldb.dir/util/pm_manager.cc.o
-libleveldb.a: CMakeFiles/leveldb.dir/db/dram_cache.cc.o
-libleveldb.a: CMakeFiles/leveldb.dir/db/nvm_cache.cc.o
-libleveldb.a: CMakeFiles/leveldb.dir/db/two_level_cache.cc.o
 libleveldb.a: CMakeFiles/leveldb.dir/util/env_posix.cc.o
 libleveldb.a: CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o
 libleveldb.a: CMakeFiles/leveldb.dir/build.make
 libleveldb.a: CMakeFiles/leveldb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking CXX static library libleveldb.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX static library libleveldb.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/leveldb.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leveldb.dir/link.txt --verbose=$(VERBOSE)
 
@@ -1230,9 +1152,6 @@ CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/util/options.cc.o.requir
 CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/util/status.cc.o.requires
 CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/util/pmarena.cc.o.requires
 CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/util/pm_manager.cc.o.requires
-CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/db/dram_cache.cc.o.requires
-CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/db/nvm_cache.cc.o.requires
-CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/db/two_level_cache.cc.o.requires
 CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/util/env_posix.cc.o.requires
 CMakeFiles/leveldb.dir/requires: CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o.requires
 

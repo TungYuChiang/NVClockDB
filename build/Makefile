@@ -430,6 +430,114 @@ benchmarks/db_bench.cc.s:
 	$(MAKE) -f CMakeFiles/db_bench.dir/build.make CMakeFiles/db_bench.dir/benchmarks/db_bench.cc.s
 .PHONY : benchmarks/db_bench.cc.s
 
+db/ClockRWRFCache.o: db/ClockRWRFCache.cc.o
+
+.PHONY : db/ClockRWRFCache.o
+
+# target to build an object file
+db/ClockRWRFCache.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.o
+.PHONY : db/ClockRWRFCache.cc.o
+
+db/ClockRWRFCache.i: db/ClockRWRFCache.cc.i
+
+.PHONY : db/ClockRWRFCache.i
+
+# target to preprocess a source file
+db/ClockRWRFCache.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.i
+.PHONY : db/ClockRWRFCache.cc.i
+
+db/ClockRWRFCache.s: db/ClockRWRFCache.cc.s
+
+.PHONY : db/ClockRWRFCache.s
+
+# target to generate assembly for a file
+db/ClockRWRFCache.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.s
+.PHONY : db/ClockRWRFCache.cc.s
+
+db/ClockRWRFCacheTest.o: db/ClockRWRFCacheTest.cc.o
+
+.PHONY : db/ClockRWRFCacheTest.o
+
+# target to build an object file
+db/ClockRWRFCacheTest.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o
+.PHONY : db/ClockRWRFCacheTest.cc.o
+
+db/ClockRWRFCacheTest.i: db/ClockRWRFCacheTest.cc.i
+
+.PHONY : db/ClockRWRFCacheTest.i
+
+# target to preprocess a source file
+db/ClockRWRFCacheTest.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.i
+.PHONY : db/ClockRWRFCacheTest.cc.i
+
+db/ClockRWRFCacheTest.s: db/ClockRWRFCacheTest.cc.s
+
+.PHONY : db/ClockRWRFCacheTest.s
+
+# target to generate assembly for a file
+db/ClockRWRFCacheTest.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.s
+.PHONY : db/ClockRWRFCacheTest.cc.s
+
+db/DramCircularListTest.o: db/DramCircularListTest.cc.o
+
+.PHONY : db/DramCircularListTest.o
+
+# target to build an object file
+db/DramCircularListTest.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o
+.PHONY : db/DramCircularListTest.cc.o
+
+db/DramCircularListTest.i: db/DramCircularListTest.cc.i
+
+.PHONY : db/DramCircularListTest.i
+
+# target to preprocess a source file
+db/DramCircularListTest.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.i
+.PHONY : db/DramCircularListTest.cc.i
+
+db/DramCircularListTest.s: db/DramCircularListTest.cc.s
+
+.PHONY : db/DramCircularListTest.s
+
+# target to generate assembly for a file
+db/DramCircularListTest.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.s
+.PHONY : db/DramCircularListTest.cc.s
+
+db/NvmCircularListTest.o: db/NvmCircularListTest.cc.o
+
+.PHONY : db/NvmCircularListTest.o
+
+# target to build an object file
+db/NvmCircularListTest.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o
+.PHONY : db/NvmCircularListTest.cc.o
+
+db/NvmCircularListTest.i: db/NvmCircularListTest.cc.i
+
+.PHONY : db/NvmCircularListTest.i
+
+# target to preprocess a source file
+db/NvmCircularListTest.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.i
+.PHONY : db/NvmCircularListTest.cc.i
+
+db/NvmCircularListTest.s: db/NvmCircularListTest.cc.s
+
+.PHONY : db/NvmCircularListTest.s
+
+# target to generate assembly for a file
+db/NvmCircularListTest.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.s
+.PHONY : db/NvmCircularListTest.cc.s
+
 db/builder.o: db/builder.cc.o
 
 .PHONY : db/builder.o
@@ -1750,6 +1858,18 @@ help:
 	@echo "... benchmarks/db_bench.o"
 	@echo "... benchmarks/db_bench.i"
 	@echo "... benchmarks/db_bench.s"
+	@echo "... db/ClockRWRFCache.o"
+	@echo "... db/ClockRWRFCache.i"
+	@echo "... db/ClockRWRFCache.s"
+	@echo "... db/ClockRWRFCacheTest.o"
+	@echo "... db/ClockRWRFCacheTest.i"
+	@echo "... db/ClockRWRFCacheTest.s"
+	@echo "... db/DramCircularListTest.o"
+	@echo "... db/DramCircularListTest.i"
+	@echo "... db/DramCircularListTest.s"
+	@echo "... db/NvmCircularListTest.o"
+	@echo "... db/NvmCircularListTest.i"
+	@echo "... db/NvmCircularListTest.s"
 	@echo "... db/builder.o"
 	@echo "... db/builder.i"
 	@echo "... db/builder.s"

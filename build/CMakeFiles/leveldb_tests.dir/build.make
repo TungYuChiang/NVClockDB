@@ -129,11 +129,86 @@ CMakeFiles/leveldb_tests.dir/util/testutil.cc.o.provides: CMakeFiles/leveldb_tes
 CMakeFiles/leveldb_tests.dir/util/testutil.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/util/testutil.cc.o
 
 
+CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
+CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o: ../db/NvmCircularListTest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/NvmCircularListTest.cc
+
+CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/NvmCircularListTest.cc > CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.i
+
+CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/NvmCircularListTest.cc -o CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.s
+
+CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.requires:
+
+.PHONY : CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.requires
+
+CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.requires
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.provides.build
+.PHONY : CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.provides
+
+CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o
+
+
+CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
+CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o: ../db/DramCircularListTest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/DramCircularListTest.cc
+
+CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/DramCircularListTest.cc > CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.i
+
+CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/DramCircularListTest.cc -o CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.s
+
+CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.requires:
+
+.PHONY : CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.requires
+
+CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.requires
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.provides.build
+.PHONY : CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.provides
+
+CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o
+
+
+CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o: CMakeFiles/leveldb_tests.dir/flags.make
+CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o: ../db/ClockRWRFCacheTest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o -c /home/oslab/Desktop/TungYu/PMDB/db/ClockRWRFCacheTest.cc
+
+CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oslab/Desktop/TungYu/PMDB/db/ClockRWRFCacheTest.cc > CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.i
+
+CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oslab/Desktop/TungYu/PMDB/db/ClockRWRFCacheTest.cc -o CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.s
+
+CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.requires:
+
+.PHONY : CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.requires
+
+CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.provides: CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.requires
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.provides.build
+.PHONY : CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.provides
+
+CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.provides.build: CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o
+
+
 # Object files for target leveldb_tests
 leveldb_tests_OBJECTS = \
 "CMakeFiles/leveldb_tests.dir/util/status_test.cc.o" \
 "CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o" \
-"CMakeFiles/leveldb_tests.dir/util/testutil.cc.o"
+"CMakeFiles/leveldb_tests.dir/util/testutil.cc.o" \
+"CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o" \
+"CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o" \
+"CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o"
 
 # External object files for target leveldb_tests
 leveldb_tests_EXTERNAL_OBJECTS =
@@ -141,6 +216,9 @@ leveldb_tests_EXTERNAL_OBJECTS =
 leveldb_tests: CMakeFiles/leveldb_tests.dir/util/status_test.cc.o
 leveldb_tests: CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o
 leveldb_tests: CMakeFiles/leveldb_tests.dir/util/testutil.cc.o
+leveldb_tests: CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o
+leveldb_tests: CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o
+leveldb_tests: CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o
 leveldb_tests: CMakeFiles/leveldb_tests.dir/build.make
 leveldb_tests: libleveldb.a
 leveldb_tests: lib/libgmock.a
@@ -151,7 +229,7 @@ leveldb_tests: /usr/lib/x86_64-linux-gnu/libpmemblk.so
 leveldb_tests: /usr/local/lib/libpmemobj.so
 leveldb_tests: lib/libgtest.a
 leveldb_tests: CMakeFiles/leveldb_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable leveldb_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable leveldb_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leveldb_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +240,9 @@ CMakeFiles/leveldb_tests.dir/build: leveldb_tests
 CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/status_test.cc.o.requires
 CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/no_destructor_test.cc.o.requires
 CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/util/testutil.cc.o.requires
+CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o.requires
+CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o.requires
+CMakeFiles/leveldb_tests.dir/requires: CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o.requires
 
 .PHONY : CMakeFiles/leveldb_tests.dir/requires
 

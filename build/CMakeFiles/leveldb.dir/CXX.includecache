@@ -73,6 +73,8 @@ port/port.h
 .././db/port/port.h
 port/thread_annotations.h
 .././db/port/thread_annotations.h
+db/ClockRWRFCache.h
+.././db/db/ClockRWRFCache.h
 
 .././db/db_iter.h
 cstdint

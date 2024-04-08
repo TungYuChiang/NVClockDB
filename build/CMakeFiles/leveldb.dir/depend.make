@@ -46,6 +46,9 @@ CMakeFiles/leveldb.dir/db/c.cc.o: ../include/leveldb/status.h
 CMakeFiles/leveldb.dir/db/c.cc.o: ../include/leveldb/write_batch.h
 CMakeFiles/leveldb.dir/db/c.cc.o: ../db/c.cc
 
+CMakeFiles/leveldb.dir/db/db_impl.cc.o: .././db/ClockRWRFCache.h
+CMakeFiles/leveldb.dir/db/db_impl.cc.o: .././db/DramCircularList.h
+CMakeFiles/leveldb.dir/db/db_impl.cc.o: .././db/NvmCircularList.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: .././db/builder.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: .././db/db_impl.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: .././db/db_iter.h
@@ -90,6 +93,9 @@ CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../include/leveldb/write_batch.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../db/db_impl.cc
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: include/port/port_config.h
 
+CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././db/ClockRWRFCache.h
+CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././db/DramCircularList.h
+CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././db/NvmCircularList.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././db/db_impl.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././db/db_iter.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././db/dbformat.h
@@ -103,6 +109,7 @@ CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././port/thread_annotations.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././util/coding.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././util/logging.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././util/mutexlock.h
+CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././util/pm_manager.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: .././util/random.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: ../include/leveldb/comparator.h
 CMakeFiles/leveldb.dir/db/db_iter.cc.o: ../include/leveldb/db.h
@@ -235,6 +242,9 @@ CMakeFiles/leveldb.dir/db/memtable.cc.o: ../include/leveldb/table_builder.h
 CMakeFiles/leveldb.dir/db/memtable.cc.o: ../db/memtable.cc
 CMakeFiles/leveldb.dir/db/memtable.cc.o: include/port/port_config.h
 
+CMakeFiles/leveldb.dir/db/repair.cc.o: .././db/ClockRWRFCache.h
+CMakeFiles/leveldb.dir/db/repair.cc.o: .././db/DramCircularList.h
+CMakeFiles/leveldb.dir/db/repair.cc.o: .././db/NvmCircularList.h
 CMakeFiles/leveldb.dir/db/repair.cc.o: .././db/builder.h
 CMakeFiles/leveldb.dir/db/repair.cc.o: .././db/db_impl.h
 CMakeFiles/leveldb.dir/db/repair.cc.o: .././db/dbformat.h

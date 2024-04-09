@@ -79,6 +79,7 @@ class MemTable {
 
   KeyComparator comparator_;
   int refs_;
+  size_t currentSize = 0;
   Arena arena_;
   PMarena pm_arena_;
   PMmanager* pm_manager_;     

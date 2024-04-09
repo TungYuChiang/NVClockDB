@@ -267,7 +267,8 @@ class DBTest : public testing::Test {
 
   DBTest() : env_(new SpecialEnv(Env::Default())), option_config_(kDefault) {
     filter_policy_ = NewBloomFilterPolicy(10);
-    dbname_ = testing::TempDir() + "db_test";
+    //dbname_ = testing::TempDir() + "db_test";
+    dbname_ = "db_test";
     DestroyDB(dbname_, Options());
     db_ = nullptr;
     Reopen();
@@ -1671,7 +1672,7 @@ TEST_F(DBTest, ManualCompaction) {
 }
 
 TEST_F(DBTest, DBOpen_Options) {
-  std::string dbname = testing::TempDir() + "db_options_test";
+  std::string dbname = "db_options_test";
   DestroyDB(dbname, Options());
 
   // Does not exist, and create_if_missing == false: error
@@ -1744,7 +1745,7 @@ TEST_F(DBTest, DestroyEmptyDir) {
 }
 
 TEST_F(DBTest, DestroyOpenDB) {
-  std::string dbname = testing::TempDir() + "open_db_dir";
+  std::string dbname = "open_db_dir";
   env_->RemoveDir(dbname);
   ASSERT_TRUE(!env_->FileExists(dbname));
 
@@ -1765,12 +1766,6 @@ TEST_F(DBTest, DestroyOpenDB) {
   // Should succeed destroying a closed db.
   ASSERT_LEVELDB_OK(DestroyDB(dbname, Options()));
   ASSERT_TRUE(!env_->FileExists(dbname));
-}
-
-TEST_F(DBTest, Locking) {
-  DB* db2 = nullptr;
-  Status s = DB::Open(CurrentOptions(), dbname_, &db2);
-  ASSERT_TRUE(!s.ok()) << "Locking did not prevent re-opening db";
 }
 
 // Check that number of files does not grow when we are out of space

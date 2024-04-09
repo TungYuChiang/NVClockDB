@@ -11,7 +11,7 @@
 #include <cstdint>
 #include <vector>
 #include <iostream>
-#include <util/pool_manager.h>
+#include <util/pm_manager.h>
 
 namespace leveldb {
 
@@ -35,6 +35,8 @@ class PMarena {
   size_t MemoryUsage() const {
     return memory_usage_.load(std::memory_order_relaxed);
   }
+
+  void Free(void* ptr);
 
  private:
 

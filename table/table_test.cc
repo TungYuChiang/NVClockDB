@@ -356,7 +356,7 @@ class DBConstructor : public Constructor {
 
  private:
   void NewDB() {
-    std::string name = testing::TempDir() + "table_testdb";
+    std::string name = "table_testdb";
 
     Options options;
     options.comparator = comparator_;
@@ -747,6 +747,7 @@ TEST(MemTableTest, Simple) {
   }
 
   delete iter;
+  delete pm_manager;
   memtable->Unref();
 }
 

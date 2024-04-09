@@ -19,7 +19,7 @@ int main() {
     leveldb::DB *db;
     leveldb::Options options;
     options.create_if_missing = true;
-    leveldb::Status status = leveldb::DB::Open(options, "testposition", &db);
+    leveldb::Status status = leveldb::DB::Open(options, "20240226", &db);
     //leveldb::Status status1 = leveldb::DB::Open(options, "now", &db);
     //leveldb::Status status = leveldb::DB::Open(options, "test1/db1", &db);
     
@@ -29,13 +29,15 @@ int main() {
     }
     status = db->Put(WriteOptions(), "Hellow", "Here is LevelDB");
     assert(status.ok());
-    std::cout<<"--------- db put ----------- "<<std::endl;
+    status = db->Put(WriteOptions(), "Test", "Test TwoLevelCache");
+    assert(status.ok());
 	string hwllowrod;
-	status = db->Get(ReadOptions(), "Hellow", &hwllowrod);
+	status = db->Get(ReadOptions(), "Test", &hwllowrod);
     assert(status.ok());
 	cout<<hwllowrod<<endl;
-    cout<<"--------end main--------"<<endl;
+
     delete db;
+    
     cout<<"--------end main--------"<<endl;
 }
 

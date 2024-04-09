@@ -68,4 +68,17 @@ char* PMarena::AllocateNewBlock(size_t block_bytes) {
   return result;
 }
 
+void PMarena::Free(void* ptr) {
+  if (ptr == NULL) {
+        return; // 如果 ptr 為 NULL，則無需執行任何操作
+    }
+
+    PMEMoid oid = pmemobj_oid(ptr);
+    if (!OID_IS_NULL(oid)) {
+        pmemobj_free(&oid);
+    } else {
+        perror("pmemobj_free error");
+    }
+}
+
 }  // namespace leveldb

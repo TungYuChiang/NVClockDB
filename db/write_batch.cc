@@ -119,10 +119,12 @@ class MemTableInserter : public WriteBatch::Handler {
   MemTable* mem_;
 
   void Put(const Slice& key, const Slice& value) override {
+    //TODO： 要檢查是否有在cache 若是有要使用cache put
     mem_->Add(sequence_, kTypeValue, key, value);
     sequence_++;
   }
   void Delete(const Slice& key) override {
+    //TODO: clock cache要提供delete function 
     mem_->Add(sequence_, kTypeDeletion, key, Slice());
     sequence_++;
   }

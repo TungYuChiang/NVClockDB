@@ -8,7 +8,7 @@
 #include "leveldb/db.h"
 #include "leveldb/env.h"
 #include "util/logging.h"
-#include "util/pool_manager.h"
+#include "util/pm_manager.h"
 #include <iostream>
 
 namespace leveldb {

@@ -1,9 +1,9 @@
-#include "pool_manager.h"
+#include "pm_manager.h"
 
 #define LAYOUT_NAME "pool_layout"
 
 namespace leveldb {
-  static const size_t pmem_len = 1L * 1024 * 1024 * 1024;
+  static const size_t pmem_len = 2L * 1024 * 1024 * 1024;
   static const std::string path = "/home/oslab/Desktop/pmem/";
 
 PMmanager::PMmanager(std::string db_name): used(0) {

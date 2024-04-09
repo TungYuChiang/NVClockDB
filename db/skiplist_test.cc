@@ -16,7 +16,7 @@
 #include "util/random.h"
 #include "util/testutil.h"
 #include "util/pmarena.h"
-#include "util/pool_manager.h"
+#include "util/pm_manager.h"
 
 namespace leveldb {
 

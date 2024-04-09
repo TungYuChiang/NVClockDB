@@ -35,7 +35,7 @@
 #include "util/coding.h"
 #include "util/logging.h"
 #include "util/mutexlock.h"
-#include "util/pool_manager.h"
+#include "util/pm_manager.h"
 
 namespace leveldb {
 
@@ -150,7 +150,8 @@ DBImpl::DBImpl(const Options& raw_options, const std::string& dbname)
       manual_compaction_(nullptr),
       versions_(new VersionSet(dbname_, &options_, table_cache_,
                                &internal_comparator_)),
-      pm_manager_(new PMmanager(dbname)) {}
+      pm_manager_(new PMmanager(dbname)),
+      clock_cache_(new ClockCache(pm_manager_, 1024, 1024)){}
 
 DBImpl::~DBImpl() {
   // Wait for background work to finish.
@@ -549,8 +550,10 @@ Status DBImpl::WriteLevel0Table(MemTable* mem, VersionEdit* edit,
   stats_[level].Add(stats);
   return s;
 }
-
+int compact_count = 0;
 void DBImpl::CompactMemTable() {
+  /* compact_count ++;
+  std::cout<<"CompactMemTable() : "<<compact_count<<std::endl; */
   mutex_.AssertHeld();
   assert(imm_ != nullptr);
 
@@ -1116,6 +1119,10 @@ int64_t DBImpl::TEST_MaxNextLevelOverlappingBytes() {
   return versions_->MaxNextLevelOverlappingBytes();
 }
 
+int count_mem = 0;
+int count_imm = 0;
+int count_sst = 0;
+
 Status DBImpl::Get(const ReadOptions& options, const Slice& key,
                    std::string* value) {
   Status s;
@@ -1144,10 +1151,16 @@ Status DBImpl::Get(const ReadOptions& options, const Slice& key,
     // First look in the memtable, then in the immutable memtable (if any).
     LookupKey lkey(key, snapshot);
     if (mem->Get(lkey, value, &s)) {
+      count_mem++;
+      //std::cout<<"Get in mem : "<<count_mem<<std::endl;
       // Done
     } else if (imm != nullptr && imm->Get(lkey, value, &s)) {
-      // Done
+      count_imm++;
+      //std::cout<<"Get in immu mem : "<<count_imm<<std::endl;
+      // Done 
     } else {
+      count_sst++;
+      //std::cout<<"Get in sst : "<<count_sst<<std::endl;
       s = current->Get(options, lkey, value, &stats);
       have_stat_update = true;
     }
@@ -1233,7 +1246,7 @@ Status DBImpl::Write(const WriteOptions& options, WriteBatch* updates) {
     {
       mutex_.Unlock();
       //東諭 寫log -> We write memtable in NVM, so we dont't need WAL
-      /*
+      /* 
       status = log_->AddRecord(WriteBatchInternal::Contents(write_batch));
       bool sync_error = false;
       if (status.ok() && options.sync) {
@@ -1241,20 +1254,21 @@ Status DBImpl::Write(const WriteOptions& options, WriteBatch* updates) {
         if (!status.ok()) {
           sync_error = true;
         }
-      }
+      } 
       */
+      
       if (status.ok()) {
         status = WriteBatchInternal::InsertInto(write_batch, mem_);
       }
       mutex_.Lock();
-      /*
-      if (sync_error) {
+      
+      /* if (sync_error) {
         // The state of the log file is indeterminate: the log record we
         // just added may or may not show up when the DB is re-opened.
         // So we force the DB into a mode where all future writes fail.
         RecordBackgroundError(status);
-      }
-      */
+      } */
+      
     }
     
     if (write_batch == tmp_batch_) tmp_batch_->Clear();

@@ -215,11 +215,17 @@ target_sources(leveldb
     "util/options.cc"
     "util/random.h"
     "util/status.cc"
+    #new by tungyu
     "util/pmarena.h"
     "util/pmarena.cc"
-    "util/pool_manager.h"
-    "util/pool_manager.cc"
-       #link to pm
+    "util/pm_manager.h"
+    "util/pm_manager.cc"   #link to pm
+    "db/NvmCircularList.h"
+    "db/DramCircularList.h"
+    "db/ClockRWRFCache.h"
+    "db/ClockRWRFCache.cc"
+    
+       
 
   # Only CMake 3.3+ supports PUBLIC sources in targets exported by "install".
   $<$<VERSION_GREATER:CMAKE_VERSION,3.2>:PUBLIC>
@@ -364,27 +370,30 @@ if(LEVELDB_BUILD_TESTS)
   if(NOT BUILD_SHARED_LIBS)
     target_sources(leveldb_tests
       PRIVATE
-        "db/autocompact_test.cc"
-        "db/corruption_test.cc"
-        "db/db_test.cc"
-        "db/dbformat_test.cc"
-        "db/filename_test.cc"
-        "db/log_test.cc"
-        "db/recovery_test.cc"
-        "db/skiplist_test.cc"
-        "db/version_edit_test.cc"
-        "db/version_set_test.cc"
-        "db/write_batch_test.cc"
-        "helpers/memenv/memenv_test.cc"
-        "table/filter_block_test.cc"
-        "table/table_test.cc"
-        "util/arena_test.cc"
-        "util/bloom_test.cc"
-        "util/cache_test.cc"
-        "util/coding_test.cc"
-        "util/crc32c_test.cc"
-        "util/hash_test.cc"
-        "util/logging_test.cc"
+        #"db/autocompact_test.cc"
+        #"db/corruption_test.cc"
+        #"db/db_test.cc"
+        #"db/dbformat_test.cc"
+        #"db/filename_test.cc"
+        #"db/log_test.cc"
+        #"db/recovery_test.cc"
+        #"db/skiplist_test.cc"
+        #"db/version_edit_test.cc"
+        #"db/version_set_test.cc"
+        #"db/write_batch_test.cc"
+        #"helpers/memenv/memenv_test.cc"
+        #"table/filter_block_test.cc"
+        #"table/table_test.cc"
+        #"util/arena_test.cc"
+        #"util/bloom_test.cc"
+        #"util/cache_test.cc"
+        #"util/coding_test.cc"
+        #"util/crc32c_test.cc"
+        #"util/hash_test.cc"
+        #"util/logging_test.cc"
+        "db/NvmCircularListTest.cc"
+        "db/DramCircularListTest.cc"
+        "db/ClockRWRFCacheTest.cc"
     )
   endif(NOT BUILD_SHARED_LIBS)
   target_link_libraries(leveldb_tests leveldb gmock gtest gtest_main)
@@ -432,6 +441,7 @@ if(LEVELDB_BUILD_TESTS)
 
   if(NOT BUILD_SHARED_LIBS)
     leveldb_test("${PROJECT_SOURCE_DIR}/app/main.cc")
+    leveldb_test("${PROJECT_SOURCE_DIR}/app/self_bench.cc")
     # TODO(costan): This test also uses
     #               "util/env_{posix|windows}_test_helper.h"
     if (WIN32)

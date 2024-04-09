@@ -17,6 +17,7 @@
 #include "leveldb/env.h"
 #include "port/port.h"
 #include "port/thread_annotations.h"
+#include "db/ClockRWRFCache.h"
 
 namespace leveldb {
 
@@ -26,6 +27,7 @@ class PMmanager;
 class Version;
 class VersionEdit;
 class VersionSet;
+class ClockCache;
 
 class DBImpl : public DB {
  public:
@@ -169,6 +171,9 @@ class DBImpl : public DB {
 
   // table_cache_ provides its own synchronization
   TableCache* const table_cache_;
+  
+  //using clock RWRF policy
+  ClockCache* const clock_cache_;
 
   //persistent manager 
   PMmanager* const pm_manager_;

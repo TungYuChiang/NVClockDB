@@ -24,7 +24,7 @@ MemTable::MemTable(const InternalKeyComparator& comparator, PMmanager* pm_)
 
 MemTable::~MemTable() { assert(refs_ == 0); }
 
-size_t MemTable::ApproximateMemoryUsage() { return arena_.MemoryUsage(); }
+size_t MemTable::ApproximateMemoryUsage() { return currentSize; }
 
 int MemTable::KeyComparator::operator()(const char* aptr,
                                         const char* bptr) const {
@@ -74,6 +74,7 @@ class MemTableIterator : public Iterator {
 
 Iterator* MemTable::NewIterator() { return new MemTableIterator(&table_); }
 
+int add_count = 0;
 void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
                    const Slice& value) {
   // Format of an entry is concatenation of:
@@ -91,6 +92,7 @@ void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
                              val_size;
   
   char* buf = pm_arena_.Allocate(encoded_len);
+  currentSize += (key.ToString().size() + value.ToString().size());
   //char* buf = arena_.Allocate(encoded_len);
 
   if (buf == NULL) {
@@ -106,7 +108,8 @@ void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
   std::memcpy(p, value.data(), val_size);
   pm_manager_->Sync(buf, encoded_len);
   assert(p + val_size == buf + encoded_len);
-  //std::cout<<"Memtable add finish"<<std::endl;
+  add_count++;
+  //std::cout<<"Memtable add finish: "<<add_count<<std::endl;
   table_.Insert(buf);
   //std::cout<<"skiplist inserts finish"<<std::endl;
 }

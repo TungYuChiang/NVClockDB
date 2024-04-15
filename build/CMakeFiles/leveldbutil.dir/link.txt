@@ -1,1 +1,1 @@
-/usr/bin/c++   -fno-exceptions -fno-rtti -O3 -DNDEBUG   CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o  -o leveldbutil -Wl,-rpath,/usr/local/lib libleveldb.a -pthread /usr/local/lib/libpmem.so /usr/lib/x86_64-linux-gnu/libpmemblk.so /usr/local/lib/libpmemobj.so 
+/usr/bin/c++   -fno-exceptions -fno-rtti -O3 -DNDEBUG   CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o  -o leveldbutil -Wl,-rpath,/usr/local/lib libleveldb.a -lsnappy -pthread /usr/local/lib/libpmem.so /usr/lib/x86_64-linux-gnu/libpmemblk.so /usr/local/lib/libpmemobj.so 

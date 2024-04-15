@@ -457,86 +457,59 @@ db/ClockRWRFCache.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.s
 .PHONY : db/ClockRWRFCache.cc.s
 
-db/ClockRWRFCacheTest.o: db/ClockRWRFCacheTest.cc.o
+db/DramLinkedListTest.o: db/DramLinkedListTest.cc.o
 
-.PHONY : db/ClockRWRFCacheTest.o
-
-# target to build an object file
-db/ClockRWRFCacheTest.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.o
-.PHONY : db/ClockRWRFCacheTest.cc.o
-
-db/ClockRWRFCacheTest.i: db/ClockRWRFCacheTest.cc.i
-
-.PHONY : db/ClockRWRFCacheTest.i
-
-# target to preprocess a source file
-db/ClockRWRFCacheTest.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.i
-.PHONY : db/ClockRWRFCacheTest.cc.i
-
-db/ClockRWRFCacheTest.s: db/ClockRWRFCacheTest.cc.s
-
-.PHONY : db/ClockRWRFCacheTest.s
-
-# target to generate assembly for a file
-db/ClockRWRFCacheTest.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/ClockRWRFCacheTest.cc.s
-.PHONY : db/ClockRWRFCacheTest.cc.s
-
-db/DramCircularListTest.o: db/DramCircularListTest.cc.o
-
-.PHONY : db/DramCircularListTest.o
+.PHONY : db/DramLinkedListTest.o
 
 # target to build an object file
-db/DramCircularListTest.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.o
-.PHONY : db/DramCircularListTest.cc.o
+db/DramLinkedListTest.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramLinkedListTest.cc.o
+.PHONY : db/DramLinkedListTest.cc.o
 
-db/DramCircularListTest.i: db/DramCircularListTest.cc.i
+db/DramLinkedListTest.i: db/DramLinkedListTest.cc.i
 
-.PHONY : db/DramCircularListTest.i
+.PHONY : db/DramLinkedListTest.i
 
 # target to preprocess a source file
-db/DramCircularListTest.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.i
-.PHONY : db/DramCircularListTest.cc.i
+db/DramLinkedListTest.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramLinkedListTest.cc.i
+.PHONY : db/DramLinkedListTest.cc.i
 
-db/DramCircularListTest.s: db/DramCircularListTest.cc.s
+db/DramLinkedListTest.s: db/DramLinkedListTest.cc.s
 
-.PHONY : db/DramCircularListTest.s
+.PHONY : db/DramLinkedListTest.s
 
 # target to generate assembly for a file
-db/DramCircularListTest.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramCircularListTest.cc.s
-.PHONY : db/DramCircularListTest.cc.s
+db/DramLinkedListTest.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/DramLinkedListTest.cc.s
+.PHONY : db/DramLinkedListTest.cc.s
 
-db/NvmCircularListTest.o: db/NvmCircularListTest.cc.o
+db/NvmLinkedListTest.o: db/NvmLinkedListTest.cc.o
 
-.PHONY : db/NvmCircularListTest.o
+.PHONY : db/NvmLinkedListTest.o
 
 # target to build an object file
-db/NvmCircularListTest.cc.o:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.o
-.PHONY : db/NvmCircularListTest.cc.o
+db/NvmLinkedListTest.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmLinkedListTest.cc.o
+.PHONY : db/NvmLinkedListTest.cc.o
 
-db/NvmCircularListTest.i: db/NvmCircularListTest.cc.i
+db/NvmLinkedListTest.i: db/NvmLinkedListTest.cc.i
 
-.PHONY : db/NvmCircularListTest.i
+.PHONY : db/NvmLinkedListTest.i
 
 # target to preprocess a source file
-db/NvmCircularListTest.cc.i:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.i
-.PHONY : db/NvmCircularListTest.cc.i
+db/NvmLinkedListTest.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmLinkedListTest.cc.i
+.PHONY : db/NvmLinkedListTest.cc.i
 
-db/NvmCircularListTest.s: db/NvmCircularListTest.cc.s
+db/NvmLinkedListTest.s: db/NvmLinkedListTest.cc.s
 
-.PHONY : db/NvmCircularListTest.s
+.PHONY : db/NvmLinkedListTest.s
 
 # target to generate assembly for a file
-db/NvmCircularListTest.cc.s:
-	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmCircularListTest.cc.s
-.PHONY : db/NvmCircularListTest.cc.s
+db/NvmLinkedListTest.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmLinkedListTest.cc.s
+.PHONY : db/NvmLinkedListTest.cc.s
 
 db/builder.o: db/builder.cc.o
 
@@ -1861,15 +1834,12 @@ help:
 	@echo "... db/ClockRWRFCache.o"
 	@echo "... db/ClockRWRFCache.i"
 	@echo "... db/ClockRWRFCache.s"
-	@echo "... db/ClockRWRFCacheTest.o"
-	@echo "... db/ClockRWRFCacheTest.i"
-	@echo "... db/ClockRWRFCacheTest.s"
-	@echo "... db/DramCircularListTest.o"
-	@echo "... db/DramCircularListTest.i"
-	@echo "... db/DramCircularListTest.s"
-	@echo "... db/NvmCircularListTest.o"
-	@echo "... db/NvmCircularListTest.i"
-	@echo "... db/NvmCircularListTest.s"
+	@echo "... db/DramLinkedListTest.o"
+	@echo "... db/DramLinkedListTest.i"
+	@echo "... db/DramLinkedListTest.s"
+	@echo "... db/NvmLinkedListTest.o"
+	@echo "... db/NvmLinkedListTest.i"
+	@echo "... db/NvmLinkedListTest.s"
 	@echo "... db/builder.o"
 	@echo "... db/builder.i"
 	@echo "... db/builder.s"

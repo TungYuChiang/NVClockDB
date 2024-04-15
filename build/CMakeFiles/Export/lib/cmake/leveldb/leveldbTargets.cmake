@@ -55,7 +55,7 @@ add_library(leveldb::leveldb STATIC IMPORTED)
 
 set_target_properties(leveldb::leveldb PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Threads::Threads;/usr/local/lib/libpmem.so;/usr/lib/x86_64-linux-gnu/libpmemblk.so;/usr/local/lib/libpmemobj.so"
+  INTERFACE_LINK_LIBRARIES "snappy;Threads::Threads;/usr/local/lib/libpmem.so;/usr/lib/x86_64-linux-gnu/libpmemblk.so;/usr/local/lib/libpmemobj.so"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

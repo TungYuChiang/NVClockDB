@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/oslab/Desktop/TungYu/PMD
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e9e3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e9e3.dir/build.make CMakeFiles/cmTC_0e9e3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_18ef7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18ef7.dir/build.make CMakeFiles/cmTC_18ef7.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e9e3.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0e9e3.dir/testCCompiler.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_0e9e3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e9e3.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0e9e3.dir/testCCompiler.c.o  -o cmTC_0e9e3 
+Building C object CMakeFiles/cmTC_18ef7.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_18ef7.dir/testCCompiler.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_18ef7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ef7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_18ef7.dir/testCCompiler.c.o  -o cmTC_18ef7 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01c87/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01c87.dir/build.make CMakeFiles/cmTC_01c87.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f487b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f487b.dir/build.make CMakeFiles/cmTC_f487b.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_01c87
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01c87.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o  -o cmTC_01c87 
+Building C object CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f487b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f487b.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o  -o cmTC_f487b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01c87' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ5TgiC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01c87 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01c87' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f487b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVVh06D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f487b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f487b' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_01c87/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_01c87.dir/build.make CMakeFiles/cmTC_01c87.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f487b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f487b.dir/build.make CMakeFiles/cmTC_f487b.dir/build]
   ignore line: [make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_01c87]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01c87.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o  -o cmTC_01c87 ]
+  ignore line: [Building C object CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f487b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f487b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o  -o cmTC_f487b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01c87' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ5TgiC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01c87 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f487b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVVh06D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f487b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZ5TgiC.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVVh06D.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_01c87] ==> ignore
+    arg [cmTC_f487b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_01c87.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f487b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,14 +158,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b8a5d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b8a5d.dir/build.make CMakeFiles/cmTC_b8a5d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8f37f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f37f.dir/build.make CMakeFiles/cmTC_8f37f.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b8a5d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b8a5d.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b8a5d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a5d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b8a5d.dir/feature_tests.c.o  -o cmTC_b8a5d 
+Building C object CMakeFiles/cmTC_8f37f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8f37f.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8f37f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f37f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8f37f.dir/feature_tests.c.o  -o cmTC_8f37f 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMa
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d525/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d525.dir/build.make CMakeFiles/cmTC_9d525.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_02a3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02a3c.dir/build.make CMakeFiles/cmTC_02a3c.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9d525.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9d525.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9d525
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d525.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_9d525.dir/feature_tests.c.o  -o cmTC_9d525 
+Building C object CMakeFiles/cmTC_02a3c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_02a3c.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_02a3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02a3c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_02a3c.dir/feature_tests.c.o  -o cmTC_02a3c 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +198,14 @@ make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMa
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d02b7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d02b7.dir/build.make CMakeFiles/cmTC_d02b7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f1cd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1cd3.dir/build.make CMakeFiles/cmTC_f1cd3.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d02b7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d02b7.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d02b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d02b7.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_d02b7.dir/feature_tests.c.o  -o cmTC_d02b7 
+Building C object CMakeFiles/cmTC_f1cd3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f1cd3.dir/feature_tests.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f1cd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1cd3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f1cd3.dir/feature_tests.c.o  -o cmTC_f1cd3 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +216,28 @@ make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMa
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2a185/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2a185.dir/build.make CMakeFiles/cmTC_2a185.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ec99e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec99e.dir/build.make CMakeFiles/cmTC_ec99e.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2a185.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2a185.dir/testCXXCompiler.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2a185
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a185.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2a185.dir/testCXXCompiler.cxx.o  -o cmTC_2a185 
+Building CXX object CMakeFiles/cmTC_ec99e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ec99e.dir/testCXXCompiler.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ec99e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec99e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ec99e.dir/testCXXCompiler.cxx.o  -o cmTC_ec99e 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ad003/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ad003.dir/build.make CMakeFiles/cmTC_ad003.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_662d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_662d3.dir/build.make CMakeFiles/cmTC_662d3.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_ad003
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad003.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ad003 
+Building CXX object CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_662d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_662d3.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_662d3 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,9 +249,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad003' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTjoiZa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad003 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad003' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_662d3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqzWNOj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_662d3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_662d3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -259,14 +259,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ad003/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ad003.dir/build.make CMakeFiles/cmTC_ad003.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_662d3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_662d3.dir/build.make CMakeFiles/cmTC_662d3.dir/build]
   ignore line: [make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_ad003]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad003.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ad003 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_662d3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_662d3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_662d3 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad003' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTjoiZa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad003 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_662d3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqzWNOj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_662d3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTjoiZa.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqzWNOj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ad003] ==> ignore
+    arg [cmTC_662d3] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_ad003.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_662d3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,14 +342,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e0726/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e0726.dir/build.make CMakeFiles/cmTC_e0726.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b3334/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3334.dir/build.make CMakeFiles/cmTC_b3334.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e0726.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_e0726.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e0726
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0726.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_e0726.dir/feature_tests.cxx.o  -o cmTC_e0726 
+Building CXX object CMakeFiles/cmTC_b3334.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_b3334.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b3334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3334.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b3334.dir/feature_tests.cxx.o  -o cmTC_b3334 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -415,14 +415,14 @@ make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMa
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f736b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f736b.dir/build.make CMakeFiles/cmTC_f736b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_56922/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56922.dir/build.make CMakeFiles/cmTC_56922.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f736b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f736b.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f736b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f736b.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f736b.dir/feature_tests.cxx.o  -o cmTC_f736b 
+Building CXX object CMakeFiles/cmTC_56922.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_56922.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_56922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56922.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_56922.dir/feature_tests.cxx.o  -o cmTC_56922 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -488,14 +488,14 @@ make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMa
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_04e34/fast"
-/usr/bin/make -f CMakeFiles/cmTC_04e34.dir/build.make CMakeFiles/cmTC_04e34.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_139c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_139c7.dir/build.make CMakeFiles/cmTC_139c7.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_04e34.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_04e34.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_04e34
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e34.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_04e34.dir/feature_tests.cxx.o  -o cmTC_04e34 
+Building CXX object CMakeFiles/cmTC_139c7.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_139c7.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_139c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_139c7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_139c7.dir/feature_tests.cxx.o  -o cmTC_139c7 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -561,14 +561,14 @@ make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMa
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b27a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6b27a.dir/build.make CMakeFiles/cmTC_6b27a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dfcc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfcc3.dir/build.make CMakeFiles/cmTC_dfcc3.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6b27a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_6b27a.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6b27a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b27a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_6b27a.dir/feature_tests.cxx.o  -o cmTC_6b27a 
+Building CXX object CMakeFiles/cmTC_dfcc3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_dfcc3.dir/feature_tests.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dfcc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfcc3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_dfcc3.dir/feature_tests.cxx.o  -o cmTC_dfcc3 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
@@ -632,28 +632,42 @@ make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMa
 Determining if the include file unistd.h exists passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4131e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4131e.dir/build.make CMakeFiles/cmTC_4131e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f6d1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6d1f.dir/build.make CMakeFiles/cmTC_f6d1f.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4131e.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4131e.dir/CheckIncludeFile.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_4131e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4131e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_4131e.dir/CheckIncludeFile.c.o  -o cmTC_4131e 
+Building C object CMakeFiles/cmTC_f6d1f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_f6d1f.dir/CheckIncludeFile.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f6d1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6d1f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f6d1f.dir/CheckIncludeFile.c.o  -o cmTC_f6d1f 
+make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snappy_compress exists in the snappy passed with the following output:
+Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_401bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_401bf.dir/build.make CMakeFiles/cmTC_401bf.dir/build
+make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_401bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress   -std=c11 -o CMakeFiles/cmTC_401bf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_401bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_401bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress    CMakeFiles/cmTC_401bf.dir/CheckFunctionExists.c.o  -o cmTC_401bf -lsnappy 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the fdatasync exist passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_72b23/fast"
-/usr/bin/make -f CMakeFiles/cmTC_72b23.dir/build.make CMakeFiles/cmTC_72b23.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f728c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f728c.dir/build.make CMakeFiles/cmTC_f728c.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_72b23.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_72b23.dir/CheckSymbolExists.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_72b23
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72b23.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_72b23.dir/CheckSymbolExists.cxx.o  -o cmTC_72b23 
+Building CXX object CMakeFiles/cmTC_f728c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f728c.dir/CheckSymbolExists.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_f728c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f728c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f728c.dir/CheckSymbolExists.cxx.o  -o cmTC_f728c 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 File /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -674,14 +688,14 @@ int main(int argc, char** argv)
 Determining if the O_CLOEXEC exist passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f6a9f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f6a9f.dir/build.make CMakeFiles/cmTC_f6a9f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_71f5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71f5b.dir/build.make CMakeFiles/cmTC_71f5b.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f6a9f.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f6a9f.dir/CheckSymbolExists.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_f6a9f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6a9f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f6a9f.dir/CheckSymbolExists.cxx.o  -o cmTC_f6a9f 
+Building CXX object CMakeFiles/cmTC_71f5b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_71f5b.dir/CheckSymbolExists.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_71f5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71f5b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_71f5b.dir/CheckSymbolExists.cxx.o  -o cmTC_71f5b 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 File /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -702,14 +716,14 @@ int main(int argc, char** argv)
 Performing C++ SOURCE FILE Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3c276/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3c276.dir/build.make CMakeFiles/cmTC_3c276.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c28b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c28b2.dir/build.make CMakeFiles/cmTC_c28b2.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3c276.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS   -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/cmTC_3c276.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_3c276
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c276.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS    CMakeFiles/cmTC_3c276.dir/src.cxx.o  -o cmTC_3c276 
+Building CXX object CMakeFiles/cmTC_c28b2.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS   -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/cmTC_c28b2.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c28b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c28b2.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS    CMakeFiles/cmTC_c28b2.dir/src.cxx.o  -o cmTC_c28b2 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -717,14 +731,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX17_HAS_INCLUDE succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23fcb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23fcb.dir/build.make CMakeFiles/cmTC_23fcb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b5570/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5570.dir/build.make CMakeFiles/cmTC_b5570.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_23fcb.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_23fcb.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_23fcb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23fcb.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE    CMakeFiles/cmTC_23fcb.dir/src.cxx.o  -o cmTC_23fcb 
+Building CXX object CMakeFiles/cmTC_b5570.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_b5570.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b5570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5570.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE    CMakeFiles/cmTC_b5570.dir/src.cxx.o  -o cmTC_b5570 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -737,56 +751,56 @@ int main() { std::string str; return 0; }
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1b09/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1b09.dir/build.make CMakeFiles/cmTC_a1b09.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0df91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0df91.dir/build.make CMakeFiles/cmTC_0df91.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a1b09.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -Wstrict-prototypes    -std=c11 -o CMakeFiles/cmTC_a1b09.dir/CheckIncludeFile.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a1b09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1b09.dir/link.txt --verbose=1
-/usr/bin/cc  -Wstrict-prototypes     CMakeFiles/cmTC_a1b09.dir/CheckIncludeFile.c.o  -o cmTC_a1b09 
+Building C object CMakeFiles/cmTC_0df91.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wstrict-prototypes    -std=c11 -o CMakeFiles/cmTC_0df91.dir/CheckIncludeFile.c.o   -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0df91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0df91.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes     CMakeFiles/cmTC_0df91.dir/CheckIncludeFile.c.o  -o cmTC_0df91 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44057/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44057.dir/build.make CMakeFiles/cmTC_44057.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5a3bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a3bb.dir/build.make CMakeFiles/cmTC_5a3bb.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44057.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_44057.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_44057
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44057.dir/link.txt --verbose=1
-/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_44057.dir/CheckFunctionExists.c.o  -o cmTC_44057 -lpthread 
+Building C object CMakeFiles/cmTC_5a3bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_5a3bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a3bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a3bb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5a3bb.dir/CheckFunctionExists.c.o  -o cmTC_5a3bb -lpthread 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shm_open exists in the rt passed with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ae19a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ae19a.dir/build.make CMakeFiles/cmTC_ae19a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fd475/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd475.dir/build.make CMakeFiles/cmTC_fd475.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ae19a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open   -std=c11 -o CMakeFiles/cmTC_ae19a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ae19a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae19a.dir/link.txt --verbose=1
-/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open    CMakeFiles/cmTC_ae19a.dir/CheckFunctionExists.c.o  -o cmTC_ae19a -lrt 
+Building C object CMakeFiles/cmTC_fd475.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open   -std=c11 -o CMakeFiles/cmTC_fd475.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fd475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd475.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open    CMakeFiles/cmTC_fd475.dir/CheckFunctionExists.c.o  -o cmTC_fd475 -lrt 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eeaaa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eeaaa.dir/build.make CMakeFiles/cmTC_eeaaa.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_511f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_511f3.dir/build.make CMakeFiles/cmTC_511f3.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eeaaa.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -std=c++11 -o CMakeFiles/cmTC_eeaaa.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_eeaaa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeaaa.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_WALL  -Wall    CMakeFiles/cmTC_eeaaa.dir/src.cxx.o  -o cmTC_eeaaa 
+Building CXX object CMakeFiles/cmTC_511f3.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -std=c++11 -o CMakeFiles/cmTC_511f3.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_511f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_511f3.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_WALL  -Wall    CMakeFiles/cmTC_511f3.dir/src.cxx.o  -o cmTC_511f3 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -794,14 +808,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1e37/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1e37.dir/build.make CMakeFiles/cmTC_a1e37.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c2f12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2f12.dir/build.make CMakeFiles/cmTC_c2f12.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a1e37.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -std=c++11 -o CMakeFiles/cmTC_a1e37.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a1e37
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1e37.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    CMakeFiles/cmTC_a1e37.dir/src.cxx.o  -o cmTC_a1e37 
+Building CXX object CMakeFiles/cmTC_c2f12.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -std=c++11 -o CMakeFiles/cmTC_c2f12.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c2f12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2f12.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    CMakeFiles/cmTC_c2f12.dir/src.cxx.o  -o cmTC_c2f12 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -809,14 +823,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_74a9c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_74a9c.dir/build.make CMakeFiles/cmTC_74a9c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6b372/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b372.dir/build.make CMakeFiles/cmTC_6b372.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_74a9c.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -std=c++11 -o CMakeFiles/cmTC_74a9c.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_74a9c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74a9c.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    CMakeFiles/cmTC_74a9c.dir/src.cxx.o  -o cmTC_74a9c 
+Building CXX object CMakeFiles/cmTC_6b372.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -std=c++11 -o CMakeFiles/cmTC_6b372.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6b372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b372.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    CMakeFiles/cmTC_6b372.dir/src.cxx.o  -o cmTC_6b372 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -824,14 +838,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6960/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6960.dir/build.make CMakeFiles/cmTC_c6960.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_435fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_435fc.dir/build.make CMakeFiles/cmTC_435fc.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c6960.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_c6960.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_c6960
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6960.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal    CMakeFiles/cmTC_c6960.dir/src.cxx.o  -o cmTC_c6960 
+Building CXX object CMakeFiles/cmTC_435fc.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_435fc.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_435fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_435fc.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal    CMakeFiles/cmTC_435fc.dir/src.cxx.o  -o cmTC_435fc 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -839,14 +853,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fb8ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fb8ee.dir/build.make CMakeFiles/cmTC_fb8ee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_781fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_781fa.dir/build.make CMakeFiles/cmTC_781fa.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fb8ee.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -std=c++11 -o CMakeFiles/cmTC_fb8ee.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_fb8ee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb8ee.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror    CMakeFiles/cmTC_fb8ee.dir/src.cxx.o  -o cmTC_fb8ee 
+Building CXX object CMakeFiles/cmTC_781fa.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -std=c++11 -o CMakeFiles/cmTC_781fa.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_781fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_781fa.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror    CMakeFiles/cmTC_781fa.dir/src.cxx.o  -o cmTC_781fa 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -854,14 +868,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00b41/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00b41.dir/build.make CMakeFiles/cmTC_00b41.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b7431/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7431.dir/build.make CMakeFiles/cmTC_b7431.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_00b41.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_00b41.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_00b41
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00b41.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override    CMakeFiles/cmTC_00b41.dir/src.cxx.o  -o cmTC_00b41 
+Building CXX object CMakeFiles/cmTC_b7431.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_b7431.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b7431
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7431.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override    CMakeFiles/cmTC_b7431.dir/src.cxx.o  -o cmTC_b7431 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -869,14 +883,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e78b1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e78b1.dir/build.make CMakeFiles/cmTC_e78b1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_046ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_046ec.dir/build.make CMakeFiles/cmTC_046ec.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e78b1.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -std=c++11 -o CMakeFiles/cmTC_e78b1.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e78b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e78b1.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    CMakeFiles/cmTC_e78b1.dir/src.cxx.o  -o cmTC_e78b1 
+Building CXX object CMakeFiles/cmTC_046ec.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -std=c++11 -o CMakeFiles/cmTC_046ec.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_046ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046ec.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    CMakeFiles/cmTC_046ec.dir/src.cxx.o  -o cmTC_046ec 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -884,14 +898,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_61646/fast"
-/usr/bin/make -f CMakeFiles/cmTC_61646.dir/build.make CMakeFiles/cmTC_61646.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e1132/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1132.dir/build.make CMakeFiles/cmTC_e1132.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_61646.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_61646.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_61646
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61646.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    CMakeFiles/cmTC_61646.dir/src.cxx.o  -o cmTC_61646 
+Building CXX object CMakeFiles/cmTC_e1132.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_e1132.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e1132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1132.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    CMakeFiles/cmTC_e1132.dir/src.cxx.o  -o cmTC_e1132 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -899,14 +913,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73315/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73315.dir/build.make CMakeFiles/cmTC_73315.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_49aea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49aea.dir/build.make CMakeFiles/cmTC_49aea.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_73315.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_73315.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_73315
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73315.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    CMakeFiles/cmTC_73315.dir/src.cxx.o  -o cmTC_73315 
+Building CXX object CMakeFiles/cmTC_49aea.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_49aea.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_49aea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49aea.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    CMakeFiles/cmTC_49aea.dir/src.cxx.o  -o cmTC_49aea 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -914,14 +928,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d9f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d9f5.dir/build.make CMakeFiles/cmTC_5d9f5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b8b2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8b2b.dir/build.make CMakeFiles/cmTC_b8b2b.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5d9f5.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_5d9f5.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_5d9f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d9f5.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations    CMakeFiles/cmTC_5d9f5.dir/src.cxx.o  -o cmTC_5d9f5 
+Building CXX object CMakeFiles/cmTC_b8b2b.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_b8b2b.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8b2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8b2b.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations    CMakeFiles/cmTC_b8b2b.dir/src.cxx.o  -o cmTC_b8b2b 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -929,14 +943,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_61f3a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_61f3a.dir/build.make CMakeFiles/cmTC_61f3a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ced50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ced50.dir/build.make CMakeFiles/cmTC_ced50.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_61f3a.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_61f3a.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_61f3a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61f3a.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated    CMakeFiles/cmTC_61f3a.dir/src.cxx.o  -o cmTC_61f3a 
+Building CXX object CMakeFiles/cmTC_ced50.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_ced50.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ced50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ced50.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated    CMakeFiles/cmTC_ced50.dir/src.cxx.o  -o cmTC_ced50 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -944,14 +958,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_56d7c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_56d7c.dir/build.make CMakeFiles/cmTC_56d7c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_92abf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92abf.dir/build.make CMakeFiles/cmTC_92abf.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_56d7c.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -std=c++11 -o CMakeFiles/cmTC_56d7c.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_56d7c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d7c.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions    CMakeFiles/cmTC_56d7c.dir/src.cxx.o  -o cmTC_56d7c 
+Building CXX object CMakeFiles/cmTC_92abf.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -std=c++11 -o CMakeFiles/cmTC_92abf.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_92abf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92abf.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions    CMakeFiles/cmTC_92abf.dir/src.cxx.o  -o cmTC_92abf 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -959,14 +973,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a759a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a759a.dir/build.make CMakeFiles/cmTC_a759a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_23149/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23149.dir/build.make CMakeFiles/cmTC_23149.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a759a.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_a759a.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a759a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a759a.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    CMakeFiles/cmTC_a759a.dir/src.cxx.o  -o cmTC_a759a 
+Building CXX object CMakeFiles/cmTC_23149.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_23149.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23149.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    CMakeFiles/cmTC_23149.dir/src.cxx.o  -o cmTC_23149 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -974,14 +988,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
 Change Dir: /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_93f87/fast"
-/usr/bin/make -f CMakeFiles/cmTC_93f87.dir/build.make CMakeFiles/cmTC_93f87.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2a4e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a4e6.dir/build.make CMakeFiles/cmTC_2a4e6.dir/build
 make[1]: Entering directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_93f87.dir/src.cxx.o
-/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -std=c++11 -o CMakeFiles/cmTC_93f87.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_93f87
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f87.dir/link.txt --verbose=1
-/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    CMakeFiles/cmTC_93f87.dir/src.cxx.o  -o cmTC_93f87 
+Building CXX object CMakeFiles/cmTC_2a4e6.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -std=c++11 -o CMakeFiles/cmTC_2a4e6.dir/src.cxx.o -c /home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2a4e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a4e6.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    CMakeFiles/cmTC_2a4e6.dir/src.cxx.o  -o cmTC_2a4e6 
 make[1]: Leaving directory '/home/oslab/Desktop/TungYu/PMDB/build/CMakeFiles/CMakeTmp'
 
 Source file was:

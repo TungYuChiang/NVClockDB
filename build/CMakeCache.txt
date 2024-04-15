@@ -388,7 +388,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 leveldb_BINARY_DIR:STATIC=/home/oslab/Desktop/TungYu/PMDB/build
 
 //Dependencies for the target
-leveldb_LIB_DEPENDS:STATIC=general;/usr/local/lib/libpmem.so;general;/usr/lib/x86_64-linux-gnu/libpmemblk.so;general;/usr/local/lib/libpmemobj.so;
+leveldb_LIB_DEPENDS:STATIC=general;snappy;general;/usr/local/lib/libpmem.so;general;/usr/lib/x86_64-linux-gnu/libpmemblk.so;general;/usr/local/lib/libpmemobj.so;
 
 //Value Computed by CMake
 leveldb_SOURCE_DIR:STATIC=/home/oslab/Desktop/TungYu/PMDB
@@ -648,7 +648,7 @@ HAVE_LIB_RT:INTERNAL=1
 //Have symbol O_CLOEXEC
 HAVE_O_CLOEXEC:INTERNAL=1
 //Have library snappy
-HAVE_SNAPPY:INTERNAL=
+HAVE_SNAPPY:INTERNAL=1
 //Have library sqlite3
 HAVE_SQLITE3:INTERNAL=
 //Have library tcmalloc

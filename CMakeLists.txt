@@ -224,6 +224,10 @@ target_sources(leveldb
     "db/DramCircularList.h"
     "db/ClockRWRFCache.h"
     "db/ClockRWRFCache.cc"
+    "db/DramLinkedList.h"
+    "db/NvmLinkedList.h"
+    "db/SLRUCache.h"
+    "db/SLRUCache.cc"
     
        
 
@@ -391,9 +395,12 @@ if(LEVELDB_BUILD_TESTS)
         #"util/crc32c_test.cc"
         #"util/hash_test.cc"
         #"util/logging_test.cc"
-        "db/NvmCircularListTest.cc"
-        "db/DramCircularListTest.cc"
-        "db/ClockRWRFCacheTest.cc"
+        #"db/NvmCircularListTest.cc"
+        #"db/DramCircularListTest.cc"
+        #"db/ClockRWRFCacheTest.cc"
+        "db/DramLinkedListTest.cc"
+        "db/NvmLinkedListTest.cc"
+        "db/SLRUCacheTest.cc"
     )
   endif(NOT BUILD_SHARED_LIBS)
   target_link_libraries(leveldb_tests leveldb gmock gtest gtest_main)

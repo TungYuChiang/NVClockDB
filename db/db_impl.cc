@@ -1246,7 +1246,7 @@ Status DBImpl::Write(const WriteOptions& options, WriteBatch* updates) {
     {
       mutex_.Unlock();
       //東諭 寫log -> We write memtable in NVM, so we dont't need WAL
-      /* 
+      
       status = log_->AddRecord(WriteBatchInternal::Contents(write_batch));
       bool sync_error = false;
       if (status.ok() && options.sync) {
@@ -1255,19 +1255,19 @@ Status DBImpl::Write(const WriteOptions& options, WriteBatch* updates) {
           sync_error = true;
         }
       } 
-      */
+    
       
       if (status.ok()) {
         status = WriteBatchInternal::InsertInto(write_batch, mem_);
       }
       mutex_.Lock();
       
-      /* if (sync_error) {
+      if (sync_error) {
         // The state of the log file is indeterminate: the log record we
         // just added may or may not show up when the DB is re-opened.
         // So we force the DB into a mode where all future writes fail.
         RecordBackgroundError(status);
-      } */
+      } 
       
     }
     

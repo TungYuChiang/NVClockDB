@@ -33,7 +33,7 @@ class PMarena {
   // Returns an estimate of the total memory usage of data allocated
   // by the arena.
   size_t MemoryUsage() const {
-    return memory_usage_.load(std::memory_order_relaxed);
+    return memUsageSize;
   }
 
   void Free(void* ptr);
@@ -41,7 +41,7 @@ class PMarena {
  private:
 
   PMmanager* pm_manager;
-
+  size_t memUsageSize = 0;
   char* AllocateFallback(size_t bytes);
   char* AllocateNewBlock(size_t block_bytes);
 
@@ -64,6 +64,7 @@ inline char* PMarena::Allocate(size_t bytes) {
   // 0-byte allocations, so we disallow them here (we don't need
   // them for our internal use).
   assert(bytes > 0);
+  memUsageSize += bytes;
   if (bytes <= alloc_bytes_remaining_) {
     char* result = alloc_ptr_;
     alloc_ptr_ += bytes;

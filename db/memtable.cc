@@ -24,7 +24,7 @@ MemTable::MemTable(const InternalKeyComparator& comparator, PMmanager* pm_)
 
 MemTable::~MemTable() { assert(refs_ == 0); }
 
-size_t MemTable::ApproximateMemoryUsage() { return currentSize; }
+size_t MemTable::ApproximateMemoryUsage() { return pm_arena_.MemoryUsage(); }
 
 int MemTable::KeyComparator::operator()(const char* aptr,
                                         const char* bptr) const {
@@ -92,7 +92,6 @@ void MemTable::Add(SequenceNumber s, ValueType type, const Slice& key,
                              val_size;
   
   char* buf = pm_arena_.Allocate(encoded_len);
-  currentSize += (key.ToString().size() + value.ToString().size());
   //char* buf = arena_.Allocate(encoded_len);
 
   if (buf == NULL) {

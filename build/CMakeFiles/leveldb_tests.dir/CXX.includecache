@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+.././db/DramLinkedList.h
+iostream
+-
+cstring
+-
+gtest/gtest.h
+-
+
 .././db/NvmLinkedList.h
 iostream
 -
@@ -13,6 +21,22 @@ cstring
 -
 util/pm_manager.h
 .././db/util/pm_manager.h
+
+.././db/SLRUCache.h
+db/DramLinkedList.h
+.././db/db/DramLinkedList.h
+db/NvmLinkedList.h
+.././db/db/NvmLinkedList.h
+iostream
+-
+unordered_map
+-
+list
+-
+gtest/gtest.h
+-
+string
+-
 
 .././helpers/memenv/memenv.h
 leveldb/export.h
@@ -656,6 +680,14 @@ gtest/gtest.h
 string
 -
 cstring
+-
+
+/home/oslab/Desktop/TungYu/PMDB/db/SLRUCacheTest.cc
+db/SLRUCache.h
+/home/oslab/Desktop/TungYu/PMDB/db/db/SLRUCache.h
+gtest/gtest.h
+-
+string
 -
 
 /home/oslab/Desktop/TungYu/PMDB/util/no_destructor_test.cc

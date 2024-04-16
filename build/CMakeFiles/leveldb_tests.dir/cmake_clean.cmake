@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/leveldb_tests.dir/util/testutil.cc.o"
   "CMakeFiles/leveldb_tests.dir/db/DramLinkedListTest.cc.o"
   "CMakeFiles/leveldb_tests.dir/db/NvmLinkedListTest.cc.o"
+  "CMakeFiles/leveldb_tests.dir/db/SLRUCacheTest.cc.o"
   "leveldb_tests.pdb"
   "leveldb_tests"
 )

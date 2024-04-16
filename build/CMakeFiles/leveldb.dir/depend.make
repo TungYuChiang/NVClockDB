@@ -7,6 +7,12 @@ CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.o: .././db/NvmCircularList.h
 CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.o: .././util/pm_manager.h
 CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.o: ../db/ClockRWRFCache.cc
 
+CMakeFiles/leveldb.dir/db/SLRUCache.cc.o: .././db/DramLinkedList.h
+CMakeFiles/leveldb.dir/db/SLRUCache.cc.o: .././db/NvmLinkedList.h
+CMakeFiles/leveldb.dir/db/SLRUCache.cc.o: .././db/SLRUCache.h
+CMakeFiles/leveldb.dir/db/SLRUCache.cc.o: .././util/pm_manager.h
+CMakeFiles/leveldb.dir/db/SLRUCache.cc.o: ../db/SLRUCache.cc
+
 CMakeFiles/leveldb.dir/db/builder.cc.o: .././db/builder.h
 CMakeFiles/leveldb.dir/db/builder.cc.o: .././db/dbformat.h
 CMakeFiles/leveldb.dir/db/builder.cc.o: .././db/filename.h

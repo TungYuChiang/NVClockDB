@@ -511,6 +511,60 @@ db/NvmLinkedListTest.cc.s:
 	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/NvmLinkedListTest.cc.s
 .PHONY : db/NvmLinkedListTest.cc.s
 
+db/SLRUCache.o: db/SLRUCache.cc.o
+
+.PHONY : db/SLRUCache.o
+
+# target to build an object file
+db/SLRUCache.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/SLRUCache.cc.o
+.PHONY : db/SLRUCache.cc.o
+
+db/SLRUCache.i: db/SLRUCache.cc.i
+
+.PHONY : db/SLRUCache.i
+
+# target to preprocess a source file
+db/SLRUCache.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/SLRUCache.cc.i
+.PHONY : db/SLRUCache.cc.i
+
+db/SLRUCache.s: db/SLRUCache.cc.s
+
+.PHONY : db/SLRUCache.s
+
+# target to generate assembly for a file
+db/SLRUCache.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb.dir/build.make CMakeFiles/leveldb.dir/db/SLRUCache.cc.s
+.PHONY : db/SLRUCache.cc.s
+
+db/SLRUCacheTest.o: db/SLRUCacheTest.cc.o
+
+.PHONY : db/SLRUCacheTest.o
+
+# target to build an object file
+db/SLRUCacheTest.cc.o:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/SLRUCacheTest.cc.o
+.PHONY : db/SLRUCacheTest.cc.o
+
+db/SLRUCacheTest.i: db/SLRUCacheTest.cc.i
+
+.PHONY : db/SLRUCacheTest.i
+
+# target to preprocess a source file
+db/SLRUCacheTest.cc.i:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/SLRUCacheTest.cc.i
+.PHONY : db/SLRUCacheTest.cc.i
+
+db/SLRUCacheTest.s: db/SLRUCacheTest.cc.s
+
+.PHONY : db/SLRUCacheTest.s
+
+# target to generate assembly for a file
+db/SLRUCacheTest.cc.s:
+	$(MAKE) -f CMakeFiles/leveldb_tests.dir/build.make CMakeFiles/leveldb_tests.dir/db/SLRUCacheTest.cc.s
+.PHONY : db/SLRUCacheTest.cc.s
+
 db/builder.o: db/builder.cc.o
 
 .PHONY : db/builder.o
@@ -1840,6 +1894,12 @@ help:
 	@echo "... db/NvmLinkedListTest.o"
 	@echo "... db/NvmLinkedListTest.i"
 	@echo "... db/NvmLinkedListTest.s"
+	@echo "... db/SLRUCache.o"
+	@echo "... db/SLRUCache.i"
+	@echo "... db/SLRUCache.s"
+	@echo "... db/SLRUCacheTest.o"
+	@echo "... db/SLRUCacheTest.i"
+	@echo "... db/SLRUCacheTest.s"
 	@echo "... db/builder.o"
 	@echo "... db/builder.i"
 	@echo "... db/builder.s"

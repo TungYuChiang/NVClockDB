@@ -34,6 +34,14 @@ string
 cstring
 -
 
+.././db/DramLinkedList.h
+iostream
+-
+cstring
+-
+gtest/gtest.h
+-
+
 .././db/NvmCircularList.h
 iostream
 -
@@ -45,6 +53,30 @@ cstring
 -
 util/pm_manager.h
 .././db/util/pm_manager.h
+
+.././db/NvmLinkedList.h
+iostream
+-
+cstring
+-
+util/pm_manager.h
+.././db/util/pm_manager.h
+
+.././db/SLRUCache.h
+db/DramLinkedList.h
+.././db/db/DramLinkedList.h
+db/NvmLinkedList.h
+.././db/db/NvmLinkedList.h
+iostream
+-
+unordered_map
+-
+list
+-
+gtest/gtest.h
+-
+string
+-
 
 .././db/builder.h
 leveldb/status.h
@@ -577,6 +609,10 @@ iostream
 -
 algorithm
 -
+
+/home/oslab/Desktop/TungYu/PMDB/db/SLRUCache.cc
+db/SLRUCache.h
+/home/oslab/Desktop/TungYu/PMDB/db/db/SLRUCache.h
 
 /home/oslab/Desktop/TungYu/PMDB/db/builder.cc
 db/builder.h

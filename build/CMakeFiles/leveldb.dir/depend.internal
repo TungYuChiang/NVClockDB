@@ -7,6 +7,12 @@ CMakeFiles/leveldb.dir/db/ClockRWRFCache.cc.o
  .././db/NvmCircularList.h
  .././util/pm_manager.h
  /home/oslab/Desktop/TungYu/PMDB/db/ClockRWRFCache.cc
+CMakeFiles/leveldb.dir/db/SLRUCache.cc.o
+ .././db/DramLinkedList.h
+ .././db/NvmLinkedList.h
+ .././db/SLRUCache.h
+ .././util/pm_manager.h
+ /home/oslab/Desktop/TungYu/PMDB/db/SLRUCache.cc
 CMakeFiles/leveldb.dir/db/builder.cc.o
  .././db/builder.h
  .././db/dbformat.h

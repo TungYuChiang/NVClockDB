@@ -33,6 +33,7 @@ TEST_F(NvmLinkedListTest, InsertSingleNode) {
     EXPECT_EQ(list->head->prev, nullptr);  // head->prev should be nullptr in a non-circular list
     EXPECT_EQ(list->head->next, nullptr);  // head->next should be nullptr since there's only one node
     size_t expectedSize = sizeof(NvmNode) + strlen("key1") + 1 + strlen("data1") + 1;
+    std::cout << "Size of NvmNode: " << sizeof(NvmNode) << " bytes" << std::endl;
     EXPECT_EQ(list->currentSize, expectedSize);
 }
 

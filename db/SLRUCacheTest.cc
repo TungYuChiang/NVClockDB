@@ -79,4 +79,76 @@ TEST_F(SLRUCacheTest, FullEviction) {
     auto nvm_it = cache->nvm_cacheMap.find("key100");
     EXPECT_EQ(nvm_it, cache->nvm_cacheMap.end());
 }
+
+// Test to ensure that basic get operation works
+TEST_F(SLRUCacheTest, BasicGet) {
+    string key = "key1";
+    string value = "value1";
+    cache->put(key, value);
+
+    string retrievedValue;
+    bool found = cache->get(key, &retrievedValue);
+    ASSERT_TRUE(found);
+    EXPECT_EQ(retrievedValue, value);
+}
+
+// Test getting value from NVM
+TEST_F(SLRUCacheTest, GetFromNVM) {
+    //fill dram
+    size_t estimatedSizePerEntry = sizeof(DramNode) + sizeof("keyX") + sizeof("valueX");
+    size_t numEntries = cache->dramCapacity / estimatedSizePerEntry;
+    for (int i = 0; i < numEntries + 1; ++i) {
+        cache->put("key" + std::to_string(i), "value" + std::to_string(i));
+    }
+
+    string value;
+    bool found = cache->get("key0", &value);  // Assuming "key0" was moved to NVM
+    ASSERT_TRUE(found);
+    EXPECT_EQ(value, "value0");
+
+    auto itNvm = cache->nvm_cacheMap.find("key0");
+    ASSERT_NE(itNvm, cache->nvm_cacheMap.end());
+    EXPECT_EQ(string(itNvm->second->data), "value0");
+}
+
+// Test status and twiceRead updates on get from NVM
+TEST_F(SLRUCacheTest, NVMGetStatusUpdate) {
+    cache->nvm_list.insertNode("key1", "value1");
+    cache->nvm_cacheMap["key1"] = cache->nvm_list.head;
+
+    string value;
+    cache->get("key1", &value);  // First get, should set twiceRead to 1
+    cache->get("key1", &value);  // Second get, should increase status
+
+    NvmNode* node = cache->nvm_cacheMap["key1"];
+    ASSERT_EQ(node->attributes.twiceRead, 0);
+    ASSERT_EQ(node->attributes.status, Read_Twice);  
+}
+
+// Test the migration trigger on get from NVM
+TEST_F(SLRUCacheTest, NVMGetMigrationTrigger) {
+    // Insert a node directly into NVM for testing
+    cache->nvm_list.insertNode("key_migration", "value_migration");
+    auto nvmNode = cache->nvm_list.head;
+    nvmNode->attributes.status = Migration - 1;  
+    nvmNode->attributes.twiceRead = 1;
+    cache->nvm_cacheMap["key_migration"] = nvmNode;
+    cache->dram_cacheMap.erase("key_migration");  
+
+    string value;
+    bool result = cache->get("key_migration", &value);  
+
+    ASSERT_TRUE(result);
+    auto itDram = cache->dram_cacheMap.find("key_migration");
+    ASSERT_NE(itDram, cache->dram_cacheMap.end());  
+    EXPECT_EQ(string(itDram->second->data), "value_migration"); 
+
+    auto itNvm = cache->nvm_cacheMap.find("key_migration");
+    ASSERT_EQ(itNvm, cache->nvm_cacheMap.end()); 
+}
+
+
+
+
+
 }//namespace leveldb

@@ -7,6 +7,13 @@
 
 namespace leveldb {
 
+enum DramNodeStatus {
+    Initial = 0,
+    Read_Level1 = 1,
+    Be_Migration = 2,
+    Protected = 3
+};
+
 class DramNode {
 public:
     char* key;
@@ -15,9 +22,14 @@ public:
     DramNode* next;
     DramNode* prev;
 
+    struct Attributes {
+        unsigned int status : 2;
+    } attributes;
+
     DramNode(const char* key, const char* data) {
         this->key = strdup(key);
         this->data = strdup(data);
+        setStatus(Initial); 
         this->size = sizeof(DramNode) + strlen(key) + strlen(data) + 2;
         this->next = nullptr;
         this->prev = nullptr;
@@ -26,6 +38,18 @@ public:
     ~DramNode() {
         free(key);
         free(data);
+    }
+
+    void setStatus(DramNodeStatus status) {
+        attributes.status = static_cast<unsigned int>(status);
+    }
+
+    DramNodeStatus getStatus() const {
+        return static_cast<DramNodeStatus>(attributes.status);
+    }
+
+    bool isStatus(DramNodeStatus status) const {
+        return getStatus() == status;
     }
 };
 

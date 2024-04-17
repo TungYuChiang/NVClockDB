@@ -30,6 +30,7 @@ public:
     ~SLRUCache();
     void put(const string& key, const string& value);
     bool get(const string& key, string* value);
+    void swapWithDram(NvmNode* node);
     bool deleteKey(const string& key);
     bool lookup(const string& key);
 
@@ -38,6 +39,9 @@ public:
     FRIEND_TEST(SLRUCacheTest, DRAMOverflowToNVM);
     FRIEND_TEST(SLRUCacheTest, UpdateValue);
     FRIEND_TEST(SLRUCacheTest, FullEviction);
+    FRIEND_TEST(SLRUCacheTest, GetFromNVM);
+    FRIEND_TEST(SLRUCacheTest, NVMGetStatusUpdate);
+    FRIEND_TEST(SLRUCacheTest, NVMGetMigrationTrigger);
 };
 
 }// namespace leveldb 

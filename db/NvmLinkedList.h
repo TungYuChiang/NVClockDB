@@ -7,6 +7,13 @@
 
 namespace leveldb {
 
+enum NvmNodeStatus {
+    NvmNodeInit = 0,
+    Read_Twice = 1,
+    Pre_Migration = 2,
+    Migration = 3
+};
+
 class NvmNode {
 public:
     char* key;
@@ -20,17 +27,10 @@ public:
         unsigned int twiceRead : 1;
     } attributes;
 
-    enum NvmNodeStatus {
-        Initial = 0,
-        Be_Written = 1,
-        Pre_Migration = 2,
-        Migration = 3
-    };
-
     NvmNode(char* key, char* data, size_t size): prev(nullptr), next(nullptr), size(size) {
         this->key = key;
         this->data = data;
-        setStatus(Initial);   
+        setStatus(NvmNodeStatus::NvmNodeInit);   
         attributes.twiceRead = 0;
     }
 
